@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/kuristaja/wraith/wraith_d"
+	"$bumpmap" 	"models/player/kuristaja/wraith/wraith_normal"
+ 	"$lightwarptexture" "models/player/kuristaja/wraith/wraith_lightwarp"
+	"$halflambert" 	"1"
+ 	"$phong"		 "1"
+	"$phongexponent" "70"	
+	"$phongboost"	".8"
+}

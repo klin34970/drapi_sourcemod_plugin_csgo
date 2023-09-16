@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\mapeadores\morell\cloud\Part1"
+	"$alphatest" 1 
+	"$halflambert" 1
+	"$nocull" 1
+}

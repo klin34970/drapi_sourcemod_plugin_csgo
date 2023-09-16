@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/kuristaja/wraith/eye_glow"
+
+	"$model" 1
+	"$additive" 1
+	"$translucent" "1"
+	"$nocull" 1
+}

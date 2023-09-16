@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/resident/willow/head"
+	"$bumpmap" 	"models/player/resident/willow/head_n"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"15"
+	"$phongboost"		"2"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+}

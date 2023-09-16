@@ -1,0 +1,39 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+/******************* MESSAGE CMD *******************/
+
+	"Increase Damage"
+
+	{
+
+	"#format"		"{1:i}"
+
+    "fr"			"[{GREEN}SW{NORMAL}] Votre {GREEN}KATANA{NORMAL} et {GREEN}BOUCLIER{NORMAL} ont été améliorés pendant {RED}{1}s {NORMAL}."
+
+	"en"			"[{GREEN}SW{NORMAL}] Your {GREEN}KATANA{NORMAL} and {GREEN}BOUCLIER{NORMAL} were enhanced during {RED}{1}s {NORMAL}."
+
+	}
+	
+	"Normal Damage"
+
+	{
+
+    "fr"			"[{GREEN}SW{NORMAL}] Fin de l'amélioration de votre {GREEN}KATANA{NORMAL} et {GREEN}BOUCLIER{NORMAL}."
+
+	"en"			"[{GREEN}SW{NORMAL}] End of improving of your {GREEN}KATANA{NORMAL} and {GREEN}BOUCLIER{NORMAL}."
+
+	}
+/******************* MESSAGE CMD *******************/
+
+}
+

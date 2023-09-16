@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	"$bumpmap" "models/player/mapeadores/morell/combine/combine_elite_normal"
+	"$model" "1"
+	"$selfillum" "1"
+	"$selfillumtint" "[2 1 1]"
+	"$phong" "1"
+	"$phongboost" "5"
+	"$halflambert" "1"
+	"$phongexponenttexture" "models/player/mapeadores/morell/combine/combine_elite_phong"
+	"$phongalbedotint" "1"										
+	"$phongfresnelranges"	"[.1 .5  1]"
+	"$blendtintbybasealpha" "1" 
+	
+	
+		// Use separate self-illum mask on Pre DX9 hardware
+	">=dx90_20b"
+	{
+		"$baseTexture" 		"models/player/mapeadores/morell/combine/Combine_elite"
+		"$selfillummask" 	"models/player/mapeadores/morell/combine/combine_elite_selfillummask"
+	}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	"<dx90_20b"
+	{
+		"$baseTexture" 	"models/player/mapeadores/morell/combine/Combine_elite"
+	}
+}
+
+
+

@@ -1,0 +1,16 @@
+vertexlitgeneric
+{
+$baseTexture "models\player\halo4\cortana\body"
+$bumpmap "models\player\halo4\cortana\body_n"
+$phong 1
+$phongboost ".1"
+$phongexponent 5
+$phongtint "[.85 .85 1]"
+$halflambert 0
+$phongfresnelranges "[.3 .65 30]"
+$ambientocclusion 1
+
+
+
+$diffuseexp "1.5"
+}

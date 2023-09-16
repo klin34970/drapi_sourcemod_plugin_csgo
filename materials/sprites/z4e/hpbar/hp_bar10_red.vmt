@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$receiveflashlight"	0
+	"$singlepassflashlight"	0
+	"$basetexture" "sprites/z4e/hpbar/hp_bar10_red"
+	"$alphatest" 1
+	"$translucent" 1
+	"$vertexalpha" 1
+}

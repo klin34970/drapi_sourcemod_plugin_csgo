@@ -1,0 +1,5 @@
+"MonitorScreen"
+{
+	"$basetexture" "overlays/z4e/banner4"
+	"$translucent" 1
+}

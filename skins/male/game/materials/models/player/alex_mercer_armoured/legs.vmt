@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/alex_mercer_armoured/legs"
+	"$bumpmap" 	"models/player/alex_mercer_armoured/legs_n"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"15"
+	"$phongboost"		"2"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+}

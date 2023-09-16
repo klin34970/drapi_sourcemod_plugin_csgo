@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/mapeadores/morell/king/T_malric_head_D"
+	"$bumpmap" "models/player/mapeadores/morell/king/T_malric_head_n"
+}

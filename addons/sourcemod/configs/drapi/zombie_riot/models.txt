@@ -1,0 +1,60 @@
+// ====================
+//     Zombie Riot
+//   File: models.txt
+//   Author: Greyscale
+// ====================
+//
+// Add paths to models here
+// They will automatically be downloaded to the client
+//
+// ** DEFAULTS
+
+models/player/zombie/revenant/revenant
+models/player/mapeadores/morell/ghoul/ghoulfix
+models/player/zombie
+models/player/mapeadores/kaem/alien/alien
+models/player/kuristaja/wraith/wraith
+models/player/kuristaja/cm/facehugger/facehugger
+models/player/mapeadores/morell/zh/zh3fix3
+models/player/mapeadores/kaem/zh/zh1fix5
+models/player/mapeadores/kaem/zh/zh2fix3
+models/player/kuristaja/octabrain/octabrain
+models/player/kuristaja/octabrain/octaking
+models/player/monster/witch/witch
+models/player/slow/chainsaw/chainsaw
+models/player/slow/chucky_v3/slow
+models/player/slow/zombie_package/slow_1
+models/player/slow/zombie_package/slow_2
+models/player/slow/zombie_package/slow_3
+models/player/slow/zombie_package/slow_4
+models/player/slow/zombie_package/slow_5
+models/player/kuristaja/trager/trager_knife_only
+models/player/monster/grim/grim
+models\player\scarecrow\scarecrow
+models/player/mapeadores/morell/amnesia/grunt/grunt
+models/player/mapeadores/morell/l4d/spitter/spitter
+models/player/mapeadores/morell/amnesia/brute/brute
+models/player/custom/SF/seth
+models/player/me3/collector_drone/collector_drone
+models/player/zombie/walker/walker
+models/player/mapeadores/morell/joker/joker
+models/player/mapeadores/morell/cloud/cloud
+models/player/mapeadores/morell/masterchief/mc_gold
+models/player/mapeadores/morell/masterchief/mc_black
+models/player/mapeadores/morell/masterchief/mc_red
+models/player/nilin/nilin
+models/player/kuristaja/banana_joe/banana_joe
+models/player/starwars/bdroid/bdroid_new
+models/player/starwars/hk47/hk47
+models/player/deadpool/deadpool_red
+models/player/blackwatch/scientist/scientist
+models/player/blackwatch/trooper/trooper
+models/player/terminator/terminator
+models/player/nanosuit/nanosuit
+models/player/custom/sylvanas/sylvanas
+models/player/custom/gman/gman
+models/player/mapeadores/morell/citizen/citizen
+models/player/custom/fleshpound/fleshpound
+models/player/custom/nemesis/nemesis
+
+// ** END DEFAULTS **

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$receiveflashlight"	0
+	"$singlepassflashlight"	0
+	"$baseTexture" "sprites/z4e/slowmotion/hsx1"
+	"$alphatest" 1
+	"$translucent" 1
+	"$vertexalpha" 1
+}

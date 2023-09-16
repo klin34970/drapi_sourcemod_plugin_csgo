@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/starwars/hk47/hk47"
+        	"$bumpmap" "models/player/starwars/hk47/hk47_n"
+	"$model" "1"
+	"$halflambert" "1"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" 5
+	"$phongalbedotint" "1"								
+	"$phongfresnelranges"	"[0.1 0.1 0.1]"
+}
+

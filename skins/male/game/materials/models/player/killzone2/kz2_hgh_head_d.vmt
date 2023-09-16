@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	$basetexture "models/player/killzone2/kz2_hgh_head_d"
+	$bumpmap "models/player/killzone2/kz2_hgh_head_n"
+
+	"$phong" "1"
+	"$phongBoost" "1"
+	"$phongExponent" "5"  
+	"$phongFresnelRanges" "[.0 .5 1]"
+	"$PhongAlbedoTint" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "50"
+	"$rimlightboost" ".1"
+}

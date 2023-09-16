@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 		"models\player\kuristaja\cm\facehugger\facehugger"
+	"$bumpmap" 		"models\player\kuristaja\cm\facehugger\facehugger_normal"
+	
+	"$phong"			"1"
+	"$phongboost"		".35"
+	"$phongexponent"		"60"
+
+ 	"$lightwarptexture" "models\player\kuristaja\cm\facehugger\facehugger_lightwarp"
+}
+

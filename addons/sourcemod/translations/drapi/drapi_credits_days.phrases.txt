@@ -1,0 +1,26 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+	"Give Credits Days"
+
+	{
+
+	"#format"		"{1:i}"
+
+    "fr"			"[{GREEN}CREDITS{NORMAL}] Vous avez gagné {RED}{1}{NORMAL} credits pour avoir passé ce jour."
+
+	"en"			"[{GREEN}CREDITS{NORMAL}] You earn {RED}{1}{NORMAL} credits for winning this day."
+
+	}
+
+}
+

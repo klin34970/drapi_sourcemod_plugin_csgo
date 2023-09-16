@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/player/kuristaja/zombies/skinny/crimsonhead_eyes_d"
+	"$selfillum" "1"
+}

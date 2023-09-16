@@ -1,0 +1,19 @@
+vertexlitgeneric
+{
+$basetexture "models\player\mapeadores\morell\l4d\spitter\spitter_color"
+$bumpmap "models\player\mapeadores\morell\l4d\spitter\spitter_normal"
+$phongexponenttexture "models\player\mapeadores\morell\l4d\spitter\spitter_exponent"
+$phong 1
+$phongboost 3
+
+$halflambert 0
+$phongfresnelranges "[.2 .5 5]"
+$ambientocclusion 1
+$diffuseexp "1.0"
+
+
+
+
+
+$lightwarptexture "models\player\mapeadores\morell\l4d\spitter\coach_head_wrp"
+}

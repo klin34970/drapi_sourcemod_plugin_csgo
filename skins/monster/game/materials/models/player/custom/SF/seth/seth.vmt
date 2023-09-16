@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/custom/SF/seth/seth"
+	"$bumpmap" "models/player/custom/SF/seth/seth_n"
+
+	"$nocull" 1
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"8"
+	"$phongfresnelranges"	"[.15 .5 1]"
+}

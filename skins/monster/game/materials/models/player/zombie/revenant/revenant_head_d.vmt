@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\player\zombie\revenant\revenant_head_d"	
+  	"$bumpmap" "models\player\zombie\revenant\revenant_head_n"
+
+	"$phong" 			"1"
+	"$phongexponent" 		"15"
+	"$phongboost"		"2"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+
+	"$phongexponenttexture"	"models\player\zombie\revenant\revenant_head_s"
+	"$phongalbedotint" "1"
+
+	"$normalmapalphaenvmapmask" "1"
+	"$model" "1"
+	"$nocull"	"1"
+	"$alphatest" '1'
+
+	"$selfillum" 1
+	"$selfillummask" "models\player\zombie\revenant\revenant_head_glow"
+}

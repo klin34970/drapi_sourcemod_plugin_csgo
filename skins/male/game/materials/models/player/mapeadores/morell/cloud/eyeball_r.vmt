@@ -1,0 +1,7 @@
+"eyes"
+{
+	"$baseTexture" "models\player\mapeadores\morell\cloud\eyeball_r"
+	"$iris" "models\player\mapeadores\morell\cloud\pupil_r"
+	"$halflambert" 1
+	"$nodecal" "1"
+}

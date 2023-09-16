@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/kuristaja/wraith/wraith_d"
+	"$model" 1
+	"$additive" "1"
+	"$translucent" "1"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$alpha"
+			"sineperiod"	"3"
+			"sinemin"		".2"
+			"sinemax"	".7"
+		}
+	}
+}

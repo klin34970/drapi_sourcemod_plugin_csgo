@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/custom/predatormkx/mouth_diff"
+	"$bumpmap" "models/player/custom/predatormkx/mouth_normal"
+}

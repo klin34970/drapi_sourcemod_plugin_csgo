@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/custom/fleshpound/ZED_Fleshpound_D"	
+                "$bumpmap" "models/player/custom/fleshpound/ZED_Fleshpound_N"
+	$alphatest "1"
+	$allowalphatocoverage "1"
+	$alphatestreference "1"
+	"$phongtint" "[1.25 0.75 0.55]"
+	"$phongexponent" "11"
+	"$phongalbedotint" "1"
+	"$phong" "1"
+	"$halflambert" "1"
+	"$phongboost"	"0.01"
+	"$phongfresnelranges"	"[5 6 8]"
+}

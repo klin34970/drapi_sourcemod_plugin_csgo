@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/nilin/body"
+	"$bumpmap" "models/player/nilin/body_n"
+}

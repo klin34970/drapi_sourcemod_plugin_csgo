@@ -1,0 +1,210 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+	"Enabled"
+	{
+        	"en"			"Enabled"
+		"fr"			"Activé"
+	}
+	"Disabled"
+	{
+        	"en"			"Disabled"
+		"fr"			"Désactivé"
+	}
+
+/******************* MESSAGE CMD *******************/
+
+	"AirDropBox Height"
+	{
+		"#format"	"{1:s}"
+		"fr"		"[{GREEN}AIRDROP{NORMAL}] Hauteur: {RED}{1}{NORMAL}."
+		"en"		"[{GREEN}AIRDROP{NORMAL}] Height: {RED}{1}{NORMAL}."
+	}
+
+	"Helico removed"
+	{
+		"fr"		"[{GREEN}AIRDROP{NORMAL}] Hélicoptère: {RED}supprimé{NORMAL}."
+		"en"		"[{GREEN}AIRDROP{NORMAL}] Chopper: {RED}removed{NORMAL}."
+	}
+
+	"Parachute removed"
+	{
+		"fr"		"[{GREEN}AIRDROP{NORMAL}] Parachute: {RED}supprimé{NORMAL}."
+		"en"		"[{GREEN}AIRDROP{NORMAL}] Parachute: {RED}removed{NORMAL}."
+	}
+
+	"Shield removed"
+	{
+		"fr"		"[{GREEN}AIRDROP{NORMAL}] Bouclier: {RED}supprimé{NORMAL}."
+		"en"		"[{GREEN}AIRDROP{NORMAL}] Shield: {RED}removed{NORMAL}."
+	}
+
+	"Helico on player"
+	{
+		"#format"	"{1:s}"
+		"fr"		"[{GREEN}AIRDROP{NORMAL}] {BLUE}{1}{NORMAL} a appelé l'hélicoptère{NORMAL}."
+		"en"		"[{GREEN}AIRDROP{NORMAL}] {BLUE}{1}{NORMAL} called the chopper{NORMAL}."
+	}
+
+	"Helico on spawn"
+	{
+		"#format"	"{1:s}"
+		"fr"		"[{GREEN}AIRDROP{NORMAL}] {BLUE}{1}{NORMAL} a appelé l'hélicoptère{NORMAL}."
+		"en"		"[{GREEN}AIRDROP{NORMAL}] {BLUE}{1}{NORMAL} called the chopper{NORMAL}."
+	}
+
+	"Helico no spawn"
+	{
+		"fr"		"[{GREEN}AIRDROP{NORMAL}] {RED}Aucun spawn{NORMAL}. Tapez: {RED}!airdropspawn{NORMAL}."
+		"en"		"[{GREEN}AIRDROP{NORMAL}] {RED}No spawn{NORMAL}. Type: {RED}!airdropspawn{NORMAL}."
+	}
+
+	"Helico round start"
+	{
+		"fr"		"[{GREEN}AIRDROP{NORMAL}] {BLUE}François Hollande{NORMAL} vous a envoyé un hélicoptère pour vous aider{NORMAL}."
+		"en"		"[{GREEN}AIRDROP{NORMAL}] {BLUE}Barack Obama{NORMAL} sent you a chopper to help you{NORMAL}."
+	}
+
+	"Helico round start warning"
+	{
+		"fr"		"[{GREEN}AIRDROP{NORMAL}] Attendez {BLUE}l'hélicoptère{NORMAL} pour avoir des armes."
+		"en"		"[{GREEN}AIRDROP{NORMAL}] Wait the {BLUE}chopper{NORMAL} to get some weapons."
+	}
+
+
+	"Spawn Editor Enabled"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] Edit mode {GREEN}enabled{NORMAL}."
+		"es"	"[{GREEN}AIRDROP{NORMAL}] El modo de edición {GREEN}activado{NORMAL}."
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Modifier le mode {GREEN}activé{NORMAL}."
+	}
+
+	"Spawn Editor Disabled"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] Edit mode {RED}disabled{NORMAL}."
+		"es"	"[{GREEN}AIRDROP{NORMAL}] El modo de edición {RED}deshabilitado{NORMAL}."
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Modifier le mode {RED}désactivé{NORMAL}."
+	}
+
+	"Spawn Editor Teleported"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] Teleported to spawn point"
+		"es"	"[{GREEN}AIRDROP{NORMAL}] Teletransportado a desovar puntos"
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Téléporté pour frayer le point"
+	}
+
+	"Spawn Editor No Spawn"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] There are no spawn points."
+		"es"	"[{GREEN}AIRDROP{NORMAL}] No hay puntos de regeneración."
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Il n'y a pas de points de spawn."
+	}
+
+	"Spawn Editor Deleted Spawn"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] Deleted spawn point"
+		"es"	"[{GREEN}AIRDROP{NORMAL}] Punto de desovar eliminados"
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Point de spawn supprimé"
+	}
+
+	"Spawn Editor Deleted All"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] All spawn points have been deleted."
+		"es"	"[{GREEN}AIRDROP{NORMAL}] Se han eliminado todos los puntos de regeneración."
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Tous les points spawn ont été supprimés."
+	}
+
+	"Spawn Editor Spawn Added"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] Added spawn point"
+		"es"	"[{GREEN}AIRDROP{NORMAL}] Punto de desovar añadido"
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Point de spawn Ajouté"
+	}
+
+	"Spawn Editor Spawn Not Added"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] Could not add spawn point (max limit reached)."
+		"es"	"[{GREEN}AIRDROP{NORMAL}] No se pudo añadir punto de desovar (límite máximo alcanzado)."
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Impossible d'ajouter le point spawn (limite maximale atteinte)."
+	}
+
+	"Spawn Editor Spawn Inserted"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] Inserted spawn point at"
+		"es"	"[{GREEN}AIRDROP{NORMAL}] Punto de desovar Insertado en"
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Point de spawn inséré à"
+	}
+
+	"Spawn Editor Config Saved"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] Configuration has been saved."
+		"es"	"[{GREEN}AIRDROP{NORMAL}] La configuración se ha guardado."
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Configuration a été enregistrée."
+	}
+
+	"Spawn Editor Config Not Saved"
+	{
+		"en"	"[{GREEN}AIRDROP{NORMAL}] Configuration could not be saved."
+		"es"	"[{GREEN}AIRDROP{NORMAL}] La configuración no ha podido guardar."
+		"fr"	"[{GREEN}AIRDROP{NORMAL}] Configuration n'a pas pu être sauvé."
+	}
+/******************* MESSAGE CMD *******************/
+
+	"MenuAdminAirDrop_TITLE"
+	{
+		"en"	"AirDrop"
+		"fr"	"AirDrop"
+	}
+
+	"MenuAdminAirDrop_SPAWNS_TITLE"
+	{
+		"en"	"AirDrop Spawn editor"
+		"fr"	"AirDrop Spawn editeur"
+	}
+
+	"MenuZombieRiotAirDrop_TITLE"
+	{
+		"en"	"AirDrop"
+		"fr"	"Largage"
+	}
+
+	"MenuAirDrop_SOUNDS_MENU_TITLE"
+	{
+		"en"	"Sounds settings"
+		"fr"	"Paramètres sons"
+	}
+
+	"MenuAirDrop_TITLE"
+	{
+		"en"	"AirDrop Settings"
+		"fr"	"Paramètres Airdrop"
+	}
+	"SOUNDS_TITLE"
+	{
+
+		"en"			"Sounds settings"
+		"fr"			"Paramètres sons"
+
+	}
+
+	"SOUNDS_STATUS_MENU_TITLE"
+	{
+
+		"#format"		"{1:s}"
+
+		"en"			"Sounds : {1}"
+		"fr"			"Sons : {1}"
+
+	}
+	
+}
+

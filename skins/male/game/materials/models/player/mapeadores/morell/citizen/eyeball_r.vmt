@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\player\mapeadores\morell\citizen\eyeball_r"
+	"$blendtintbybasealpha" "1" 
+}

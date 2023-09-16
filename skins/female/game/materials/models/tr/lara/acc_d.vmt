@@ -1,0 +1,17 @@
+vertexlitgeneric
+{
+"$basetexture" 		"models/tr/lara/acc_d"
+"$bumpmap" 			"models/tr/bumpmap_flat"
+
+	"$phong"				"1"
+	"$phongboost"			"2"
+	"$phongexponent"		"16"
+	"$phongtint"			"[.85 .85 1]"
+	"$phongfresnelranges"	"[.5 .85 30]"
+	$rimlight 	1	
+	$rimlightexponent 50
+	$rimlightboost 0.1
+	"$model" 1
+
+$halflambert 1
+}

@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+"$basetexture" 		"models/tr/lara/Lara_lashes_d"
+"$translucent" 1
+//"$alphatest" 1
+$halflambert 1
+
+}

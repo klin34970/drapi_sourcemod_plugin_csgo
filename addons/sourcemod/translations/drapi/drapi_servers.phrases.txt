@@ -1,0 +1,40 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+	"Warning MSG"
+	{
+
+    		"fr"			"[{GREEN}SERVERS{NORMAL}] Ajouter le {RED}BOT dans vos amis {GREEN}http://steamcommunity.com/id/zombie4everbot{NORMAL} pour recevoir les messages."
+		"en"			"[{GREEN}SERVERS{NORMAL}] Add the {RED}BOT in your friendlist {GREEN}http://steamcommunity.com/id/zombie4everbot{NORMAL} to receive messages."
+	}
+
+	"Warning MSG2"
+	{
+
+    		"fr"			"[{GREEN}SERVERS{NORMAL}] Attendez {RED}30s{NORMAL} pour utiliser le menu."
+		"en"			"[{GREEN}SERVERS{NORMAL}] Wait {RED}30s{NORMAL} to use the menu."
+	}
+
+	"Send MSG"
+	{
+
+    		"fr"			"[{GREEN}SERVERS{NORMAL}] Un {RED}BOT{NORMAL} va vous contacter, cliquer sur le {RED}lien{NORMAL} pour {RED}rejoindre{NORMAL} le serveur."
+		"en"			"[{GREEN}SERVERS{NORMAL}] {RED}BOT{NORMAL} will contact you, click to the {RED}link{NORMAL} to {RED}join{NORMAL} the server."
+	}
+
+	"MenuServer_TITLE"
+	{
+
+    		"fr"			"Menu: Serveurs de Zombie4Ever.eu"
+		"en"			"Menu: Zombie4Ever.eu's servers"
+	}
+}
+

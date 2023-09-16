@@ -1,0 +1,11 @@
+"Refract"
+{
+	"$model" 1
+	"$refractamount" "0.007"
+	"$bluramount" "0.5"
+	"$REFRACTTINTtexture" "overlays/z4e/poison"
+	"$scale" "[1 1]"
+	"$additive" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+}

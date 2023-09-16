@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\player\mapeadores\morell\batman\batman_d"
+	"$bumpmap" "models\player\mapeadores\morell\batman\batman_n"
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	".35"
+	"$phongfresnelranges"	"[.15 .45 1]"
+	$nocull 1
+}

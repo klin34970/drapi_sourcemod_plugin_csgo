@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/player/me3/collector_drone/slow_shader"
+
+	"$additive" 1
+
+	"$envmap" 				"env_cubemap"
+	"$envmaptint" 			"[.8 .8 .8]" 
+	"$envmapmask"			"models/player/me3/collector_drone/slow_body"
+	"$envmapcontrast" 		.8
+	"$envmapsaturation" 		.8
+}
+

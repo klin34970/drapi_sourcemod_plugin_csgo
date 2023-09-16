@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/halo4/masterchief/techsuit"
+	"$bumpmap" "models/player/halo4/masterchief/techsuit_n"
+//	"$phong" 			"1"
+//	"$phongexponent" 		"15"
+//	"$phongboost"		"2"
+//	"$phongfresnelranges"	"[.05 .1 .2]"
+}

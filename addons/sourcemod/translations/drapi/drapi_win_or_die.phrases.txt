@@ -1,0 +1,17 @@
+//**********************************************  Valid Colors	***********************************************
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+//*************************************************************************************************************
+
+"Phrases"
+{
+	"WOD useless chat"
+	{
+        "en"			"[{GREEN}WOD{NORMAL}] - You are {RED}useless{NORMAL}, unnecessary things are going in the {RED}trash{NORMAL}."
+		"fr"			"[{GREEN}WOD{NORMAL}] - Vous êtes {RED}inutiles{NORMAL}, Les choses inutiles vont à la {RED}poubelle{NORMAL}."
+	}
+	"WOD useless alert"
+	{
+        "en"			"You are useless. \nUnnecessary things are going in the trash."
+		"fr"			"Vous êtes inutiles. \nLes choses inutiles vont à la poubelle."
+	}
+}

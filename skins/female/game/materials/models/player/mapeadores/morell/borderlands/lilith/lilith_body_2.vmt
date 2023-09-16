@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\mapeadores\morell\borderlands\lilith\lilith_body"
+"$bumpmap" 		"models\player\mapeadores\morell\borderlands\lilith\lilith_body_n"
+	"$nocull" 1
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "0.3"	
+	"$phongfresnelranges"	"[ .1 3 5 ]"
+}
+
+
+
+

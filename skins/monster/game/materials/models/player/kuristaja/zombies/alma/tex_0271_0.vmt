@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	// BODY
+
+	"$basetexture" 	"models/player/kuristaja/zombies/alma/tex_0271_0"
+	"$bumpmap"	 "models/player/kuristaja/zombies/alma/tex_0271_0_normal"
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".05"
+	"$phongfresnelranges" "[5 6 8]"
+	"$PhongAlbedoTint" "1"
+
+	"$halflambert" "1"
+}

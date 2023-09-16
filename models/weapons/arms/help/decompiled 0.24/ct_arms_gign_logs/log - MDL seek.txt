@@ -1,0 +1,90 @@
+// Created by Crowbar 0.24.0.0
+====== MDL File Seek Log ======
+--- Summary ---
+	0 - 79
+	1 - 3
+	80 - 407
+	664 - 10 167
+	10 176 - 10 265
+	10 272 - 10 987
+	16 084 - 16 084
+	16 110 - 17 103
+------------------------
+--- Each Section or Loop ---
+	0 - 79 MDL File Header 00
+
+	1 - 3 anAnimationDesc.theAnimations alignment
+
+	80 - 407 MDL File Header 01
+
+	664 - 8 655 theMdlFileData.theBones
+	8 656 - 8 667 theMdlFileData.theHitboxSets
+	8 668 - 10 027 aHitboxSet.theHitboxes
+	10 028 - 10 064 theMdlFileData.theBoneTableByName
+	10 065 - 10 067 theMdlFileData.theBoneTableByName alignment
+	10 068 - 10 167 theMdlFileData.theAnimationDescs
+
+	10 176 - 10 193 anAnimationDesc.anAnimation
+	10 194 - 10 211 anAnimationDesc.anAnimation
+	10 212 - 10 229 anAnimationDesc.anAnimation
+	10 230 - 10 247 anAnimationDesc.anAnimation
+	10 248 - 10 265 anAnimationDesc.anAnimation
+
+	10 272 - 10 483 theMdlFileData.theSequenceDescs
+	10 484 - 10 631 aSeqDesc.theBoneWeights
+	10 632 - 10 633 aSeqDesc.theAnimDescIndexes
+	10 634 - 10 635 aSeqDesc.theAnimDescIndexes alignment
+	10 636 - 10 651 theMdlFileData.theBodyParts
+	10 652 - 10 799 aBodyPart.theModels
+	10 800 - 10 915 aModel.theMeshes
+	10 916 - 10 979 theMdlFileData.theTextures
+	10 980 - 10 983 theMdlFileData.theTexturePaths
+	10 984 - 10 985 theMdlFileData.theSkinFamilies
+	10 986 - 10 987 theMdlFileData.theSkinFamilies alignment
+
+	16 084 - 16 084 aHitbox.theName
+
+	16 110 - 16 117 theSurfacePropName
+	16 118 - 16 126 aBone.theName
+	16 127 - 16 151 aBone.theName
+	16 152 - 16 173 aBone.theName
+	16 174 - 16 198 aBone.theName
+	16 199 - 16 224 aBone.theName
+	16 225 - 16 250 aBone.theName
+	16 251 - 16 275 aBone.theName
+	16 276 - 16 301 aBone.theName
+	16 302 - 16 327 aBone.theName
+	16 328 - 16 352 aBone.theName
+	16 353 - 16 378 aBone.theName
+	16 379 - 16 404 aBone.theName
+	16 405 - 16 429 aBone.theName
+	16 430 - 16 455 aBone.theName
+	16 456 - 16 481 aBone.theName
+	16 482 - 16 506 aBone.theName
+	16 507 - 16 532 aBone.theName
+	16 533 - 16 558 aBone.theName
+	16 559 - 16 585 aBone.theName
+	16 586 - 16 610 aBone.theName
+	16 611 - 16 632 aBone.theName
+	16 633 - 16 657 aBone.theName
+	16 658 - 16 683 aBone.theName
+	16 684 - 16 709 aBone.theName
+	16 710 - 16 734 aBone.theName
+	16 735 - 16 760 aBone.theName
+	16 761 - 16 786 aBone.theName
+	16 787 - 16 811 aBone.theName
+	16 812 - 16 837 aBone.theName
+	16 838 - 16 863 aBone.theName
+	16 864 - 16 888 aBone.theName
+	16 889 - 16 914 aBone.theName
+	16 915 - 16 940 aBone.theName
+	16 941 - 16 965 aBone.theName
+	16 966 - 16 991 aBone.theName
+	16 992 - 17 017 aBone.theName
+	17 018 - 17 044 aBone.theName
+	17 045 - 17 050 anAnimationDesc.theName
+	17 051 - 17 055 aSeqDesc.theLabel
+	17 056 - 17 060 aBodyPart.theName
+	17 061 - 17 073 aTexture.theName
+	17 074 - 17 103 aTexturePath
+========================

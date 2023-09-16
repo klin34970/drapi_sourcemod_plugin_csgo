@@ -1,0 +1,81 @@
+// Created by Crowbar 0.24.0.0
+version 1
+nodes
+  0 "v_weapon" -1
+  1 "v_weapon.Bip01_L_Forearm" -1
+  2 "v_weapon.Bip01_L_Hand" 1
+  3 "v_weapon.Bip01_L_Finger0" 2
+  4 "v_weapon.Bip01_L_Finger01" 3
+  5 "v_weapon.Bip01_L_Finger02" 4
+  6 "v_weapon.Bip01_L_Finger1" 2
+  7 "v_weapon.Bip01_L_Finger11" 6
+  8 "v_weapon.Bip01_L_Finger12" 7
+  9 "v_weapon.Bip01_L_Finger2" 2
+  10 "v_weapon.Bip01_L_Finger21" 9
+  11 "v_weapon.Bip01_L_Finger22" 10
+  12 "v_weapon.Bip01_L_Finger3" 2
+  13 "v_weapon.Bip01_L_Finger31" 12
+  14 "v_weapon.Bip01_L_Finger32" 13
+  15 "v_weapon.Bip01_L_Finger4" 2
+  16 "v_weapon.Bip01_L_Finger41" 15
+  17 "v_weapon.Bip01_L_Finger42" 16
+  18 "v_weapon.Bip01_L_ForeTwist" -1
+  19 "v_weapon.Bip01_R_Forearm" -1
+  20 "v_weapon.Bip01_R_Hand" 19
+  21 "v_weapon.Bip01_R_Finger0" 20
+  22 "v_weapon.Bip01_R_Finger01" 21
+  23 "v_weapon.Bip01_R_Finger02" 22
+  24 "v_weapon.Bip01_R_Finger1" 20
+  25 "v_weapon.Bip01_R_Finger11" 24
+  26 "v_weapon.Bip01_R_Finger12" 25
+  27 "v_weapon.Bip01_R_Finger2" 20
+  28 "v_weapon.Bip01_R_Finger21" 27
+  29 "v_weapon.Bip01_R_Finger22" 28
+  30 "v_weapon.Bip01_R_Finger3" 20
+  31 "v_weapon.Bip01_R_Finger31" 30
+  32 "v_weapon.Bip01_R_Finger32" 31
+  33 "v_weapon.Bip01_R_Finger4" 20
+  34 "v_weapon.Bip01_R_Finger41" 33
+  35 "v_weapon.Bip01_R_Finger42" 34
+  36 "v_weapon.Bip01_R_ForeTwist" -1
+end
+skeleton
+  time 0
+    0 1.119141 -11.054688 0.000000 1.570792 0.000003 -0.000003   # pos: raw   rot: raw64 (0,499998807907673, 0,499998807907673, 0,499999761581535, 0,500002622593343)
+    1 15.367188 1.697266 50.593750 0.012941 0.750850 0.007469   # pos: raw   rot: raw64 (-0,255993721011295, 0,262570255961296, 0,658625288665157, 0,657066818990237)
+    2 10.295582 0.000000 -0.000008 -1.563505 -0.043612 -0.021680   # pos: desc_bone   rot: desc_bone
+    3 1.149525 0.416496 -1.414116 1.407288 0.320852 0.235478   # pos: desc_bone   rot: desc_bone
+    4 1.263880 0.000002 0.000000 0.000000 0.000000 -0.008520   # pos: desc_bone   rot: desc_bone
+    5 1.188942 0.000000 0.000000 0.000000 0.000000 -0.008520   # pos: desc_bone   rot: desc_bone
+    6 3.773760 0.133224 -0.970574 0.009201 0.142462 0.005942   # pos: desc_bone   rot: desc_bone
+    7 1.433462 0.000000 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    8 1.019157 0.000011 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    9 3.799513 0.014957 -0.039958 -0.008703 -0.034651 0.022689   # pos: desc_bone   rot: desc_bone
+    10 1.774878 0.000004 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    11 1.008844 -0.000004 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    12 3.632767 0.059055 0.757493 -0.016389 -0.163096 0.042929   # pos: desc_bone   rot: desc_bone
+    13 1.500137 0.000000 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    14 0.905663 0.000004 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    15 3.323332 0.233746 1.479075 -0.032424 -0.324218 0.031462   # pos: desc_bone   rot: desc_bone
+    16 0.963100 0.000008 -0.000001 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    17 0.682898 0.000000 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    18 15.367188 1.697266 50.593750 0.019771 0.750849 0.007467   # pos: raw   rot: raw64 (-0,253747819067088, 0,264818065253227, 0,657724066865889, 0,657938058254445)
+    19 -15.367188 1.697266 50.593750 3.128660 0.750857 -3.149059   # pos: raw   rot: raw64 (0,657066031901344, -0,658624334991295, -0,262570255961296, -0,255998194843469)
+    20 10.295586 0.000000 0.000000 1.563505 0.043612 -0.021680   # pos: desc_bone   rot: desc_bone
+    21 1.149519 0.416500 1.414117 -1.407288 -0.320852 0.235478   # pos: desc_bone   rot: desc_bone
+    22 1.263882 0.000000 -0.000004 0.000000 0.000000 -0.008520   # pos: desc_bone   rot: desc_bone
+    23 1.188942 -0.000001 0.000004 0.000000 0.000000 -0.008520   # pos: desc_bone   rot: desc_bone
+    24 3.773754 0.133224 0.970574 -0.009201 -0.142462 0.005942   # pos: desc_bone   rot: desc_bone
+    25 1.433460 0.000000 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    26 1.019159 -0.000004 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    27 3.799515 0.014961 0.039958 0.008703 0.034651 0.022689   # pos: desc_bone   rot: desc_bone
+    28 1.774879 0.000000 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    29 1.008842 -0.000004 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    30 3.632763 0.059052 -0.757493 0.016389 0.163096 0.042929   # pos: desc_bone   rot: desc_bone
+    31 1.500134 0.000000 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    32 0.905661 0.000000 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    33 3.323326 0.233749 -1.479075 0.032424 0.324218 0.031462   # pos: desc_bone   rot: desc_bone
+    34 0.963102 0.000008 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    35 0.682896 0.000000 0.000000 0.000000 0.000000 0.025279   # pos: desc_bone   rot: desc_bone
+    36 -15.367188 1.697266 50.593750 3.121832 0.750858 -3.149056   # pos: raw   rot: raw64 (0,657936736137039, -0,657723113192027, -0,264818065253227, -0,253753719046373)
+end

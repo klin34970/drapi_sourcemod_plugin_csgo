@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/player/tomte/ctm_fbi_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tomte\ct_fbi_head_variantC"
+	"$bumpmap" "models\player\tomte\ct_fbi_head_normal_variantC"
+	
+	"$phongexponenttexture" "models\player\tomte\ct_fbi_head_exponent_variantC"
+	"$rimmask" "1"
+"$nodecal" 1
+	}	
+}

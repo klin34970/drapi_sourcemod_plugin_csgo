@@ -1,0 +1,10 @@
+"patch"
+{
+	"include" "materials/models/player/tomte/tm_phoenix_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "models\player\tomte\tm_phoenix_lowerbody"
+	"$bumpmap" "models\player\tomte\tm_phoenix_lowerbody_normal"
+
+	}	
+}

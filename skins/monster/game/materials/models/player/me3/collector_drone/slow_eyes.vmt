@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/player/me3/collector_drone/slow_body"
+	"$bumpmap"	 "models/player/me3/collector_drone/slow_body_bump"
+
+	"$selfillum" 1
+
+	"$phong" 				"1"
+	"$phongexponent"			"30"
+	"$phongboost"			"40"
+	"$phongfresnelranges"		"[.05 .1 .2]"
+}

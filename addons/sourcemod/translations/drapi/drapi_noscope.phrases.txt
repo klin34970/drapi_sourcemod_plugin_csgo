@@ -1,0 +1,87 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+	"MenuNoScope_120_MENU_TITLE"
+	{
+		"en"			"2min 00s"
+	}
+
+	"MenuNoScope_240_MENU_TITLE"
+	{
+		"en"			"4min 00s"
+	}
+
+	"MenuNoScope_360_MENU_TITLE"
+	{
+		"en"			"6min 00s"
+	}
+
+	"MenuNoScope_NEVER_MENU_TITLE"
+	{
+		"fr"			"Jamais"
+		"en"			"Never"
+	}
+
+	"MenuNoScope_TITLE"
+	{
+		"fr"			"Choississez le temps du NoScope"
+		"en"			"Choose NoScope Time"
+	}
+
+	"Vote Succes"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fr"			"[{GREEN}NOSCOPE{NORMAL}] Vote {BLUE}accepté{NORMAL} pour: {RED}{1}min {RED}{2}s {NORMAL}de NoScope."
+		"en"			"[{GREEN}NOSCOPE{NORMAL}] Vote {BLUE}accepted{NORMAL} for: {RED}{1}min {RED}{2}s {NORMAL}of NoScope."
+	}
+
+	"Vote Failed"
+	{
+		"fr"			"[{GREEN}NOSCOPE{NORMAL}] Vote {RED}refusé{RED}."
+		"en"			"[{GREEN}NOSCOPE{NORMAL}] Vote {RED}refused{RED}."
+	}
+
+	"CountDownBeforeStart"
+	{
+		"#format"		"{1:i}"
+		"fr"			"[{GREEN}NOSCOPE{NORMAL}] NoScope dans: {RED}{1}s{NORMAL}."
+		"en"			"[{GREEN}NOSCOPE{NORMAL}] NoScope in: {RED}{1}s{NORMAL}."
+	}
+
+	"Start"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fr"			"[{GREEN}NOSCOPE{NORMAL}] NoScope pendant: {RED}{1}min {RED}{2}s{NORMAL}."
+		"en"			"[{GREEN}NOSCOPE{NORMAL}] NoScope during: {RED}{1}min {RED}{2}s{NORMAL}."
+	}
+
+	"CountDownBeforeEnd"
+	{
+		"#format"		"{1:i}"
+		"fr"			"[{GREEN}NOSCOPE{NORMAL}] Fin du Noscope dans: {RED}{1}s{NORMAL}."
+		"en"			"[{GREEN}NOSCOPE{NORMAL}] NoScope end in: {RED}{1}s{NORMAL}."
+	}
+
+	"End"
+	{
+		"fr"			"[{GREEN}NOSCOPE{NORMAL}] NoScope c'est {RED}terminé{NORMAL} !"
+		"en"			"[{GREEN}NOSCOPE{NORMAL}] NoScope {RED}ended{NORMAL} !"
+	}
+
+	"CountDownHalf"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fr"			"[{GREEN}NOSCOPE{NORMAL}] Temps restant:  {RED}{1}min {RED}{2}s{NORMAL}."
+		"en"			"[{GREEN}NOSCOPE{NORMAL}] Time remaining:  {RED}{1}min {RED}{2}s{NORMAL}."
+	}
+
+}
+

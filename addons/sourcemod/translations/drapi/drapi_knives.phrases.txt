@@ -1,0 +1,241 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+	"Knife Menu Command"
+	{
+		"fr"			"couteau, couteaux, knives, knifes, knife"
+		"en"			"knives, knifes, knife"
+	}
+
+	"Knife Menu Command CT"
+	{
+		"fr"			"ctcouteau, ctcouteaux, ctknives, ctknifes, ctknife"
+		"en"			"ctknives, ctknifes, ctknife"
+	}
+
+	"Knife Menu Command T"
+	{
+		"fr"			"tcouteau, tcouteaux, tknives, tknifes, tknife"
+		"en"			"tknives, tknifes, tknife"
+	}
+
+	"Knife Menu Command Bayonet"
+	{
+		"fr"			"bayonet, bayo, baïonnette"
+		"en"			"bayonet, bayo"
+	}
+
+	"Knife Menu Command Flip"
+	{
+		"fr"			"flip, pliant"
+		"en"			"flip"
+	}
+
+	"Knife Menu Command Gut"
+	{
+		"fr"			"gut, éviscérer, évi, evi"
+		"en"			"gut"
+	}
+
+	"Knife Menu Command Karambit"
+	{
+		"en"			"karambit, kara"
+	}
+
+	"Knife Menu Command M9Bayonet"
+	{
+		"fr"			"m9, m9bayo, m9baïonnette"
+		"en"			"m9, m9bayo, m9bayonet"
+	}
+
+	"Knife Menu Command Huntsman"
+	{
+		"fr"			"hunt, hunts, huntsman, chasseur"
+		"en"			"hunt, hunts, huntsman"
+	}
+
+	"Knife Menu Command Falchion"
+	{
+		"fr"			"falchion, coutelas"
+		"en"			"falchion"
+	}
+
+	"Knife Menu Command Butterfly"
+	{
+		"fr"			"butter, butterfly, papillon"
+		"en"			"butter, butterfly"
+	}
+
+	"MenuSettings_TITLE"
+	{
+		"fr"			"Couteaux"
+		"en"			"Knives"
+	}
+
+	"MenuKnives_CT_MENU_TITLE"
+	{
+		"fr"			"CT Couteaux"
+		"en"			"CT Knives"
+	}
+
+	"MenuKnives_T_MENU_TITLE"
+	{
+		"fr"			"T Couteaux"
+		"en"			"T Knives"
+	}
+
+	"MenuKnives_TITLE"
+	{
+		"fr"			"Choississez l'équipe"
+    		"en"			"Choose a team"
+	}
+
+	"MenuKnivesCT_TITLE"
+	{
+
+    		"fr"			"Choississez votre couteau pour les CT"
+		"en"			"Choose you knife for CT"
+	}
+
+	"MenuKnivesT_TITLE"
+	{
+
+    		"fr"			"Choississez votre couteau pour les T"
+		"en"			"Choose you knife for T"
+	}
+
+	"MenuKnives_DEFAULT_MENU_TITLE"
+	{
+
+    		"fr"			"Couteau par défault"
+		"en"			"Default knife"
+	}
+
+	"MenuKnives_BAYONET_MENU_TITLE"
+	{
+
+    		"fr"			"Baïonnette"
+		"en"			"Bayonnet"
+	}
+
+	"MenuKnives_FLIP_MENU_TITLE"
+	{
+
+    		"fr"			"Couteau pliant"
+		"en"			"Flip"
+	}
+
+	"MenuKnives_GUT_MENU_TITLE"
+	{
+
+    		"fr"			"Couteau à éviscérer"
+		"en"			"Gut"
+	}
+
+	"MenuKnives_KARAMBIT_MENU_TITLE"
+	{
+
+		"en"			"Karambit"
+	}
+
+	"MenuKnives_M9BAYONET_MENU_TITLE"
+	{
+
+    		"fr"			"M9 Baïonnette"
+		"en"			"M9 Bayonnet"
+	}
+
+	"MenuKnives_HUNTSMAN_MENU_TITLE"
+	{
+
+    		"fr"			"Couteau de chasseur"
+		"en"			"Huntsman"
+	}
+
+	"MenuKnives_FALCHION_MENU_TITLE"
+	{
+
+    		"fr"			"Coutelas"
+		"en"			"Falchion"
+	}
+
+	"MenuKnives_BUTTERFLY_MENU_TITLE"
+	{
+
+    		"fr"			"Couteau papillon"
+		"en"			"Butterfly"
+	}
+
+	"Knife Equiped"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}KNIVES{NORMAL}] Vous avez {GREEN}équipé{NORMAL}: {BLUE}{1}{NORMAL}."
+		"en"			"[{GREEN}KNIVES{NORMAL}] you have {GREEN}equipped{NORMAL}: {BLUE}{1}{NORMAL}."
+	}
+
+	"Knife Chosen"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}KNIVES{NORMAL}] Vous avez {GREEN}choisi{NORMAL}: {BLUE}{1}{NORMAL} pour la {PURPLE}prochaine map{NORMAL}."
+		"en"			"[{GREEN}KNIVES{NORMAL}] you have {GREEN}chosen{NORMAL}: {BLUE}{1}{NORMAL} for the {PURPLE}next map{NORMAL}."
+	}
+
+	"Knife Chosen CT"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}KNIVES{NORMAL}] Vous avez {GREEN}choisi{NORMAL}: {BLUE}{1}{NORMAL} pour la {RED}team CT{NORMAL} à la {PURPLE}prochaine map{NORMAL}."
+		"en"			"[{GREEN}KNIVES{NORMAL}] you have {GREEN}chosen{NORMAL}: {BLUE}{1}{NORMAL} for the {RED}CT team{NORMAL} at the {PURPLE}next map{NORMAL}."
+	}
+
+	"Knife Chosen T"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}KNIVES{NORMAL}] Vous avez {GREEN}choisi{NORMAL}: {BLUE}{1}{NORMAL} pour la {RED}team T{NORMAL} à la {PURPLE}prochaine map{NORMAL}."
+		"en"			"[{GREEN}KNIVES{NORMAL}] you have {GREEN}chosen{NORMAL}: {BLUE}{1}{NORMAL} for the {RED}T team{NORMAL} at the {PURPLE}next map{NORMAL}."
+	}
+
+	"Knife Equiped Not Alive"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}KNIVES{NORMAL}] Vous avez {GREEN}équipé{NORMAL}: {BLUE}{1}{NORMAL} pour le {PURPLE}prochain round{NORMAL}."
+		"en"			"[{GREEN}KNIVES{NORMAL}] you have {GREEN}equipped{NORMAL}: {BLUE}{1}{NORMAL} for the {PURPLE}next round{NORMAL}."
+	}
+
+	"Knife Equiped Team CT"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}KNIVES{NORMAL}] Vous avez {GREEN}équipé{NORMAL}: {BLUE}{1}{NORMAL} pour la {RED}team CT{NORMAL}."
+		"en"			"[{GREEN}KNIVES{NORMAL}] you have {GREEN}equipped{NORMAL}: {BLUE}{1}{NORMAL} for the {RED}CT team{NORMAL}."
+	}
+
+	"Knife Equiped Team T"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}KNIVES{NORMAL}] Vous avez {GREEN}équipé{NORMAL}: {BLUE}{1}{NORMAL} pour la {RED}team T{NORMAL}."
+		"en"			"[{GREEN}KNIVES{NORMAL}] you have {GREEN}equipped{NORMAL}: {BLUE}{1}{NORMAL} for the {RED}T team{NORMAL}."
+	}
+
+	"Knife Named"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}KNIVES{NORMAL}] Ce couteau: {PINK}{1}{NORMAL} fait partie de la map."
+		"en"			"[{GREEN}KNIVES{NORMAL}] This knife: {PINK}{1}{NORMAL} belong to this map."
+	}
+
+	"Knife Not Allowed"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}KNIVES{NORMAL}] Les {RED}couteaux{NORMAL} ne sont {RED}pas autorisés{NORMAL} sur {PURPLE}cette map{NORMAL}. {BLUE}{1}{NORMAL} sera {GREEN}équipé{NORMAL} pour la {PURPLE}prochaine map{NORMAL}."
+		"en"			"[{GREEN}KNIVES{NORMAL}] {RED}Knives{NORMAL} are {RED}not allowed{NORMAL} on {PURPLE}this map{NORMAL}. {BLUE}{1}{NORMAL} will be {GREEN}equipped{NORMAL} for the {PURPLE}next map{NORMAL}."
+	}
+
+}
+

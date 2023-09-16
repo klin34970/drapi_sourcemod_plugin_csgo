@@ -1,0 +1,197 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+/******************* MESSAGE CMD *******************/
+
+   	"Hulk Shield"
+
+	{
+
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk est sous {BLUE}bouclier{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk is under {BLUE}shield{NORMAL}."
+
+	}
+
+   	"Hulk UnShield"
+
+	{
+
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk a perdu son {BLUE}bouclier{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk has lost his {BLUE}shield{NORMAL}."
+
+	}
+
+	
+	"Hulk Rage"
+
+	{
+
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk est {RED}enragé{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk is {RED}rabid{NORMAL}."
+
+	}
+	
+	"Hulk UnRage"
+
+	{
+
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk s'est {RED}calmé{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk {RED}calm down{NORMAL}."
+
+	}
+	
+	"Hulk Invisible"
+
+	{
+
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk est devenu {YELLOW}invisible{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk became {YELLOW}invisible{NORMAL}."
+
+	}
+	
+	"Hulk UnInvisible"
+
+	{
+
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk est revenu du monde des {YELLOW}fantômes{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk came back from {YELLOW}ghosts world{NORMAL}."
+
+	}
+	
+	"Hulk Swallow"
+
+	{
+	
+	"#format"		"{1:i}"
+	
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk a reçu une grenade est a gagné {GREEN}{1} HP{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk received a grenade and won {YELLOW}{1} HP{NORMAL}."
+
+	}
+	
+	"Hulk Heal"
+
+	{
+	
+	"#format"		"{1:i}"
+	
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk se soigne de {GREEN}{1} HP{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk heals of {YELLOW}{1} HP{NORMAL}."
+
+	}
+	
+	"Hulk Speed Normal"
+	{
+	
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk a repris sa vitesse {RED}normal{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk's speed: {RED}normal{NORMAL}."
+
+	}
+	
+	"Hulk Speed Faster"
+
+	{
+	
+	"#format"		"{1:i}"
+	
+    "fr"			"[{GREEN}HULK{NORMAL}] Vitesse de Hulk: {RED}x{1}{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk's speed: {RED}x{1}{NORMAL}."
+
+	}
+	
+	"Hulk Teleport"
+
+	{
+	
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk s'est {PURPLE}téléporté{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk {PURPLE}teleported{NORMAL}."
+
+	}
+
+	"Hulk is player"
+
+	{
+	
+	"#format"		"{1:s}"
+	
+    "fr"			"[{GREEN}HULK{NORMAL}] Hulk est: {RED}{1}{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Hulk is: {RED}{1}{NORMAL}."
+
+	}
+
+	"Hulk is bot"
+
+	{
+	
+	"#format"		"{1:i}"
+	
+    "fr"			"[{GREEN}HULK{NORMAL}] Min. de joueurs requis pour devenir Hulk: {RED}{1}{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] Min. of players required to become Hulk: {RED}{1}{NORMAL}."
+
+	}
+
+	"Hulk is bot no human"
+
+	{
+	
+    "fr"			"[{GREEN}HULK{NORMAL}] Aucun joueur n'a voulu être {RED}HULK{NORMAL}."
+
+	"en"			"[{GREEN}HULK{NORMAL}] No player has wanted to be {RED}HULK{NORMAL}."
+
+	}
+
+	"Become Hulk Menu"
+
+	{
+	
+    "fr"			"Voulez-vous être le boss ?"
+
+	"en"			"Do you want to be the boss ?"
+
+	}
+
+	"Yes"
+
+	{
+	
+    "fr"			"Oui"
+
+	"en"			"Yes"
+
+	}
+
+	"No"
+
+	{
+	
+    "fr"			"Non"
+
+	"en"			"No"
+
+	}
+/******************* MESSAGE CMD *******************/
+
+}
+

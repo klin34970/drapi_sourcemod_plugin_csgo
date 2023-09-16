@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\player\kuristaja\zombies\police\zombie_policeman_body_d"
+	"$bumpmap"     	"models\player\kuristaja\zombies\police\zombie_policeman_body_normal"
+
+	"$phong" "1"
+	"$phongexponent" "35"
+	"$phongboost" ".01"
+	"$phongfresnelranges" "[5 6 8]"
+	"$PhongAlbedoTint" "1"
+
+	"$halflambert" "1"
+}

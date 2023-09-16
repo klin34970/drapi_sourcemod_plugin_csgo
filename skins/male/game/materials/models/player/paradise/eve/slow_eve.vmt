@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/player/paradise/eve/slow_eve"
+	"$bumpmap"		"Dev\bump_normal"
+
+	"$envmap" 				"env_cubemap"
+	"$envmaptint" 			"[.7 .72 .75]" 
+
+
+ 	"$phong" 			"1"
+	"$phongexponent"		"30"
+	"$phongboost"		"15"
+	"$phongfresnelranges"	"[.15 .3 .5]"
+
+}

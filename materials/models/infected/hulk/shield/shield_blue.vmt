@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\infected\hulk\shield\shield_blue"
+	"$translucent" "1"
+//	$nocull 1
+	$nodecal 1
+}

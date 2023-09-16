@@ -1,0 +1,258 @@
+//**********************************************  Valid Colors	***********************************************
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+//*************************************************************************************************************
+
+"Phrases"
+{
+/************************** GENERALS **************************/
+	"Enabled"
+	{
+        	"en"			"Enabled"
+		"fr"			"Activé"
+	}
+	"Disabled"
+	{
+        	"en"			"Disabled"
+		"fr"			"Désactivé"
+	}
+
+/************************** MENU PLAYERS **************************/
+	"MenuZombieRiot_TITLE"
+	{
+		"en"			"Zombie Riot Settings"
+		"fr"			"Paramètres Zombie Riot"
+	}
+
+	"MenuZombieRiot_TITLE_NATIVE"
+	{
+		"en"			"Administration menu"
+		"fr"			"Menu d'administration"
+	}
+
+	"MenuZombieRiot_TITLE_NATIVE_SUBMENU"
+	{
+		"en"			"Zombie Riot"
+		"fr"			"Zombie Riot"
+	}
+
+	"MenuZombieRiot_ZOMBIFY_MENU_TITLE"
+	{
+		"#format"		"{1:i},{2:i}"
+		"en"			"Zombify: {1}/{2}"
+		"fr"			"Zombifié: {1}/{2}"
+	}
+
+/***/
+
+	"MenuZombieRiot_HUD_MENU_TITLE"
+	{
+		"en"			"HUD settings"
+		"fr"			"Paramètres HUD"
+	}
+
+	"HUD_TITLE"
+	{
+		"en"			"HUD settings"
+		"fr"			"Paramètres HUD"
+	}
+
+	"HUD_STATUS_MENU_TITLE"
+	{
+		"#format"		"{1:s}"
+		"en"			"HUD: {1}"
+	}
+
+/***/
+
+	"MenuZombieRiot_OVERLAYS_MENU_TITLE"
+	{
+		"en"			"Overlays settings"
+		"fr"			"Paramètres Overlays"
+	}
+
+	"OVERLAYS_TITLE"
+	{
+		"en"			"Overlays settings"
+		"fr"			"Paramètres Overlays"
+	}
+
+	"OVERLAYS_STATUS_MENU_TITLE"
+	{
+		"#format"		"{1:s}"
+		"en"			"Overlays: {1}"
+	}
+
+/***/
+
+	"MenuZombieRiot_ZVISION_MENU_TITLE"
+	{
+		"en"			"Zvision settings"
+		"fr"			"Paramètres Zvision"
+	}
+
+	"ZVISION_TITLE"
+	{
+		"en"			"Zvision settings"
+		"fr"			"Paramètres Zvision"
+	}
+
+	"ZVISION_STATUS_MENU_TITLE"
+	{
+		"#format"		"{1:s}"
+		"en"			"Zvision: {1}"
+	}
+
+/***/
+
+	"MenuZombieRiot_SOUNDS_MENU_TITLE"
+	{
+		"en"			"Sounds settings"
+		"fr"			"Paramètres Sons"
+	}
+
+	"SOUNDS_TITLE"
+	{
+		"en"			"Sounds settings"
+		"fr"			"Paramètres Sons"
+	}
+
+	"SOUNDS_STATUS_MENU_TITLE"
+	{
+		"#format"		"{1:s}"
+		"en"			"Sounds : {1}"
+		"fr"			"Sons : {1}"
+	}
+
+/************************** MENU ADMINS **************************/
+
+	"MenuAdminZombieRiot_TITLE"
+	{
+		"en"			"Zombie Riot"
+	}
+
+	"MenuAdminZombieRiot_HUMANIFY_MENU_TITLE"
+	{
+		"en"			"Humanify"
+		"fr"			"Humanifier"
+	}
+
+	"MenuAdminZombieRiot_ZOMBIFY_MENU_TITLE"
+	{
+		"en"			"Zombify"
+		"fr"			"Zombifier"
+	}
+
+/************************** MENU HELP **************************/
+
+	"MenuHelpZombieRiot_TITLE"
+	{
+		"en"			"Help menu"
+		"fr"			"Menu d'aide"
+	}
+
+	"MenuHelpZombieRiot_DAY_MENU_TITLE"
+	{
+		"en"			"About the day"
+		"fr"			"Infos sur le jour"
+	}
+
+	"MenuHelpZombieRiot_MAP_MENU_TITLE"
+	{
+		"en"			"Map rotation"
+		"fr"			"Rotation des maps"
+	}
+
+	"MenuHelpZombieRiot_ADMIN_MENU_TITLE"
+	{
+		"en"			"List Online Admins"
+		"fr"			"Liste des admins en ligne"
+	}
+
+	"MenuHelpZombieRiot_MAP_CURRENT_MENU_TITLE"
+	{
+		"#format"		"{1:i}"
+		"en"			"Current Rotation ({1} maps)"
+		"fr"			"Rotation en cours ({1} maps)"
+	}
+
+	"Back"
+	{
+		"en"			"Back"
+		"fr"			"Retour"
+	}
+
+	"Exit"
+	{
+		"en"			"Exit"
+		"fr"			"Sortir"
+	}
+
+	"MenuHelpZombieRiot_HELP_COUNT"
+	{
+		"#format"		"{1:i}"
+		"en"			"Zombie to kill(base): {1}"
+		"fr"			"Zombie à tuer(base): {1}"
+	}
+
+	"MenuHelpZombieRiot_HELP_COUNT_PLAYER"
+	{
+		"#format"		"{1:i}"
+		"en"			"Zombie by player: {1}"
+		"fr"			"Zombie par joueur: {1}"
+	}
+
+	"MenuHelpZombieRiot_HELP_DEATH"
+	{
+		"#format"		"{1:i}"
+		"en"			"Deaths as human before being zombie: {1}"
+		"fr"			"Nombre de morts avant d'être zombie: {1}"
+	}
+
+	"MenuHelpZombieRiot_HELP_REGRESSION"
+	{
+		"en"			"If zombies win, human loose 1 day"
+		"fr"			"Si les zombies gagnent, humain perde un jour"
+	}
+
+	"MenuHelpZombieRiot_HELP_ZOMBIE_NAME"
+	{
+		"#format"		"{1:s}"
+		"en"			"Zombie nom: {1}"
+		"fr"			"Zombie's name: {1}"
+	}
+
+	"MenuHelpZombieRiot_HELP_ZOMBIE_HEALTH"
+	{
+		"#format"		"{1:i}"
+		"en"			"Zombie vie: {1}"
+		"fr"			"Zombie's health: {1}"
+	}
+
+	"MenuHelpZombieRiot_HELP_ZOMBIE_SPEED"
+	{
+		"#format"		"{1:.0f}"
+		"en"			"Zombie vitesse: {1}"
+		"fr"			"Zombie's speed: {1}"
+	}
+
+	"MenuHelpZombieRiot_HELP_ZOMBIE_GRAVITY"
+	{
+		"#format"		"{1:.0f}"
+		"en"			"Zombie gravité: {1}"
+		"fr"			"Zombie's gravity: {1}"
+	}
+
+	"MenuHelpZombieRiot_HELP_ZOMBIE_JUMP"
+	{
+		"#format"		"{1:.0f}"
+		"en"			"Zombie saut: {1}"
+		"fr"			"Zombie's jump: {1}"
+	}
+
+	"MenuHelpZombieRiot_HELP_ZOMBIE_FOV"
+	{
+		"#format"		"{1:i}"
+		"en"			"Zombie champ de vision: {1}"
+		"fr"			"Zombie's fov: {1}"
+	}
+}

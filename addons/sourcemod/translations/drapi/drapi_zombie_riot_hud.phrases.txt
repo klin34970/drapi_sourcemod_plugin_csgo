@@ -1,0 +1,39 @@
+//**********************************************  Valid Colors	***********************************************
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+//*************************************************************************************************************
+
+"Phrases"
+{
+    	"HUD Targeting extra"
+	{
+
+		"#format"		"{1:i},{2:i},{3:s},{4:i},{5:i},{6:s},{7:i}"
+
+		"en"			"Day <font color='#FFA500'>{1}/{2}</font> - {3}\nZombies: <font color='#FFA500'>{4}</font> | Humans: <font color='#FFA500'>{5}</font>\nTarget: {6} | Health: <font color='#FFA500'>{7}</font>"
+
+		"fr"			"Jour <font color='#FFA500'>{1}/{2}</font> - {3}\nZombies: <font color='#FFA500'>{4}</font> | Humains: <font color='#FFA500'>{5}</font>\nCible: {6} | Vie: <font color='#FFA500'>{7}</font>"
+
+	}
+
+    	"HUD Targeting"
+	{
+
+		"#format"		"{1:i},{2:i},{3:s},{4:i},{5:i}"
+
+		"en"			"Day <font color='#FFA500'>{1}/{2}</font> - {3}\nZombies: <font color='#FFA500'>{4}</font> | Humans: <font color='#FFA500'>{5}</font>"
+
+		"fr"			"Jour <font color='#FFA500'>{1}/{2}</font> - {3}\nZombies: <font color='#FFA500'>{4}</font> | Humains: <font color='#FFA500'>{5}</font>"
+
+	}
+
+    	"RespawnHuman"
+	{
+
+		"#format"		"{1:i}"
+
+		"en"			"Respawn in: {1} seconds"
+
+		"fr"			"Respawn dans: {1} secondes"
+
+	}
+}

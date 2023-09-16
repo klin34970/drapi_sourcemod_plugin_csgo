@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture" "models/player/pmodels/alien/slow_alien_gebiss"
+	"$bumpmap" 	"models/player/pmodels/alien/slow_alien_gebiss_bump"
+	"$halflambert" 1
+	"$alphatest" 1
+	"$nocull" 1
+
+}
+

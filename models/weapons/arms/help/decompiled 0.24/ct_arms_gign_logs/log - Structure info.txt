@@ -1,0 +1,1488 @@
+// Created by Crowbar 0.24.0.0
+
+
+################################################################################
+
+
+====== MDL Header ======
+00 id: IDST
+04 version: 49
+08 checksum: 0x61616255
+0C name ($modelname): weapons/ct_arms_gign.mdl
+4C fileSize (size of mdl file in bytes): 17 104
+50 eyePositionX ($eyeposition): 0.000000
+54 eyePositionY: 0.000000
+58 eyePositionZ: 0.000000
+5C illuminationPositionX ($illumposition): 3.323147
+60 illuminationPositionY: 0.000002
+64 illuminationPositionZ: 29.025490
+68 hullMinPositionX: -4.412685
+6C hullMinPositionY: -28.741960
+70 hullMinPositionZ: 0.000000
+74 hullMaxPositionX: 11.058980
+78 hullMaxPositionY: 28.741970
+7C hullMaxPositionZ: 58.050970
+80 viewBoundingBoxMinPositionX: 0.000000
+84 viewBoundingBoxMinPositionY: 0.000000
+88 viewBoundingBoxMinPositionZ: 0.000000
+8C viewBoundingBoxMaxPositionX: 0.000000
+90 viewBoundingBoxMaxPositionY: 0.000000
+94 viewBoundingBoxMaxPositionZ: 0.000000
+98 flags: 0x00000001
+9C boneCount: 37
+A0 boneOffset: 664 (0x00000298)
+A4 boneControllerCount: 0
+A8 boneControllerOffset: 8 656 (0x000021D0)
+AC hitboxSetCount: 1
+B0 hitboxSetOffset: 8 656 (0x000021D0)
+B4 localAnimationCount: 1
+B8 localAnimationOffset: 10 068 (0x00002754)
+BC localSequenceCount ($sequence): 1
+C0 localSequenceOffset: 10 272 (0x00002820)
+C4 activityListVersion: 0
+C8 eventsIndexed: 0
+CC textureCount: 1
+D0 textureOffset: 10 916 (0x00002AA4)
+D4 texturePathCount ($cdmaterials): 1
+D8 texturePathOffset: 10 980 (0x00002AE4)
+DC skinReferenceCount: 0
+E0 skinFamilyCount ($texturegroup skinfamilies): 1
+E4 skinFamilyOffset: 10 984 (0x00002AE8)
+E8 bodyPartCount ($model): 1
+EC bodyPartOffset: 10 636 (0x0000298C)
+localAttachmentCount ($attachment): 0
+localAttachmentOffset: 8 656 (0x000021D0)
+localNodeCount: 0
+localNodeOffset: 10 636 (0x0000298C)
+localNodeNameOffset: 10 636 (0x0000298C)
+flexDescCount: 0
+flexDescOffset: 10 800 (0x00002A30)
+flexControllerCount: 0
+flexControllerOffset: 10 800 (0x00002A30)
+flexRuleCount: 0
+flexRuleOffset: 10 800 (0x00002A30)
+ikChainCount ($ikchain): 0
+ikChainOffset: 10 800 (0x00002A30)
+mouthCount ($model {mouth}): 0
+mouthOffset: 10 800 (0x00002A30)
+localPoseParamaterCount ($poseparameter): 0
+localPoseParameterOffset: 10 800 (0x00002A30)
+surfacePropOffset ($surfaceprop): 16 110 (0x00003EEE)
+    surfaceprop name: default
+keyValueOffset: 10 988 (0x00002AEC)
+keyValueSize: 0
+localIkAutoPlayLockCount: 0
+localIkAutoPlayLockOffset: 10 800 (0x00002A30)
+mass ($collisionjoints {$mass}): 1.000000
+contents: 1 (0x00000001)
+includeModelCount ($includemodel): 0
+includeModelOffset: 10 916 (0x00002AA4)
+virtualModelP: 0 (0x00000000)
+animBlockNameOffset: 16 084 (0x00003ED4)
+animBlockCount: 0
+animBlockOffset: 10 916 (0x00002AA4)
+animBlockModelP: 0 (0x00000000)
+boneTableByNameOffset: 10 028 (0x0000272C)
+vertexBaseP: 0 (0x00000000)
+indexBaseP: 0 (0x00000000)
+directionalLightDot: 0 (0x00)
+rootLod: 0 (0x00)
+allowedRootLodCount: 0 (0x00)
+unused: 0 (0x00)
+unused4: 0 (0x00000000)
+flexControllerUiCount: 0
+flexControllerUiOffset: 10 800 (0x00002A30)
+unused3(0): 0 (0x00000000)
+unused3(1): 0 (0x00000000)
+studioHeader2Offset: 408 (0x00000198)
+unused2: 0 (0x00000000)
+========================
+[studiohdr2]
+sourceBoneTransformCount: 0 (0x00000000)
+sourceBoneTransformOffset: 0 (0x00000000)
+illumPositionAttachmentIndex: 0 (0x00000000)
+maxEyeDeflection: 0.000000
+linearBoneOffset: 0 (0x00000000)
+reserved(0): 0 (0x00000000)
+reserved(1): 0 (0x00000000)
+reserved(2): 0 (0x00000000)
+reserved(3): 0 (0x00000000)
+reserved(4): 0 (0x00000000)
+reserved(5): 0 (0x00000000)
+reserved(6): 0 (0x00000000)
+reserved(7): 0 (0x00000000)
+reserved(8): 0 (0x00000000)
+reserved(9): 0 (0x00000000)
+reserved(10): 0 (0x00000000)
+reserved(11): 0 (0x00000000)
+reserved(12): 0 (0x00000000)
+reserved(13): 0 (0x00000000)
+reserved(14): 0 (0x00000000)
+reserved(15): 0 (0x00000000)
+reserved(16): 0 (0x00000000)
+reserved(17): 0 (0x00000000)
+reserved(18): 0 (0x00000000)
+reserved(19): 0 (0x00000000)
+reserved(20): 0 (0x00000000)
+reserved(21): 0 (0x00000000)
+reserved(22): 0 (0x00000000)
+reserved(23): 0 (0x00000000)
+reserved(24): 0 (0x00000000)
+reserved(25): 0 (0x00000000)
+reserved(26): 0 (0x00000000)
+reserved(27): 0 (0x00000000)
+reserved(28): 0 (0x00000000)
+reserved(29): 0 (0x00000000)
+reserved(30): 0 (0x00000000)
+reserved(31): 0 (0x00000000)
+reserved(32): 0 (0x00000000)
+reserved(33): 0 (0x00000000)
+reserved(34): 0 (0x00000000)
+reserved(35): 0 (0x00000000)
+reserved(36): 0 (0x00000000)
+reserved(37): 0 (0x00000000)
+reserved(38): 0 (0x00000000)
+reserved(39): 0 (0x00000000)
+reserved(40): 0 (0x00000000)
+reserved(41): 0 (0x00000000)
+reserved(42): 0 (0x00000000)
+reserved(43): 0 (0x00000000)
+reserved(44): 0 (0x00000000)
+reserved(45): 0 (0x00000000)
+reserved(46): 0 (0x00000000)
+reserved(47): 0 (0x00000000)
+reserved(48): 0 (0x00000000)
+reserved(49): 0 (0x00000000)
+reserved(50): 0 (0x00000000)
+reserved(51): 0 (0x00000000)
+reserved(52): 0 (0x00000000)
+reserved(53): 0 (0x00000000)
+reserved(54): 0 (0x00000000)
+reserved(55): 0 (0x00000000)
+reserved(56): 0 (0x00000000)
+reserved(57): 0 (0x00000000)
+reserved(58): 0 (0x00000000)
+========================
+
+
+====== Bones (nodes) ======
+	[Bone (node) index: 0]
+	name: v_weapon
+	parentBoneIndex: -1 ([no parent bone])
+	flags: 262 144 (0x00040000)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.119423, -11.058979, 0.000000)
+	quat[x,y,z,w]: (0.707107, 0.000000, 0.000000, 0.707107)
+	rotation[x,y,z]: (1.570796, 0.000000, 0.000000)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000048)
+	poseToBoneColumn0[x,y,z]: (1.000000, 0.000000, 0.000000)
+	poseToBoneColumn1[x,y,z]: (0.000000, 0.000000, -1.000000)
+	poseToBoneColumn2[x,y,z]: (0.000000, 1.000000, 0.000000)
+	poseToBoneColumn3[x,y,z]: (-1.119423, 0.000003, -11.058979)
+	--------------------
+	[Bone (node) index: 1]
+	name: v_weapon.Bip01_L_Forearm
+	parentBoneIndex: -1 ([no parent bone])
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (15.369723, 1.698037, 50.594070)
+	quat[x,y,z,w]: (0.004650, 0.366681, 0.001103, 0.930335)
+	rotation[x,y,z]: (0.012942, 0.750851, 0.007472)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000048)
+	poseToBoneColumn0[x,y,z]: (0.731088, 0.001358, 0.682282)
+	poseToBoneColumn1[x,y,z]: (0.005463, 0.999954, -0.007844)
+	poseToBoneColumn2[x,y,z]: (-0.682261, 0.009462, 0.731047)
+	poseToBoneColumn3[x,y,z]: (23.272469, -2.197540, -47.459824)
+	--------------------
+	[Bone (node) index: 2]
+	name: v_weapon.Bip01_L_Hand
+	parentBoneIndex: 1 (v_weapon.Bip01_L_Forearm)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (10.295582, 0.000000, -0.000008)
+	quat[x,y,z,w]: (-0.704483, -0.007838, -0.023052, 0.709303)
+	rotation[x,y,z]: (-1.563505, -0.043612, -0.021680)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.759938, -0.649625, 0.021944)
+	poseToBoneColumn1[x,y,z]: (-0.016542, 0.014419, 0.999759)
+	poseToBoneColumn2[x,y,z]: (-0.649785, -0.760118, 0.000211)
+	poseToBoneColumn3[x,y,z]: (10.939934, 47.967155, -2.265505)
+	--------------------
+	[Bone (node) index: 3]
+	name: v_weapon.Bip01_L_Finger0
+	parentBoneIndex: 2 (v_weapon.Bip01_L_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.149525, 0.416496, -1.414116)
+	quat[x,y,z,w]: (0.619963, 0.195981, -0.014218, 0.759628)
+	rotation[x,y,z]: (1.407288, 0.320852, 0.235478)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.550506, 0.071639, 0.831752)
+	poseToBoneColumn1[x,y,z]: (-0.327372, 0.935037, 0.136141)
+	poseToBoneColumn2[x,y,z]: (-0.767965, -0.347238, 0.538196)
+	poseToBoneColumn3[x,y,z]: (19.830673, 12.772225, -42.441219)
+	--------------------
+	[Bone (node) index: 4]
+	name: v_weapon.Bip01_L_Finger01
+	parentBoneIndex: 3 (v_weapon.Bip01_L_Finger0)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.263880, 0.000002, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, -0.004260, 0.999991)
+	rotation[x,y,z]: (0.000000, 0.000000, -0.008520)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.549876, 0.076326, 0.831752)
+	poseToBoneColumn1[x,y,z]: (-0.335326, 0.932213, 0.136141)
+	poseToBoneColumn2[x,y,z]: (-0.764979, -0.353769, 0.538196)
+	poseToBoneColumn3[x,y,z]: (18.457302, 12.929947, -42.441219)
+	--------------------
+	[Bone (node) index: 5]
+	name: v_weapon.Bip01_L_Finger02
+	parentBoneIndex: 4 (v_weapon.Bip01_L_Finger01)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.188942, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, -0.004260, 0.999991)
+	rotation[x,y,z]: (0.000000, 0.000000, -0.008520)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.549206, 0.081008, 0.831752)
+	poseToBoneColumn1[x,y,z]: (-0.343256, 0.929323, 0.136141)
+	poseToBoneColumn2[x,y,z]: (-0.761937, -0.360273, 0.538196)
+	poseToBoneColumn3[x,y,z]: (17.157574, 13.076601, -42.441219)
+	--------------------
+	[Bone (node) index: 6]
+	name: v_weapon.Bip01_L_Finger1
+	parentBoneIndex: 2 (v_weapon.Bip01_L_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (3.773760, 0.133224, -0.970574)
+	quat[x,y,z,w]: (0.004377, 0.071183, 0.002636, 0.997450)
+	rotation[x,y,z]: (0.009201, 0.142462, 0.005942)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.745290, -0.652914, 0.135081)
+	poseToBoneColumn1[x,y,z]: (-0.158236, 0.023601, 0.987119)
+	poseToBoneColumn2[x,y,z]: (-0.647692, -0.757065, -0.085725)
+	poseToBoneColumn3[x,y,z]: (7.558653, 47.786423, -0.663723)
+	--------------------
+	[Bone (node) index: 7]
+	name: v_weapon.Bip01_L_Finger11
+	parentBoneIndex: 6 (v_weapon.Bip01_L_Finger1)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.433462, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.728548, -0.671543, 0.135081)
+	poseToBoneColumn1[x,y,z]: (-0.157589, 0.027593, 0.987119)
+	poseToBoneColumn2[x,y,z]: (-0.666620, -0.740451, -0.085725)
+	poseToBoneColumn3[x,y,z]: (7.331100, 47.616333, -0.663724)
+	--------------------
+	[Bone (node) index: 8]
+	name: v_weapon.Bip01_L_Finger12
+	parentBoneIndex: 7 (v_weapon.Bip01_L_Finger11)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.019157, 0.000011, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.711342, -0.689744, 0.135081)
+	poseToBoneColumn1[x,y,z]: (-0.156841, 0.031567, 0.987119)
+	poseToBoneColumn2[x,y,z]: (-0.685123, -0.723365, -0.085725)
+	poseToBoneColumn3[x,y,z]: (7.513493, 47.441566, -0.663725)
+	--------------------
+	[Bone (node) index: 9]
+	name: v_weapon.Bip01_L_Finger2
+	parentBoneIndex: 2 (v_weapon.Bip01_L_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (3.799513, 0.014957, -0.039958)
+	quat[x,y,z,w]: (-0.004154, -0.017373, 0.011267, 0.999777)
+	rotation[x,y,z]: (-0.008703, -0.034651, 0.022689)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.745318, -0.666639, -0.009682)
+	poseToBoneColumn1[x,y,z]: (0.018434, 0.006090, 0.999812)
+	poseToBoneColumn2[x,y,z]: (-0.666455, -0.745356, 0.016828)
+	poseToBoneColumn3[x,y,z]: (8.144438, 47.797890, -2.093310)
+	--------------------
+	[Bone (node) index: 10]
+	name: v_weapon.Bip01_L_Finger21
+	parentBoneIndex: 9 (v_weapon.Bip01_L_Finger2)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.774878, 0.000004, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.728229, -0.685265, -0.009682)
+	poseToBoneColumn1[x,y,z]: (0.018583, 0.005622, 0.999812)
+	poseToBoneColumn2[x,y,z]: (-0.685082, -0.728272, 0.016828)
+	poseToBoneColumn3[x,y,z]: (7.575684, 47.621616, -2.093311)
+	--------------------
+	[Bone (node) index: 11]
+	name: v_weapon.Bip01_L_Finger22
+	parentBoneIndex: 10 (v_weapon.Bip01_L_Finger21)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.008844, -0.000004, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.710675, -0.703453, -0.009682)
+	poseToBoneColumn1[x,y,z]: (0.018719, 0.005150, 0.999812)
+	poseToBoneColumn2[x,y,z]: (-0.703271, -0.710723, 0.016828)
+	poseToBoneColumn3[x,y,z]: (7.768442, 47.440418, -2.093310)
+	--------------------
+	[Bone (node) index: 12]
+	name: v_weapon.Bip01_L_Finger3
+	parentBoneIndex: 2 (v_weapon.Bip01_L_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (3.632767, 0.059055, 0.757493)
+	quat[x,y,z,w]: (-0.006417, -0.081611, 0.020724, 0.996428)
+	rotation[x,y,z]: (-0.016389, -0.163096, 0.042929)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.725216, -0.679957, -0.108259)
+	poseToBoneColumn1[x,y,z]: (0.146638, -0.001095, 0.989190)
+	poseToBoneColumn2[x,y,z]: (-0.672725, -0.733251, 0.098913)
+	poseToBoneColumn3[x,y,z]: (8.741430, 47.617760, -3.722252)
+	--------------------
+	[Bone (node) index: 13]
+	name: v_weapon.Bip01_L_Finger31
+	parentBoneIndex: 12 (v_weapon.Bip01_L_Finger3)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.500137, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.707798, -0.698070, -0.108259)
+	poseToBoneColumn1[x,y,z]: (0.146563, -0.004801, 0.989190)
+	poseToBoneColumn2[x,y,z]: (-0.691044, -0.716013, 0.098913)
+	poseToBoneColumn3[x,y,z]: (8.442583, 47.419518, -3.722252)
+	--------------------
+	[Bone (node) index: 14]
+	name: v_weapon.Bip01_L_Finger32
+	parentBoneIndex: 13 (v_weapon.Bip01_L_Finger31)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.905663, 0.000004, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.689927, -0.715738, -0.108259)
+	poseToBoneColumn1[x,y,z]: (0.146395, -0.008504, 0.989190)
+	poseToBoneColumn2[x,y,z]: (-0.708921, -0.698317, 0.098913)
+	poseToBoneColumn3[x,y,z]: (8.733103, 47.213852, -3.722251)
+	--------------------
+	[Bone (node) index: 15]
+	name: v_weapon.Bip01_L_Finger4
+	parentBoneIndex: 2 (v_weapon.Bip01_L_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (3.323332, 0.233746, 1.479075)
+	quat[x,y,z,w]: (-0.013458, -0.161610, 0.012906, 0.986678)
+	rotation[x,y,z]: (-0.032424, -0.324218, 0.031462)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.707609, -0.665896, -0.236373)
+	poseToBoneColumn1[x,y,z]: (0.303248, -0.015963, 0.952778)
+	poseToBoneColumn2[x,y,z]: (-0.638224, -0.745874, 0.190636)
+	poseToBoneColumn3[x,y,z]: (7.446617, 47.654434, -4.910739)
+	--------------------
+	[Bone (node) index: 16]
+	name: v_weapon.Bip01_L_Finger41
+	parentBoneIndex: 15 (v_weapon.Bip01_L_Finger4)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.963100, 0.000008, -0.000001)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.690552, -0.683569, -0.236373)
+	poseToBoneColumn1[x,y,z]: (0.302748, -0.023623, 0.952778)
+	poseToBoneColumn2[x,y,z]: (-0.656873, -0.729504, 0.190636)
+	poseToBoneColumn3[x,y,z]: (7.685976, 47.475323, -4.910738)
+	--------------------
+	[Bone (node) index: 17]
+	name: v_weapon.Bip01_L_Finger42
+	parentBoneIndex: 16 (v_weapon.Bip01_L_Finger41)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.682898, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.673053, -0.700805, -0.236373)
+	poseToBoneColumn1[x,y,z]: (0.302054, -0.031268, 0.952778)
+	poseToBoneColumn2[x,y,z]: (-0.675103, -0.712667, 0.190636)
+	poseToBoneColumn3[x,y,z]: (8.200842, 47.283142, -4.910738)
+	--------------------
+	[Bone (node) index: 18]
+	name: v_weapon.Bip01_L_ForeTwist
+	parentBoneIndex: -1 ([no parent bone])
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (15.369723, 1.698037, 50.594070)
+	quat[x,y,z,w]: (0.007828, 0.366682, -0.000149, 0.930313)
+	rotation[x,y,z]: (0.019773, 0.750851, 0.007472)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000048)
+	poseToBoneColumn0[x,y,z]: (0.731088, 0.006019, 0.682257)
+	poseToBoneColumn1[x,y,z]: (0.005463, 0.999877, -0.014674)
+	poseToBoneColumn2[x,y,z]: (-0.682261, 0.014455, 0.730966)
+	poseToBoneColumn3[x,y,z]: (23.272469, -2.521684, -47.443703)
+	--------------------
+	[Bone (node) index: 19]
+	name: v_weapon.Bip01_R_Forearm
+	parentBoneIndex: -1 ([no parent bone])
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (-15.369725, 1.697995, 50.594070)
+	quat[x,y,z,w]: (0.001102, 0.930335, 0.004651, 0.366681)
+	rotation[x,y,z]: (3.128651, 0.750851, 3.134124)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000048)
+	poseToBoneColumn0[x,y,z]: (-0.731088, -0.001361, 0.682281)
+	poseToBoneColumn1[x,y,z]: (0.005461, 0.999954, 0.007846)
+	poseToBoneColumn2[x,y,z]: (-0.682261, 0.009462, -0.731048)
+	poseToBoneColumn3[x,y,z]: (23.272457, -2.197542, 47.459827)
+	--------------------
+	[Bone (node) index: 20]
+	name: v_weapon.Bip01_R_Hand
+	parentBoneIndex: 19 (v_weapon.Bip01_R_Forearm)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (10.295586, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.704483, 0.007838, -0.023052, 0.709303)
+	rotation[x,y,z]: (1.563505, 0.043612, -0.021680)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.759938, 0.649625, 0.021946)
+	poseToBoneColumn1[x,y,z]: (-0.016545, 0.014421, -0.999759)
+	poseToBoneColumn2[x,y,z]: (-0.649785, -0.760118, -0.000211)
+	poseToBoneColumn3[x,y,z]: (10.939915, 47.967167, 2.265508)
+	--------------------
+	[Bone (node) index: 21]
+	name: v_weapon.Bip01_R_Finger0
+	parentBoneIndex: 20 (v_weapon.Bip01_R_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.149519, 0.416500, 1.414117)
+	quat[x,y,z,w]: (-0.619963, -0.195981, -0.014218, 0.759628)
+	rotation[x,y,z]: (-1.407288, -0.320852, 0.235478)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.550505, -0.071641, 0.831752)
+	poseToBoneColumn1[x,y,z]: (-0.327373, 0.935036, -0.136139)
+	poseToBoneColumn2[x,y,z]: (-0.767965, -0.347239, -0.538196)
+	poseToBoneColumn3[x,y,z]: (19.830662, 12.772223, 42.441231)
+	--------------------
+	[Bone (node) index: 22]
+	name: v_weapon.Bip01_R_Finger01
+	parentBoneIndex: 21 (v_weapon.Bip01_R_Finger0)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.263882, 0.000000, -0.000004)
+	quat[x,y,z,w]: (0.000000, 0.000000, -0.004260, 0.999991)
+	rotation[x,y,z]: (0.000000, 0.000000, -0.008520)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.549875, -0.076329, 0.831752)
+	poseToBoneColumn1[x,y,z]: (-0.335328, 0.932213, -0.136139)
+	poseToBoneColumn2[x,y,z]: (-0.764979, -0.353769, -0.538196)
+	poseToBoneColumn3[x,y,z]: (18.457283, 12.929949, 42.441238)
+	--------------------
+	[Bone (node) index: 23]
+	name: v_weapon.Bip01_R_Finger02
+	parentBoneIndex: 22 (v_weapon.Bip01_R_Finger01)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.188942, -0.000001, 0.000004)
+	quat[x,y,z,w]: (0.000000, 0.000000, -0.004260, 0.999991)
+	rotation[x,y,z]: (0.000000, 0.000000, -0.008520)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.549205, -0.081011, 0.831752)
+	poseToBoneColumn1[x,y,z]: (-0.343258, 0.929322, -0.136139)
+	poseToBoneColumn2[x,y,z]: (-0.761937, -0.360274, -0.538196)
+	poseToBoneColumn3[x,y,z]: (17.157555, 13.076607, 42.441235)
+	--------------------
+	[Bone (node) index: 24]
+	name: v_weapon.Bip01_R_Finger1
+	parentBoneIndex: 20 (v_weapon.Bip01_R_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (3.773754, 0.133224, 0.970574)
+	quat[x,y,z,w]: (-0.004377, -0.071183, 0.002636, 0.997450)
+	rotation[x,y,z]: (-0.009201, -0.142462, 0.005942)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.745290, 0.652913, 0.135084)
+	poseToBoneColumn1[x,y,z]: (-0.158238, 0.023603, -0.987119)
+	poseToBoneColumn2[x,y,z]: (-0.647691, -0.757065, 0.085725)
+	poseToBoneColumn3[x,y,z]: (7.558641, 47.786434, 0.663728)
+	--------------------
+	[Bone (node) index: 25]
+	name: v_weapon.Bip01_R_Finger11
+	parentBoneIndex: 24 (v_weapon.Bip01_R_Finger1)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.433460, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.728548, 0.671543, 0.135084)
+	poseToBoneColumn1[x,y,z]: (-0.157591, 0.027595, -0.987119)
+	poseToBoneColumn2[x,y,z]: (-0.666620, -0.740452, 0.085725)
+	poseToBoneColumn3[x,y,z]: (7.331087, 47.616341, 0.663729)
+	--------------------
+	[Bone (node) index: 26]
+	name: v_weapon.Bip01_R_Finger12
+	parentBoneIndex: 25 (v_weapon.Bip01_R_Finger11)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.019159, -0.000004, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.711341, 0.689743, 0.135084)
+	poseToBoneColumn1[x,y,z]: (-0.156843, 0.031569, -0.987119)
+	poseToBoneColumn2[x,y,z]: (-0.685123, -0.723366, 0.085725)
+	poseToBoneColumn3[x,y,z]: (7.513470, 47.441597, 0.663728)
+	--------------------
+	[Bone (node) index: 27]
+	name: v_weapon.Bip01_R_Finger2
+	parentBoneIndex: 20 (v_weapon.Bip01_R_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (3.799515, 0.014961, 0.039958)
+	quat[x,y,z,w]: (0.004154, 0.017373, 0.011267, 0.999777)
+	rotation[x,y,z]: (0.008703, 0.034651, 0.022689)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.745318, 0.666639, -0.009679)
+	poseToBoneColumn1[x,y,z]: (0.018432, 0.006092, -0.999812)
+	poseToBoneColumn2[x,y,z]: (-0.666455, -0.745356, -0.016828)
+	poseToBoneColumn3[x,y,z]: (8.144417, 47.797901, 2.093312)
+	--------------------
+	[Bone (node) index: 28]
+	name: v_weapon.Bip01_R_Finger21
+	parentBoneIndex: 27 (v_weapon.Bip01_R_Finger2)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.774879, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.728230, 0.685265, -0.009679)
+	poseToBoneColumn1[x,y,z]: (0.018580, 0.005624, -0.999812)
+	poseToBoneColumn2[x,y,z]: (-0.685081, -0.728272, -0.016828)
+	poseToBoneColumn3[x,y,z]: (7.575657, 47.621632, 2.093311)
+	--------------------
+	[Bone (node) index: 29]
+	name: v_weapon.Bip01_R_Finger22
+	parentBoneIndex: 28 (v_weapon.Bip01_R_Finger21)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.008842, -0.000004, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.710676, 0.703453, -0.009679)
+	poseToBoneColumn1[x,y,z]: (0.018717, 0.005153, -0.999812)
+	poseToBoneColumn2[x,y,z]: (-0.703271, -0.710723, -0.016828)
+	poseToBoneColumn3[x,y,z]: (7.768417, 47.440437, 2.093311)
+	--------------------
+	[Bone (node) index: 30]
+	name: v_weapon.Bip01_R_Finger3
+	parentBoneIndex: 20 (v_weapon.Bip01_R_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (3.632763, 0.059052, -0.757493)
+	quat[x,y,z,w]: (0.006417, 0.081611, 0.020723, 0.996428)
+	rotation[x,y,z]: (0.016389, 0.163096, 0.042929)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.725217, 0.679957, -0.108256)
+	poseToBoneColumn1[x,y,z]: (0.146635, -0.001093, -0.989190)
+	poseToBoneColumn2[x,y,z]: (-0.672725, -0.733252, -0.098913)
+	poseToBoneColumn3[x,y,z]: (8.741413, 47.617783, 3.722252)
+	--------------------
+	[Bone (node) index: 31]
+	name: v_weapon.Bip01_R_Finger31
+	parentBoneIndex: 30 (v_weapon.Bip01_R_Finger3)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.500134, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.707798, 0.698070, -0.108256)
+	poseToBoneColumn1[x,y,z]: (0.146561, -0.004799, -0.989190)
+	poseToBoneColumn2[x,y,z]: (-0.691043, -0.716013, -0.098913)
+	poseToBoneColumn3[x,y,z]: (8.442560, 47.419537, 3.722251)
+	--------------------
+	[Bone (node) index: 32]
+	name: v_weapon.Bip01_R_Finger32
+	parentBoneIndex: 31 (v_weapon.Bip01_R_Finger31)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.905661, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.689928, 0.715738, -0.108256)
+	poseToBoneColumn1[x,y,z]: (0.146393, -0.008502, -0.989190)
+	poseToBoneColumn2[x,y,z]: (-0.708921, -0.698318, -0.098913)
+	poseToBoneColumn3[x,y,z]: (8.733084, 47.213882, 3.722250)
+	--------------------
+	[Bone (node) index: 33]
+	name: v_weapon.Bip01_R_Finger4
+	parentBoneIndex: 20 (v_weapon.Bip01_R_Hand)
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (3.323326, 0.233749, -1.479075)
+	quat[x,y,z,w]: (0.013458, 0.161610, 0.012906, 0.986678)
+	rotation[x,y,z]: (0.032424, 0.324218, 0.031462)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.707610, 0.665896, -0.236370)
+	poseToBoneColumn1[x,y,z]: (0.303246, -0.015961, -0.952779)
+	poseToBoneColumn2[x,y,z]: (-0.638224, -0.745874, -0.190636)
+	poseToBoneColumn3[x,y,z]: (7.446602, 47.654449, 4.910737)
+	--------------------
+	[Bone (node) index: 34]
+	name: v_weapon.Bip01_R_Finger41
+	parentBoneIndex: 33 (v_weapon.Bip01_R_Finger4)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.963102, 0.000008, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.690553, 0.683569, -0.236370)
+	poseToBoneColumn1[x,y,z]: (0.302746, -0.023621, -0.952779)
+	poseToBoneColumn2[x,y,z]: (-0.656873, -0.729504, -0.190636)
+	poseToBoneColumn3[x,y,z]: (7.685957, 47.475338, 4.910737)
+	--------------------
+	[Bone (node) index: 35]
+	name: v_weapon.Bip01_R_Finger42
+	parentBoneIndex: 34 (v_weapon.Bip01_R_Finger41)
+	flags: 263 168 (0x00040400)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.682896, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.000000, 0.000000, 0.012639, 0.999920)
+	rotation[x,y,z]: (0.000000, 0.000000, 0.025279)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (-0.673054, 0.700805, -0.236370)
+	poseToBoneColumn1[x,y,z]: (0.302052, -0.031266, -0.952779)
+	poseToBoneColumn2[x,y,z]: (-0.675102, -0.712668, -0.190636)
+	poseToBoneColumn3[x,y,z]: (8.200821, 47.283161, 4.910737)
+	--------------------
+	[Bone (node) index: 36]
+	name: v_weapon.Bip01_R_ForeTwist
+	parentBoneIndex: -1 ([no parent bone])
+	flags: 263 424 (0x00040500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (-15.369725, 1.697995, 50.594070)
+	quat[x,y,z,w]: (-0.000151, 0.930313, 0.007828, 0.366682)
+	rotation[x,y,z]: (3.121820, 0.750851, 3.134124)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000048)
+	poseToBoneColumn0[x,y,z]: (-0.731088, -0.006021, 0.682256)
+	poseToBoneColumn1[x,y,z]: (0.005461, 0.999877, 0.014676)
+	poseToBoneColumn2[x,y,z]: (-0.682261, 0.014455, -0.730966)
+	poseToBoneColumn3[x,y,z]: (23.272457, -2.521683, 47.443707)
+	--------------------
+
+
+====== Animation Descs ======
+	[Animation Desc index: 0]
+	baseHeaderOffset: -10 068 (0xFFFFD8AC)
+	nameOffset: 6 977 (0x00001B41)
+		name: @idle
+	fps: 30.000000
+	flags: 0 (0x00000000)
+	frameCount: 1
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 108 (0x0000006C)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 0 (0x00000000)
+	sectionFrameCount: 0
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 0 (0x00000000)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 18 (0x00000012)
+		    STUDIO_ANIM_RAWPOS: (11.054688, 1.119141, 0.000000)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 1 (0x00000001)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 18 (0x00000012)
+		    STUDIO_ANIM_RAWPOS: (-1.697266, 15.367188, 50.593750)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 18 (0x00000012)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 18 (0x00000012)
+		    STUDIO_ANIM_RAWPOS: (-1.697266, 15.367188, 50.593750)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 19 (0x00000013)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 18 (0x00000012)
+		    STUDIO_ANIM_RAWPOS: (-1.697266, -15.367188, 50.593750)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 36 (0x00000024)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_RAWPOS: (-1.697266, -15.367188, 50.593750)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+	--------------------
+
+
+====== Sequence Descs ======
+	[Sequence Desc index: 0]
+	baseHeaderOffset: -10 272 (0xFFFFD7E0)
+	labelOffset: 6 779 (0x00001A7B)
+		label: idle
+	activityNameOffset: 5 812 (0x000016B4)
+		activityName: 
+	flags: 0 (0x00000000)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 0 (0x00000000)
+	eventCount: 0
+	eventOffset: 212 (0x000000D4)
+	bbMin.x: -4.412685
+	bbMin.y: -28.741962
+	bbMin.z: 0.000000
+	bbMax.x: 11.058979
+	bbMax.y: 28.741966
+	bbMax.z: 58.050972
+	blendCount: 1
+	animIndexOffset: 360 (0x00000168)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 212 (0x000000D4)
+	weightListOffset: 212 (0x000000D4)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 360 (0x00000168)
+	keyValueOffset: 364 (0x0000016C)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 364 (0x0000016C)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 0
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 18]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 19]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 20]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 21]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 22]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 23]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 24]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 25]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 26]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 27]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 28]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 29]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 30]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 31]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 32]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 33]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 34]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 35]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 36]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+
+
+====== Textures ======
+	[Texture index: 0]
+	00 nameOffset: 6 145 (ct_arms_gign)
+	--------------------
+
+
+====== Texture Paths ($cdmaterials) ======
+	[Texture Path index: 0]
+	models\weapons\v_models\arms\
+	--------------------
+
+
+====== Body Parts ======
+	[Body Part index: 0]
+	00 nameOffset: 6 420 (0x00001914)
+	name: arms
+	04 modelCount: 1
+	08 base: 1 (0x00000001)
+	0C modelOffset: 16 (0x00000010)
+	====== Models ======
+		[Model index: 0]
+		name: ct_arms.smd
+		type: 0 (0x00000000)
+		boundingRadius: 0.000000
+		meshCount: 1
+		meshOffset: 148 (0x00000094)
+		vertexCount: 8 772
+		vertexOffset: 0 (0x00000000)
+		tangentOffset: 0 (0x00000000)
+		attachmentCount: 0
+		attachmentOffset: 0 (0x00000000)
+		eyeballCount: 0
+		eyeballOffset: 264 (0x00000108)
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		====== Meshes ======
+			Total vertexCount: 8 772
+			--------------------
+			[Mesh index: 0]
+			materialIndex: 0 (0x00000000)
+			modelOffset: -148 (0xFFFFFF6C)
+			vertexCount: 8 772
+			vertexIndexStart: 0 (0x00000000)
+			flexCount: 0
+			flexOffset: 0 (0x00000000)
+			materialType: 0 (0x00000000)
+			materialParam: 0 (0x00000000)
+			id: 0 (0x00000000)
+			centerX: 0.000000
+			centerY: 0.000000
+			centerZ: 0.000000
+			vertexData.modelVertexDataP: 2 055 154 696 (0x7A7F2C08)
+			vertexData.lodVertexCount(0): 8 772 (0x00002244)
+			vertexData.lodVertexCount(1): 8 772 (0x00002244)
+			vertexData.lodVertexCount(2): 8 772 (0x00002244)
+			vertexData.lodVertexCount(3): 8 772 (0x00002244)
+			vertexData.lodVertexCount(4): 8 772 (0x00002244)
+			vertexData.lodVertexCount(5): 8 772 (0x00002244)
+			vertexData.lodVertexCount(6): 8 772 (0x00002244)
+			vertexData.lodVertexCount(7): 8 772 (0x00002244)
+			unused(0): 0 (0x00000000)
+			unused(1): 0 (0x00000000)
+			unused(2): 0 (0x00000000)
+			unused(3): 0 (0x00000000)
+			unused(4): 0 (0x00000000)
+			unused(5): 0 (0x00000000)
+			unused(6): 0 (0x00000000)
+			unused(7): 0 (0x00000000)
+			--------------------
+		--------------------
+	------------------------
+
+
+====== Hitbox Sets ======
+	[Hitbox Set index: 0]
+	nameOffset: 7 454 (0x00001D1E)
+		name: default
+	hitboxCount: 20
+	hitboxOffset: 12 (0x0000000C)
+	====== Hitboxes ======
+		[Hitbox index: 0]
+		boneIndex: 1
+		groupIndex: 0
+		boundingBoxMinX: -7.751448
+		boundingBoxMinY: -3.373259
+		boundingBoxMinZ: -2.859724
+		boundingBoxMaxX: 10.295582
+		boundingBoxMaxY: 2.611079
+		boundingBoxMaxZ: 2.917569
+		nameOffset: 7 416 (0x00001CF8)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 1]
+		boneIndex: 2
+		groupIndex: 0
+		boundingBoxMinX: -2.141037
+		boundingBoxMinY: -1.419900
+		boundingBoxMinZ: -2.458781
+		boundingBoxMaxX: 5.506170
+		boundingBoxMaxY: 1.559433
+		boundingBoxMaxZ: 2.270895
+		nameOffset: 7 348 (0x00001CB4)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 2]
+		boneIndex: 3
+		groupIndex: 0
+		boundingBoxMinX: -1.714511
+		boundingBoxMinY: -0.781547
+		boundingBoxMinZ: -1.021373
+		boundingBoxMaxX: 2.482851
+		boundingBoxMaxY: 2.003305
+		boundingBoxMaxZ: 1.664856
+		nameOffset: 7 280 (0x00001C70)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 3]
+		boneIndex: 4
+		groupIndex: 0
+		boundingBoxMinX: -0.109368
+		boundingBoxMinY: -0.758341
+		boundingBoxMinZ: -0.841453
+		boundingBoxMaxX: 1.741115
+		boundingBoxMaxY: 0.748973
+		boundingBoxMaxZ: 0.650764
+		nameOffset: 7 212 (0x00001C2C)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 4]
+		boneIndex: 5
+		groupIndex: 0
+		boundingBoxMinX: -0.954726
+		boundingBoxMinY: -0.722828
+		boundingBoxMinZ: -0.841453
+		boundingBoxMaxX: 1.427368
+		boundingBoxMaxY: 0.562585
+		boundingBoxMaxZ: 0.722784
+		nameOffset: 7 144 (0x00001BE8)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 5]
+		boneIndex: 6
+		groupIndex: 0
+		boundingBoxMinX: -0.093390
+		boundingBoxMinY: -1.142609
+		boundingBoxMinZ: -0.799064
+		boundingBoxMaxX: 1.562063
+		boundingBoxMaxY: 0.738940
+		boundingBoxMaxZ: 0.687419
+		nameOffset: 7 076 (0x00001BA4)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 6]
+		boneIndex: 9
+		groupIndex: 0
+		boundingBoxMinX: -0.475312
+		boundingBoxMinY: -0.924112
+		boundingBoxMinZ: -0.807820
+		boundingBoxMaxX: 2.313470
+		boundingBoxMaxY: 1.011760
+		boundingBoxMaxZ: 0.864162
+		nameOffset: 7 008 (0x00001B60)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 7]
+		boneIndex: 12
+		groupIndex: 0
+		boundingBoxMinX: -9.562076
+		boundingBoxMinY: -1.132153
+		boundingBoxMinZ: -1.304083
+		boundingBoxMaxX: 1.846163
+		boundingBoxMaxY: 1.734349
+		boundingBoxMaxZ: 1.392050
+		nameOffset: 6 940 (0x00001B1C)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 8]
+		boneIndex: 15
+		groupIndex: 0
+		boundingBoxMinX: -0.568448
+		boundingBoxMinY: -0.998852
+		boundingBoxMinZ: -0.669783
+		boundingBoxMaxX: 1.297307
+		boundingBoxMaxY: 0.702713
+		boundingBoxMaxZ: 0.770874
+		nameOffset: 6 872 (0x00001AD8)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 9]
+		boneIndex: 18
+		groupIndex: 0
+		boundingBoxMinX: -7.751448
+		boundingBoxMinY: -3.375314
+		boundingBoxMinZ: -2.863971
+		boundingBoxMaxX: 11.567156
+		boundingBoxMaxY: 2.609750
+		boundingBoxMaxZ: 2.914866
+		nameOffset: 6 804 (0x00001A94)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 10]
+		boneIndex: 19
+		groupIndex: 0
+		boundingBoxMinX: -7.751461
+		boundingBoxMinY: -3.373233
+		boundingBoxMinZ: -2.917564
+		boundingBoxMaxX: 10.295586
+		boundingBoxMaxY: 2.611108
+		boundingBoxMaxZ: 2.859729
+		nameOffset: 6 736 (0x00001A50)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 11]
+		boneIndex: 20
+		groupIndex: 0
+		boundingBoxMinX: -2.141057
+		boundingBoxMinY: -1.419890
+		boundingBoxMinZ: -2.270966
+		boundingBoxMaxX: 5.506164
+		boundingBoxMaxY: 1.559432
+		boundingBoxMaxZ: 2.458711
+		nameOffset: 6 668 (0x00001A0C)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 12]
+		boneIndex: 21
+		groupIndex: 0
+		boundingBoxMinX: -1.714540
+		boundingBoxMinY: -0.781488
+		boundingBoxMinZ: -1.664868
+		boundingBoxMaxX: 2.482830
+		boundingBoxMaxY: 2.003370
+		boundingBoxMaxZ: 1.021360
+		nameOffset: 6 600 (0x000019C8)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 13]
+		boneIndex: 22
+		groupIndex: 0
+		boundingBoxMinX: -0.109392
+		boundingBoxMinY: -0.758275
+		boundingBoxMinZ: -0.650776
+		boundingBoxMaxX: 1.741095
+		boundingBoxMaxY: 0.749039
+		boundingBoxMaxZ: 0.841443
+		nameOffset: 6 532 (0x00001984)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 14]
+		boneIndex: 23
+		groupIndex: 0
+		boundingBoxMinX: -0.954752
+		boundingBoxMinY: -0.722759
+		boundingBoxMinZ: -0.722795
+		boundingBoxMaxX: 1.427347
+		boundingBoxMaxY: 0.562652
+		boundingBoxMaxZ: 0.841440
+		nameOffset: 6 464 (0x00001940)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 15]
+		boneIndex: 24
+		groupIndex: 0
+		boundingBoxMinX: -0.093395
+		boundingBoxMinY: -1.142602
+		boundingBoxMinZ: -0.687493
+		boundingBoxMaxX: 1.562059
+		boundingBoxMaxY: 0.738946
+		boundingBoxMaxZ: 0.798991
+		nameOffset: 6 396 (0x000018FC)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 16]
+		boneIndex: 27
+		groupIndex: 0
+		boundingBoxMinX: -0.475310
+		boundingBoxMinY: -0.924110
+		boundingBoxMinZ: -0.864237
+		boundingBoxMaxX: 2.313472
+		boundingBoxMaxY: 1.011760
+		boundingBoxMaxZ: 0.807745
+		nameOffset: 6 328 (0x000018B8)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 17]
+		boneIndex: 30
+		groupIndex: 0
+		boundingBoxMinX: -9.562076
+		boundingBoxMinY: -1.132141
+		boundingBoxMinZ: -1.392122
+		boundingBoxMaxX: 1.846174
+		boundingBoxMaxY: 1.734356
+		boundingBoxMaxZ: 1.304032
+		nameOffset: 6 260 (0x00001874)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 18]
+		boneIndex: 33
+		groupIndex: 0
+		boundingBoxMinX: -0.568428
+		boundingBoxMinY: -0.998849
+		boundingBoxMinZ: -0.770941
+		boundingBoxMaxX: 1.297323
+		boundingBoxMaxY: 0.702712
+		boundingBoxMaxZ: 0.669717
+		nameOffset: 6 192 (0x00001830)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 19]
+		boneIndex: 36
+		groupIndex: 0
+		boundingBoxMinX: -7.751461
+		boundingBoxMinY: -3.375288
+		boundingBoxMinZ: -2.914861
+		boundingBoxMaxX: 11.567157
+		boundingBoxMaxY: 2.609779
+		boundingBoxMaxZ: 2.863975
+		nameOffset: 6 124 (0x000017EC)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+	--------------------

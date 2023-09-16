@@ -1,0 +1,14 @@
+materials/models/player/paradise/eve/slow_eve.vmt
+materials/models/player/paradise/eve/slow_eve.vtf
+materials/models/player/paradise/eve/slow_glass.vmt
+materials/models/player/paradise/eve/slow_glass.vtf
+materials/models/player/paradise/eve/slow_light.vmt
+materials/models/player/paradise/eve/slow_light.vtf
+materials/models/player/paradise/eve/slow_light_2.vtf
+materials/models/player/paradise/eve/slow_mask.vmt
+materials/models/player/paradise/eve/torso.vmt
+materials/models/player/paradise/eve/torso.vtf
+models/player/paradise/eve/eve.dx90.vtx
+models/player/paradise/eve/eve.mdl
+models/player/paradise/eve/eve.phy
+models/player/paradise/eve/eve.vvd

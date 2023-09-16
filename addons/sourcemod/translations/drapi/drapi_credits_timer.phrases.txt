@@ -1,0 +1,65 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+	"OnTeamCTWin"
+	{
+
+		"#format"		"{1:i}"
+    		"fr"			"[{GREEN}CREDITS{NORMAL}] Vous avez gagné {RED}{1}{NORMAL} credits pour avoir gagné le round."
+		"en"			"[{GREEN}CREDITS{NORMAL}] You earn {RED}{1}{NORMAL} credits for winning this round."
+	}
+
+	"OnTeamTWin"
+	{
+
+		"#format"		"{1:i}"
+    		"fr"			"[{GREEN}CREDITS{NORMAL}] Vous avez gagné {RED}{1}{NORMAL} credits pour avoir gagné le round."
+		"en"			"[{GREEN}CREDITS{NORMAL}] You earn {RED}{1}{NORMAL} credits for winning this round."
+	}
+
+	"OnTimerWorldRecord"
+	{
+		"#format"		"{1:i}"
+    		"fr"			"[{GREEN}CREDITS{NORMAL}] Vous avez gagné {RED}{1}{NORMAL} credits pour avoir battu le record mondial."
+		"en"			"[{GREEN}CREDITS{NORMAL}] You earn {RED}{1}{NORMAL} credits for beating the world record."
+	}
+
+	"OnTimerPersonalRecord"
+	{
+		"#format"		"{1:i}"
+    		"fr"			"[{GREEN}CREDITS{NORMAL}] Vous avez gagné {RED}{1}{NORMAL} credits pour avoir battu votre record."
+		"en"			"[{GREEN}CREDITS{NORMAL}] You earn {RED}{1}{NORMAL} credits for beating your record."
+	}
+
+	"OnTimerTop10Record"
+	{
+		"#format"		"{1:i}"
+    		"fr"			"[{GREEN}CREDITS{NORMAL}] Vous avez gagné {RED}{1}{NORMAL} credits pour être classé dans le TOP10."
+		"en"			"[{GREEN}CREDITS{NORMAL}] You earn {RED}{1}{NORMAL} credits for being in the TOP10."
+	}
+
+	"OnTimerFirstRecord"
+	{
+		"#format"		"{1:i}"
+    		"fr"			"[{GREEN}CREDITS{NORMAL}] Vous avez gagné {RED}{1}{NORMAL} credits pour avoir fait le 1er record."
+		"en"			"[{GREEN}CREDITS{NORMAL}] You earn {RED}{1}{NORMAL} credits for doing the first record."
+	}
+
+	"OnTimerRecord"
+	{
+		"#format"		"{1:i}"
+    		"fr"			"[{GREEN}CREDITS{NORMAL}] Vous avez gagné {RED}{1}{NORMAL} credits pour avoir être arrivé à la fin."
+		"en"			"[{GREEN}CREDITS{NORMAL}] You earn {RED}{1}{NORMAL} credits for arriving at the end."
+	}
+
+}
+

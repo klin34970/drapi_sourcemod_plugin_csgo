@@ -1,0 +1,102 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+/******************* MESSAGE CMD *******************/
+
+   	"Medic used"
+	{
+    		"fr"			"[{GREEN}MEDIC{NORMAL}] Vous avez utilisé votre kit de soin."
+		"en"			"[{GREEN}MEDIC{NORMAL}] You used your medic."
+	}
+
+	"Medic can be used"
+	{
+    		"fr"			"[{GREEN}MEDIC{NORMAL}] Vous ne pouvez pas utiliser vote kit de soin."
+		"en"			"[{GREEN}MEDIC{NORMAL}] You can not use your medic."
+	}
+
+	"Medic Must kill zombies"
+	{
+		"#format"		"{1:i}"
+    		"fr"			"[{GREEN}MEDIC{NORMAL}] Vous devez tuer {RED}{1}{NORMAL} Zombie(s) pour utiliser vote kit de soin."
+		"en"			"[{GREEN}MEDIC{NORMAL}] You must kill {RED}{1}{NORMAL} Zombie(s) to use your medic."
+	}
+
+	"Medic Must wait"
+	{
+		"#format"		"{1:i}"
+    		"fr"			"[{GREEN}MEDIC{NORMAL}] Vous devez attendre {RED}{1}s{NORMAL} pour utiliser vote kit de soin."
+		"en"			"[{GREEN}MEDIC{NORMAL}] You must wait {RED}{1}s{NORMAL} to use your medic."
+	}
+
+	"Medic Must wait and kill"
+	{
+		"#format"		"{1:i},{2:i}"
+    		"fr"			"[{GREEN}MEDIC{NORMAL}] Vous devez attendre {RED}{1}s{NORMAL} ou tuer {RED}{2}{NORMAL} Zombie(s) pour utiliser vote kit de soin."
+		"en"			"[{GREEN}MEDIC{NORMAL}] You must wait {RED}{1}s{NORMAL} or kill {RED}{2}{NORMAL} Zombie(s) to use your medic."
+	}
+
+	"Medic player die"
+	{
+    		"fr"			"[{GREEN}MEDIC{NORMAL}] Vous ne pouvez pas utiliser le kit de soin en étant mort."
+		"en"			"[{GREEN}MEDIC{NORMAL}] You cannot use medic while you are dead."
+	}
+
+	"Medic player is zombie"
+	{
+   		"fr"			"[{GREEN}MEDIC{NORMAL}] Vous ne pouvez pas utiliser le kit de soin en étant Zombie."
+		"en"			"[{GREEN}MEDIC{NORMAL}] You cannot use medic while you are Zombie."
+	}
+
+	"MenuMedic_POURCENTAGE_MENU_TITLE_10"
+	{
+   		"en"			"10%"
+	}
+	"MenuMedic_POURCENTAGE_MENU_TITLE_20"
+	{
+   		"en"			"20%"
+	}
+	"MenuMedic_POURCENTAGE_MENU_TITLE_30"
+	{
+   		"en"			"30%"
+	}
+	"MenuMedic_POURCENTAGE_MENU_TITLE_40"
+	{
+   		"en"			"40%"
+	}
+	"MenuMedic_POURCENTAGE_MENU_TITLE_50"
+	{
+   		"en"			"50%"
+	}
+
+	"MenuMedic_TITLE"
+	{
+		"#format"		"{1:i}"
+   		"en"			"Medic: {1}‰ of life"
+   		"fr"			"Medic: {1}‰ de vie"
+	}
+
+	"MenuZombieRiotMedic_TITLE"
+	{
+   		"en"			"Medic"
+   		"fr"			"Medic"
+	}
+	"MenuMedic_POURCENTAGE_MENU_TITLE"
+	{
+   		"en"			"‰ of life settings"
+   		"fr"			"Paramètres ‰ de vie"
+	}
+
+/******************* MESSAGE CMD *******************/
+
+}
+

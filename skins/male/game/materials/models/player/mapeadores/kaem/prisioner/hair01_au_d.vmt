@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\mapeadores\kaem\prisioner\hair01_au_d"
+                 $translucent 1
+
+}

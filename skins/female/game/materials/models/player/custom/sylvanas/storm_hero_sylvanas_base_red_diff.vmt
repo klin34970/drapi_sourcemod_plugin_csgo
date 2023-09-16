@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/custom/sylvanas/storm_hero_sylvanas_base_red_diff"
+	"$bumpmap" "models/player/custom/sylvanas/storm_hero_sylvanas_base_norm"
+	$alphatest "1"
+	$allowalphatocoverage "1"
+	$alphatestreference "1"
+	"$phongtint" "[1.25 0.75 0.55]"
+	"$phongexponent" "11"
+	"$phongalbedotint" "1"
+	"$phong" "1"
+	"$halflambert" "1"
+	"$phongboost"	"0.01"
+	"$phongfresnelranges"	"[5 6 8]"
+}

@@ -1,0 +1,331 @@
+//**********************************************  Valid Colors	***********************************************
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+//*************************************************************************************************************
+
+"Phrases"
+{
+	"Day1"
+	{
+		"en"			"Outbreak"
+		"fr"			"Déclenchement"
+
+	}
+	"StoryDay1"
+	{
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] This is where it all began."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] C'est ici que tout a commencé."
+
+	}
+
+	"Day2"
+	{
+		"en"			"Dawn of the dead"
+		"fr"			"L'Armée des morts"
+
+	}
+	"StoryDay2"
+	{
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Les morts se sont mis à revivre."
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] The dead began to revive."
+
+	}
+
+	"Day3"
+	{
+		"en"			"Save your life!"
+		"fr"			"Sauvez votre vie!"
+
+	}
+	"StoryDay3"
+	{
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Fuyez, votre vie en dépend."
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Flee, your life depends on it."
+
+	}
+
+	"Day4"
+	{
+		"en"			"What Lies Ahead"
+		"fr"			"Ce qui nous attend"
+
+	}
+	"StoryDay4"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day5"
+	{
+		"en"			"Walk with Me"
+		"fr"			"Marchez avec moi"
+
+	}
+	"StoryDay5"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day6"
+	{
+		"en"			"Hounded"
+		"fr"			"La traque"
+
+	}
+	"StoryDay6"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day7"
+	{
+		"en"			"The Tombs"
+		"fr"			"Le Tombeau"
+
+	}
+	"StoryDay7"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day8"
+	{
+		"en"			"Infected"
+		"fr"			"Infectés"
+
+	}
+	"StoryDay8"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day9"
+	{
+		"en"			"Dead Weight"
+		"fr"			"Poids mort"
+
+	}
+	"StoryDay9"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day10"
+	{
+		"en"			"Triggerfinger"
+		"fr"			"Gachette"
+
+	}
+	"StoryDay10"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day11"
+	{
+		"en"			"Live Bait"
+		"fr"			"Appât vivant"
+
+	}
+	"StoryDay11"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day12"
+	{
+		"en"			"Guts"
+		"fr"			"Tripes"
+
+	}
+	"StoryDay12"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day13"
+	{
+		"en"			"Everything Dies"
+		"fr"			"Tout le monde meurs"
+
+	}
+	"StoryDay13"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day14"
+	{
+		"en"			"Bloodletting"
+		"fr"			"Saignée"
+
+	}
+	"StoryDay14"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day15"
+	{
+		"en"			"Save the Last One"
+		"fr"			"Tout pour le tout"
+
+	}
+	"StoryDay15"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day16"
+	{
+		"en"			"Dead Already"
+		"fr"			"Déjà mort"
+
+	}
+	"StoryDay16"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day17"
+	{
+		"en"			"DayName"
+		"fr"			"DayName"
+
+	}
+	"StoryDay17"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day18"
+	{
+		"en"			"DayName"
+		"fr"			"DayName"
+
+	}
+	"StoryDay18"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day19"
+	{
+		"en"			"DayName"
+		"fr"			"DayName"
+
+	}
+	"StoryDay19"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+	"Day20"
+	{
+		"en"			"DayName"
+		"fr"			"DayName"
+
+	}
+	"StoryDay20"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day21"
+	{
+		"en"			"DayName"
+		"fr"			"DayName"
+
+	}
+	"StoryDay21"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day22"
+	{
+		"en"			"DayName"
+		"fr"			"DayName"
+
+	}
+	"StoryDay22"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day23"
+	{
+		"en"			"DayName"
+		"fr"			"DayName"
+
+	}
+	"StoryDay23"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"Day24"
+	{
+		"en"			"DayName"
+		"fr"			"DayName"
+
+	}
+	"StoryDay24"
+	{
+		"en"			""
+		"fr"			""
+
+	}
+
+	"StoryDayFinal"
+	{
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Nous y voilà."
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Here we are."
+
+	}
+	"DayFinal"
+	{
+		"en"			"Executioner"
+		"fr"			"Bourreau"
+
+	}
+
+}

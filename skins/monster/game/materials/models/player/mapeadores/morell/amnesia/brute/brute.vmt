@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	$basetexture "models\player\mapeadores\morell\amnesia\brute\brute"
+	$bumpmap "models\player\mapeadores\morell\amnesia\brute\brute_n"
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\natalya\roleplay\rg-skin-back"
+	"$halflambert" 1
+}

@@ -1,0 +1,92 @@
+//Strings
+
+//Weapons Pistols
+new String:S_weapons_pistols_csgo[WEAPON_PISTOLS_CSGO][]		= {
+																	"weapon_usp_silencer", //64
+																	"weapon_glock", //4
+																	"weapon_p250", //36
+																	"weapon_fiveseven", //3
+																	"weapon_deagle", //1
+																	"weapon_elite", //2
+																	"weapon_hkp2000",//61
+																	"weapon_tec9" //30
+																};
+new String:S_weapons_pistols_csgo_index[WEAPON_PISTOLS_CSGO][]	= {
+																	"64", //64
+																	"4", //4
+																	"36", //36
+																	"3", //3
+																	"1", //1
+																	"2", //2
+																	"61",//61
+																	"30" //30
+																};
+
+
+
+//Weapons Heavy
+new String:S_weapons_heavy_csgo[WEAPON_HEAVY_CSGO][]			= {
+																	"weapon_nova", //35
+																	"weapon_xm1014", //25
+																	"weapon_mag7", //27
+																	"weapon_sawedoff" //29
+																};
+new String:S_weapons_heavy_csgo_index[WEAPON_HEAVY_CSGO][]		= {
+																	"35",  //35
+																	"25", //25
+																	"27", //27
+																	"29" //29
+																};
+
+//Weapons SMGs
+new String:S_weapons_smgs_csgo[WEAPON_SMGS_CSGO][]				= {
+																	"weapon_mp9", //34
+																	"weapon_mac10", //17
+																	"weapon_mag7", //27
+																	"weapon_mp7", //33
+																	"weapon_ump45", //24
+																	"weapon_p90", //19
+																	"weapon_bizon" //26
+																};	
+new String:S_weapons_smgs_csgo_index[WEAPON_SMGS_CSGO][]		= {
+																	"34", //34
+																	"17", //17
+																	"27", //27
+																	"33", //33
+																	"24", //24
+																	"19", //19
+																	"26" //26
+																};	
+//Weapons Rifles
+new String:S_weapons_rifles_csgo[WEAPON_RIFLES_CSGO][]			= {
+																	"weapon_famas", //10
+																	"weapon_m4a1", //16
+																	"weapon_m4a1_silencer", //60
+																	"weapon_galilar", //13
+																	"weapon_ak47", //7
+																	"weapon_ssg08", //40
+																	"weapon_aug", //8
+																	"weapon_sg556", //39
+																	"weapon_awp", //9
+																	"weapon_scar20", //38
+																	"weapon_g3sg1" //11
+																};
+new String:S_weapons_rifles_csgo_index[WEAPON_RIFLES_CSGO][]	= {
+																	"10", //10
+																	"16", //16
+																	"60", //60
+																	"13", //13
+																	"7", //7
+																	"40", //40
+																	"8", //8
+																	"39", //39
+																	"9", //9
+																	"38", //38
+																	"11" //11
+																};
+															
+//Weapons Grenades
+new String:S_weapons_grenades_csgo[WEAPON_GRENADE_CSGO][]		= {
+																	"weapon_hegrenade",
+																	"weapon_smokegrenade"
+																};

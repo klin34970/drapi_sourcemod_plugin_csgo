@@ -1,0 +1,90 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+	"Spawn Editor Enabled"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] Edit mode {GREEN}enabled{NORMAL}."
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] El modo de edición {GREEN}activado{NORMAL}."
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Modifier le mode {GREEN}activé{NORMAL}."
+	}
+
+	"Spawn Editor Disabled"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] Edit mode {RED}disabled{NORMAL}."
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] El modo de edición {RED}deshabilitado{NORMAL}."
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Modifier le mode {RED}désactivé{NORMAL}."
+	}
+
+	"Spawn Editor Teleported"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] Teleported to spawn point"
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] Teletransportado a desovar puntos"
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Téléporté pour frayer le point"
+	}
+
+	"Spawn Editor No Spawn"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] There are no spawn points."
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] No hay puntos de regeneración."
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Il n'y a pas de points de spawn."
+	}
+
+	"Spawn Editor Deleted Spawn"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] Deleted spawn point"
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] Punto de desovar eliminados"
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Point de spawn supprimé"
+	}
+
+	"Spawn Editor Deleted All"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] All spawn points have been deleted."
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] Se han eliminado todos los puntos de regeneración."
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Tous les points spawn ont été supprimés."
+	}
+
+	"Spawn Editor Spawn Added"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] Added spawn point"
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] Punto de desovar añadido"
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Point de spawn Ajouté"
+	}
+
+	"Spawn Editor Spawn Not Added"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] Could not add spawn point (max limit reached)."
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] No se pudo añadir punto de desovar (límite máximo alcanzado)."
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Impossible d'ajouter le point spawn (limite maximale atteinte)."
+	}
+
+	"Spawn Editor Spawn Inserted"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] Inserted spawn point at"
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] Punto de desovar Insertado en"
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Point de spawn inséré à"
+	}
+
+	"Spawn Editor Config Saved"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] Configuration has been saved."
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] La configuración se ha guardado."
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Configuration a été enregistrée."
+	}
+
+	"Spawn Editor Config Not Saved"
+	{
+		"en"	"[{GREEN}PROJECTORS{NORMAL}] Configuration could not be saved."
+		"es"	"[{GREEN}PROJECTORS{NORMAL}] La configuración no ha podido guardar."
+		"fr"	"[{GREEN}PROJECTORS{NORMAL}] Configuration n'a pas pu être sauvé."
+	}
+
+}
+

@@ -1,0 +1,214 @@
+//**********************************************  Valid Colors	***********************************************
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+//*************************************************************************************************************
+
+"Phrases"
+{
+	"Menu Track bomb settings"
+	{
+		"en"			"Menu: Track Bomb"
+		"fr"			"Menu: Track Bomb"
+	}
+	"Track Bomb menu settings sound"
+	{
+		"#format"		"{1:s}"
+		"en"			"Sounds: {1}"
+		"fr"			"Sons: {1}"
+	}
+	"Track Bomb site bomb menu title"
+	{
+		"en"			"Track Bomb menu: Choose the site bomb"
+		"fr"			"Traqueur de bombe menu: Choix du site bombe"
+	}
+	"Track Bomb way menu title"
+	{
+		"en"			"Track Bomb menu: Choose the way"
+		"fr"			"Traqueur de bombe menu: Choix du chemin"
+	}
+	"Track Bomb direction menu"
+	{
+		"#format"		"{1:s}"
+		"en"			"Bomb site: {1}"
+		"fr"			"Site bombe: {1}"
+	}
+	"Track Bomb way menu"
+	{
+		"#format"		"{1:s}"
+		"en"			"Way by: {1}"
+		"fr"			"Par: {1}"
+	}
+	"Track Bomb direction and way chat holder"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}TRACK BOMB{NORMAL}] - The bearer of bomb is: {RED}{1}{NORMAL}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Le porteur de bombe est: {RED}{1}{NORMAL}"
+	}
+	"Track Bomb direction and way chat direction"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}TRACK BOMB{NORMAL}] - Objective bomb site: {GREEN}{1}{NORMAL}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Objectif site bombe: {GREEN}{1}{NORMAL}"
+	}
+	"Track Bomb direction and way chat way"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}TRACK BOMB{NORMAL}] - Via: {GREEN}{1}{NORMAL}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Par: {GREEN}{1}{NORMAL}"
+	}
+	"Track Bomb direction and way hint"
+	{
+		"#format"		"{1:s},{2:s}"
+        "en"			"Objective bomb site: <font color='#009900'>{1}</font>.\n Via: <font color='#009900'>{2}</font>."
+		"fr"			"Objectif site bombe: <font color='#009900'>{1}</font>.\n Par: <font color='#009900'>{2}</font>."
+	}
+	"Track Bomb direction and way alert"
+	{
+		"#format"		"{1:s},{2:s}"
+        "en"			"Objective bomb site: {1}.\n Via: {2}."
+		"fr"			"Objectif site bombe: {1}.\n Via: {2}."
+	}
+	"Track bomb bomb dropped chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb dropped at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe jettée à: {1}"
+	}
+	"Track bomb bomb dropped hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb dropped at: <font color='#009900'>{1}</font>"
+		"fr"			"Bombe jettée à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb dropped alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb dropped at: {1}"
+		"fr"			"Bombe jettée à: {1}"
+	}
+	"Track bomb bomb pickup chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb pickup at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe ramassée à: {1}"
+	}
+	"Track bomb bomb pickup hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb pickup at: <font color='#009900'>{1}</font>"
+		"fr"			"Bombe ramassée à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb pickup alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb pickup at: {1}"
+		"fr"			"Bombe ramassée à: {1}"
+	}
+	"Track bomb bomb planted chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb planted at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe plantée à: {1}"
+	}
+	"Track bomb bomb planted hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb planted at: <font color='#009900'>{1}</font>"
+		"fr"			"Bombe plantée à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb planted alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb planted at: {1}"
+		"fr"			"Bombe plantée à: {1}"
+	}
+	"Track bomb bomb player die chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - The bearer of bomb die at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Le porteur de bombe est mort à: {1}"
+	}
+	"Track bomb bomb player die hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"The bearer of bomb die at: <font color='#009900'>{1}</font>"
+		"fr"			"Le porteur de bombe est mort à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb player die alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"The bearer of bomb die at: {1}"
+		"fr"			"Le porteur de bombe est mort à: {1}"
+	}
+	"Track bomb bomb abort chat"
+	{
+		"#format"		"{1:s}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb aborted at: {1}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Plantage interrompu à: {1}"
+	}
+	"Track bomb bomb abort hint"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb aborted at: <font color='#009900'>{1}</font>"
+		"fr"			"Plantage interrompu à: <font color='#009900'>{1}</font>"
+	}
+	"Track bomb bomb abort alert"
+	{
+		"#format"		"{1:s}"
+        "en"			"Bomb aborted at: {1}"
+		"fr"			"Plantage interrompu à: {1}"
+	}
+	"Track Bomb holder explode chat"
+	{
+		"#format"		"{1:s},{2:s},{3:i},{4:i}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb hit {3}/{4}. {1} {RED}exploded{NORMAL} {2}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe touchée {3}/{4}. {1} {RED}a explosé{NORMAL} {2}"
+	}
+	"Track Bomb holder explode hint"
+	{
+		"#format"		"{1:s},{2:s},{3:i},{4:i}"
+        "en"			"Bomb hit {3}/{4} \n{1} <font color='#FF0000'>exploded</font> {2}"
+		"fr"			"Bombe touchée {3}/{4} \n{1} <font color='#FF0000'>a explosé</font> {2}"
+	}
+	"Track Bomb holder explode alert"
+	{
+		"#format"		"{1:s},{2:s},{3:i},{4:i}"
+        "en"			"Bomb hit {3}/{4} \n{1} exploded {2}"
+		"fr"			"Bombe touchée {3}/{4} \n{1} a explosé {2}"
+	}
+	"Track bomb bomb hit terro chat"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - {RED}Warning{NORMAL}: bomb hit {1}/{2}"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - {RED}Attention{NORMAL}: Bombe touchée {1}/{2}"
+	}
+	"Track bomb bomb hit terro hint"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"<font color='#FF0000'>Warning</font>: bomb hit {1}/{2}"
+		"fr"			"<font color='#FF0000'>Attention</font>: Bombe touchée {1}/{2}"
+	}
+	"Track bomb bomb hit terro alert"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"Bomb hit {1}/{2}"
+		"fr"			"Bombe touchée {1}/{2}"
+	}
+	"Track bomb bomb hit ct chat"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"[{GREEN}TRACK BOMB{NORMAL}] - Bomb hit {1}/{2}. Keep going!"
+		"fr"			"[{GREEN}TRACK BOMB{NORMAL}] - Bombe touchée {1}/{2}. Continuer comme ça!"
+	}
+	"Track bomb bomb hit ct hint"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"Bomb hit {1}/{2} \nKeep going!"
+		"fr"			"Bombe touchée {1}/{2} \nContinuer comme ça!"
+	}
+	"Track bomb bomb hit ct alert"
+	{
+		"#format"		"{1:i},{2:i}"
+        "en"			"Bomb hit {1}/{2} \nKeep going!"
+		"fr"			"Bombe touchée {1}/{2} \nContinuer comme ça!"
+	}
+}

@@ -1,0 +1,7 @@
+materials/models/player/marvel/ghostrider/body.vmt
+materials/models/player/marvel/ghostrider/body.vtf
+materials/models/player/marvel/ghostrider/body_n.vtf
+models/player/marvel/ghostrider/ghostrider_t.dx90.vtx
+models/player/marvel/ghostrider/ghostrider_t.mdl
+models/player/marvel/ghostrider/ghostrider_t.phy
+models/player/marvel/ghostrider/ghostrider_t.vvd

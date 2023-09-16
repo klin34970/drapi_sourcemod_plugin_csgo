@@ -1,0 +1,164 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+	"Begin Event"
+	{
+		"fr"			"[{GREEN}KDO{NORMAL}] {BLUE}La soirée {PINK}cadeaux {RED}a commencée{NORMAL}!"
+		"en"			"[{GREEN}GIFTS{NORMAL}] {BLUE}The evening {PINK}gifts {RED}started{NORMAL}!"
+	}
+
+	"End Event"
+	{
+		"fr"			"[{GREEN}KDO{NORMAL}] {BLUE}La soirée {PINK}cadeaux {RED}est terminée{NORMAL}! Vous aurez vos {PINK}cadeaux {RED}bientôt{NORMAL}!"
+		"en"			"[{GREEN}GIFTS{NORMAL}] {BLUE}The evening {PINK}gifts {RED}is over{NORMAL}! You'll get your {PINK}gifts {RED}soon{NORMAL}!"
+	}
+
+	"Next Gifts Warmup"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fr"			"[{GREEN}KDO{NORMAL}] Les {PINK}cadeaux{NORMAL} ne sont {RED}pas distribués{NORMAL} pendant {RED}l'échauffement{NORMAL}! Vous devez attendre: {RED}{1}min {2}s{NORMAL} ."
+		"en"			"[{GREEN}GIFTS{NORMAL}] {PINK}Gifts{NORMAL} are {RED}not distributed{NORMAL} during {RED}warmup{NORMAL}! You have to wait: {RED}{1}min {2}s{NORMAL} ."
+	}
+
+	"Begin Event First Gifts"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fr"			"[{GREEN}KDO{NORMAL}] Les {RED}1er{NORMAL} {PINK}cadeaux{NORMAL} seront donnés dans: {RED}{1}min {2}s{NORMAL} ."
+		"en"			"[{GREEN}GIFTS{NORMAL}] The {RED}1st{NORMAL} {PINK}gifts{NORMAL} will be given in: {RED}{1}min {2}s{NORMAL} ."
+	}
+
+	"VIP Gifts"
+	{
+		"#format"		"{1:i}"
+		"fr"			"[{GREEN}KDO{NORMAL}] {RED}{1}{NORMAL} {PINK}cadeaux{NORMAL} a gagner pour les {GREEN}VIP{NORMAL}!"
+		"en"			"[{GREEN}GIFTS{NORMAL}] {RED}{1}{NORMAL} {PINK}gifts{NORMAL} to win for the {GREEN}VIP{NORMAL}!"
+	}
+
+	"NO-VIP Gifts"
+	{
+		"#format"		"{1:i}"
+		"fr"			"[{GREEN}KDO{NORMAL}] {RED}{1}{NORMAL} {PINK}cadeaux{NORMAL} a gagner pour les {GREEN}NON-VIP{NORMAL}!"
+		"en"			"[{GREEN}GIFTS{NORMAL}] {RED}{1}{NORMAL} {PINK}gifts{NORMAL} to win for the {GREEN}NO-VIP{NORMAL}!"
+	}
+
+	"Next Gifts NVIP"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fr"			"[{GREEN}KDO{NORMAL}] Le {RED}prochain {PINK}cadeau {GREEN}(VIP/NON-VIP){NORMAL} sera donné dans: {RED}{1}min {2}s{NORMAL} ."
+		"en"			"[{GREEN}GIFTS{NORMAL}] The {RED}next {PINK}gift {GREEN}(VIP/NON-VIP){NORMAL} will be given: {RED}{1}min {2}s{NORMAL} ."
+	}
+
+	"Next Gifts VIP"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fr"			"[{GREEN}KDO{NORMAL}] Le {RED}prochain {PINK}cadeau {GREEN}(VIP){NORMAL} sera donné dans: {RED}{1}min {2}s{NORMAL} ."
+		"en"			"[{GREEN}GIFTS{NORMAL}] The {RED}next {PINK}gift {GREEN}(VIP){NORMAL} will be given in: {RED}{1}min {2}s{NORMAL} ."
+	}
+
+	"Next Gifts N"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fr"			"[{GREEN}KDO{NORMAL}] Le {RED}prochain {PINK}cadeau {GREEN}(NON-VIP){NORMAL} sera donné dans: {RED}{1}min {2}s{NORMAL} ."
+		"en"			"[{GREEN}GIFTS{NORMAL}] The {RED}next {PINK}gift {GREEN}(NON-VIP){NORMAL} will be given in: {RED}{1}min {2}s{NORMAL} ."
+	}
+
+	"No VIP Gifts"
+	{
+		"fr"			"[{GREEN}KDO{NORMAL}] Il n'y a {RED}plus de {PINK}cadeaux {GREEN}VIP{NORMAL} à gagner."
+		"en"			"[{GREEN}GIFTS{NORMAL}] There are {RED}no{NORMAL} more {GREEN}VIP {PINK}gifts{NORMAL} to win."
+	}
+
+	"No NON-VIP Gifts"
+	{
+		"fr"			"[{GREEN}KDO{NORMAL}] Il n'y a {RED}plus de {PINK}cadeaux {GREEN}NON-VIP{NORMAL} à gagner."
+		"en"			"[{GREEN}GIFTS{NORMAL}] There are {RED}no{NORMAL} more {GREEN}NO-VIP {PINK}gifts{NORMAL} to win."
+	}
+
+	"Winner"
+	{
+		"#format"		"{1:N},{2:s}"
+		"fr"			"[{GREEN}KDO{NORMAL}] {BLUE}{1} a {RED}gagné{NORMAL}: {PURPLE}{2}{NORMAL}."
+		"en"			"[{GREEN}GIFTS{NORMAL}] {BLUE}{1} {RED}won{NORMAL}: {PURPLE}{2}{NORMAL}."
+	}
+
+	"Winner List"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"fr"			"[{GREEN}KDO{NORMAL}] {BLUE}{1}{NORMAL} | {GREEN}{2}{NORMAL}  | {PURPLE}{4}{NORMAL}"
+		"en"			"[{GREEN}GIFTS{NORMAL}] {BLUE}{1}{NORMAL} | {GREEN}{2}{NORMAL} | {PURPLE}{4}{NORMAL}"
+	}
+
+	"Winner Hint"
+	{
+		"#format"		"{1:N},{2:s}"
+		"fr"			"<font size='22'><b>Gagnant:</b> <font color='#CD853F'>{1}</font>\n<b>Cadeau:</b> <font color='#CD853F'>{2}</font></font>"
+		"en"			"<font size='22'><b>Winner:</b> <font color='#CD853F'>{1}</font>\n<b>Gift:</b> <font color='#CD853F'>{2}</font></font>"
+	}
+
+	"Begin Event Hint"
+	{
+		"fr"			"<font size='20'><b><font color='#00BFFF'>La soirée cadeaux a commencée.</font>\n<font color='#00BFFF'>Bonne chance à tous!</font></b></font>"
+		"en"			"<font size='20'><b><font color='#00BFFF'>The evening gifts started.</font>\n<font color='#00BFFF'>Good luck to everyone!</font></b></font>"
+	}
+
+	"End Event Hint"
+	{
+		"fr"			"<font size='20'><b><font color='#00BFFF'>La soirée cadeaux est terminée.</font>\n<font color='#00BFFF'>Vous aurez vos cadeaux bientôt!</font></b></font>"
+		"en"			"<font size='20'><b><font color='#00BFFF'>The evening gifts is over.</font>\n<font color='#00BFFF'>You'll get your gifts soon!</font></b></font>"
+	}
+
+	"NoGift"
+	{
+		"fr"			"Aucun cadeau"
+		"en"			"No gift"
+	}
+
+	"NoWinner"
+	{
+		"fr"			"Aucun gagnant"
+		"en"			"No winner"
+	}
+
+	"Panel Title Winners"
+	{
+		"#format"		"{1:i},{2:s}"
+		"fr"			"Total de gagnant(s): {1} | {2}"
+		"en"			"Total winner(s): {1} | {2}"
+	}
+
+	"Panel Title Prizes"
+	{
+		"#format"		"{1:N},{2:s}"
+		"fr"			"{1} Liste de vos cadeaux | {2}"
+		"en"			"{1} Your gifts list | {2}"
+	}
+
+	"MenuGifts_TITLE"
+	{
+		"fr"			"Lancement de la soirée cadeaux"
+		"en"			"Gifts evening's launch"
+	}
+
+	"MenuGifts_NEW_MENU_TITLE"
+	{
+		"fr"			"Nouveau"
+		"en"			"New"
+	}
+
+	"MenuGifts_BACKUP_MENU_TITLE"
+	{
+		"fr"			"Restorer"
+		"en"			"Backup"
+	}
+	
+}
+

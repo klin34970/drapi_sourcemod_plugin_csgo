@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/me3/collector_drone/slow_eyes_glow"
+
+	"$model" 1
+	"$additive" 1
+}

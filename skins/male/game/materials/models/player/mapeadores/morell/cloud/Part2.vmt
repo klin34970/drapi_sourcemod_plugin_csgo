@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\mapeadores\morell\cloud\Part2"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 0.8
+	"$envmapsaturation" 1
+	"$envmaptint" "[ 0.36 0.36 0.36 ]"
+	"$halflambert" 1
+	"$alphatest" 1 
+}

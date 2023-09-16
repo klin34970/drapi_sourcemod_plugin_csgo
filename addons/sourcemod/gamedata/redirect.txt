@@ -1,0 +1,38 @@
+"Games"
+{
+	"#default"
+	{
+		"Signatures"
+		{
+			"SVC_ServerInfo__WriteToBuffer"
+			{
+				"library" "engine"
+				"linux"	"@_ZN11CBaseServer14FillServerInfoER14SVC_ServerInfo"
+			}
+
+			"IsHLTV"
+			{
+				"library" "engine"
+				"linux" "@_ZNK11CBaseServer6IsHLTVEv"
+			}
+		}
+	}
+
+	"csgo"
+	{
+		"Signatures"
+		{
+			"SVC_ServerInfo__WriteToBuffer"
+			{
+				"library" "engine"
+				"linux"	"@_ZN11CBaseServer14FillServerInfoER18CSVCMsg_ServerInfo"
+			}
+
+			"IsHLTV"
+			{
+				"library" "engine"
+				"linux" "@_ZNK11CBaseServer6IsHLTVEv"
+			}
+		}
+	}
+}

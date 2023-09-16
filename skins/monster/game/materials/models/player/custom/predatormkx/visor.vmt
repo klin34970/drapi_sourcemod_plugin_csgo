@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/custom/predatormkx/body_diff"
+	"$bumpmap" "models/player/custom/predatormkx/body_normal"
+	"$model" 1
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[.5 .5 5]"
+	"$phongtint" "[0.6 1 0.6]"
+	"$halflambert" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .2 .2 .2 ]"
+}

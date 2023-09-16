@@ -1,0 +1,63 @@
+[B][SIZE="4"]I - Description[/SIZE][/B]
+
+Give you a knife and save your choice by Team.
+This plugin allow you to choose the commands with the translation file.
+What's means?
+
+Example for popup the menu:
+[PHP]		
+"fr"			"couteau, couteaux, knives, knifes, knife"
+"en"			"knives, knifes, knife"
+[/PHP]
+You cand type in chat [COLOR="DarkRed"]!knives, /knives or knive[/COLOR]... For me as French I can type [COLOR="DarkRed"]!couteau, /couteau or couteau[/COLOR]...
+This, will show you a menu too choose your Team.
+[IMG]http://img15.hostingpics.net/pics/343138menu.jpg[/IMG]
+
+Example for popup the CT menu
+[PHP]
+"fr"			"ctcouteau, ctcouteaux, ctknives, ctknifes, ctknife"
+"en"			"ctknives, ctknifes, ctknife"
+[/PHP]
+
+etc.. note you dont" need in the transaltion file to write ! or /.
+This, will show you a menu too choose the knife for CT Team.
+The trigger chat command works for giving knives directly too.
+[IMG]http://img15.hostingpics.net/pics/87559443ct.jpg[/IMG]
+
+Example for giving Bayonet
+[PHP]
+"fr"			"bayonet, bayo, baïonnette"
+"en"			"bayonet, bayo"
+[/PHP]
+You can type [COLOR="DarkRed"]!bayo, /bayo or bayo[/COLOR].... For me as French I can type [COLOR="DarkRed"]!baïonnette, /baïonnette or baïonnette...[/COLOR]
+This, will give you the Bayonet Knife and save your choice for the actual Team.
+[IMG]http://img15.hostingpics.net/pics/977137tchat.jpg[/IMG]
+[IMG]http://img15.hostingpics.net/pics/68041926fr.jpg[/IMG]
+
+[B][SIZE="4"]II - Cvars[/SIZE][/B]
+Knives are select by their [COLOR="DarkRed"]"m_iItemDefinitionIndex"[/COLOR]
+drapi_knifes_ct_default "512" - "Default knife for CT
+drapi_knifes_t_default "512" - "Default knife for T
+
+500 = Bayonet
+505 = Flip
+506 = Gut
+507 = Karambit
+508 = M9 Bayonet
+509 = Huntsman
+512 = Falchion
+515 = Butterfly
+
+
+[B][SIZE="4"]III - Notes[/SIZE][/B]
+This plugin use [COLOR="DarkRed"]Geolanguage[/COLOR].
+How to know if your server is using [COLOR="DarkRed"]Geolanguage[/COLOR]?
+Type in game [COLOR="DarkRed"]!language[/COLOR] or see in your [COLOR="DarkGreen"]"/csgo/addons/sourcemod/plugins"[/COLOR] if a plugin named Geolanguage.smx is there.
+
+[B][SIZE="4"]IV - Bugs[/SIZE][/B]
+When you type only ! or / the menu will popup. I will fix soon.
+
+
+
+[B][SIZE="4"]V - Post Scriptum[/SIZE][/B]
+Coming back 5 min to make you some screenshots...

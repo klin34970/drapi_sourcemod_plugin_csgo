@@ -1,0 +1,55 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+{
+	"Wrong num"
+	{
+    		"fr"			"[{GREEN}BOTS{NORMAL}] Utiliser: {GREEN}!voteaddbots {RED}<nombre: entre 1 et 5>{NORMAL}."
+		"en"			"[{GREEN}BOTS{NORMAL}] Use: {GREEN}!voteaddbots {RED}<number: between 1and 5>{NORMAL}."
+	}
+
+	"Missing args"
+	{
+    		"fr"			"[{GREEN}BOTS{NORMAL}] Utiliser: {GREEN}!voteaddbots {RED}<nombre: entre 1 et 5>{NORMAL}."
+		"en"			"[{GREEN}BOTS{NORMAL}] Use: {GREEN}!voteaddbots {RED}<number: between 1and 5>{NORMAL}."
+	}
+
+	"Not allow to vote"
+	{
+    		"fr"			"[{GREEN}BOTS{NORMAL}] Vous devez attendre le prochain round."
+		"en"			"[{GREEN}BOTS{NORMAL}] You must wait for the next round."
+	}
+
+	"Spawn bots"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}BOTS{NORMAL}] Bot(s) ajouté(s): {RED}{1}{NORMAL}."
+		"en"			"[{GREEN}BOTS{NORMAL}] Bot(s) added: {RED}{1}{NORMAL}."
+	}
+
+	"Yes"
+	{
+    		"fr"			"Oui"
+		"en"			"Yes"
+	}
+
+	"No"
+	{
+    		"fr"			"Non"
+		"en"			"No"
+	}
+
+	"MENU_ADDBOTVOTE"
+	{
+		"#format"		"{1:s}"
+    		"fr"			"Ajouter: {1} Bot(s)"
+		"en"			"Add: {1} Bot(s)"
+	}
+}
+

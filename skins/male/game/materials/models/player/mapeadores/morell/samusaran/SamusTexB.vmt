@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\mapeadores\morell\samusaran\SamusTexB.vtf"
+    "$nocull"             "1"
+	"$selfillum" 1
+	"$selfillumtint" "{177 227 252}"
+	$phong 1
+	$halflambert 0
+	$phongexponent 20
+	$phongfresnelranges "[1 5 5]"
+	$phongboost 1
+}

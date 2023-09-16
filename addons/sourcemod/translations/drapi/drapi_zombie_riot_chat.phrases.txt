@@ -1,0 +1,111 @@
+//**********************************************  Valid Colors	***********************************************
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+//*************************************************************************************************************
+
+"Phrases"
+{
+
+    	"Connected"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} connected from: {PURPLE}{2}{NORMAL}."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} s'est connecté: {PURPLE}{2}{NORMAL}."
+
+	}
+
+    	"Disconnected"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} disconnected."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} s'est déconnecté."
+
+	}
+
+    	"Team CT"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} has joined {BLUE}Humans{NORMAL}."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} a rejoint les {BLUE}Humains{NORMAL}."
+
+	}
+
+    	"Team T"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} has joined {RED}Zombies{NORMAL}."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} a rejoint les {RED}Zombies{NORMAL}."
+
+	}
+
+    	"Team T ZOMBIFY"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} has been {RED}Zombified{NORMAL}."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} a été {RED}Zombifié{NORMAL}."
+
+	}
+
+    	"Round start advert"
+	{
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] For {PINK}help{NORMAL}, type {RED}!help{NORMAL} or {RED}!zrhelp{NORMAL}."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Pour avoir de {PINK}l'aide{NORMAL}, tape {RED}!help{NORMAL} ou {RED}!zrhelp{NORMAL}."
+
+	}
+
+    	"Player no longer available"
+	{
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Player no longer available."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Le joueur n'est plus disponible."
+
+	}
+
+    	"Unable to target"
+	{
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Unable to target player."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Impossible de cibler le joueur."
+
+	}
+
+    	"Admin skipday"
+	{
+
+		"#format"		"{1:s},{2:i}"
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} changed day for: {RED}{2}{NORMAL}."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] {BLUE}{1}{NORMAL} a changé le jour en: {RED}{2}{NORMAL}."
+
+	}
+
+	"Helico round start warning"
+	{
+		"fr"			"[{GREEN}AIRDROP{NORMAL}] Attendez {BLUE}l'hélicoptère{NORMAL} pour avoir des armes."
+		"en"			"[{GREEN}AIRDROP{NORMAL}] Wait the {BLUE}chopper{NORMAL} to get some weapons."
+	}
+
+    	"Player Spawn Weapons Melee"
+	{
+
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] You have received: {RED}{1}{NORMAL}."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Vous avez reçu: {RED}{1}{NORMAL}."
+
+	}
+
+	"Player Spawn Weapons Secondary"
+	{
+
+		"#format"		"{1:s},"
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] You have received: {RED}{1}{NORMAL}."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Vous avez reçu: {RED}{1}{NORMAL}."
+
+	}
+
+	"Player Spawn Weapons Primary"
+	{
+
+		"#format"		"{1:s},"
+		"en"			"[{GREEN}ZOMBIE RIOT{NORMAL}] You have received: {RED}{1}{NORMAL}."
+		"fr"			"[{GREEN}ZOMBIE RIOT{NORMAL}] Vous avez reçu: {RED}{1}{NORMAL}."
+
+	}
+
+}

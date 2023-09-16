@@ -1,0 +1,2913 @@
+// Created by Crowbar 0.24.0.0
+
+
+################################################################################
+
+
+====== MDL Header ======
+00 id: IDST
+04 version: 49
+08 checksum: 0x6466389D
+0C name ($modelname): weapons\arms\v_charger_arms.mdl
+4C fileSize (size of mdl file in bytes): 33 760
+50 eyePositionX ($eyeposition): 0.000000
+54 eyePositionY: 0.000000
+58 eyePositionZ: 0.000000
+5C illuminationPositionX ($illumposition): 31.594300
+60 illuminationPositionY: -23.036920
+64 illuminationPositionZ: -31.981440
+68 hullMinPositionX: -2.719602
+6C hullMinPositionY: -48.007490
+70 hullMinPositionZ: -70.000000
+74 hullMaxPositionX: 65.908200
+78 hullMaxPositionY: 1.933648
+7C hullMaxPositionZ: 6.037117
+80 viewBoundingBoxMinPositionX: 0.000000
+84 viewBoundingBoxMinPositionY: 0.000000
+88 viewBoundingBoxMinPositionZ: 0.000000
+8C viewBoundingBoxMaxPositionX: 0.000000
+90 viewBoundingBoxMaxPositionY: 0.000000
+94 viewBoundingBoxMaxPositionZ: 0.000000
+98 flags: 0x00000001
+9C boneCount: 18
+A0 boneOffset: 664 (0x00000298)
+A4 boneControllerCount: 0
+A8 boneControllerOffset: 4 552 (0x000011C8)
+AC hitboxSetCount: 1
+B0 hitboxSetOffset: 4 644 (0x00001224)
+B4 localAnimationCount: 10
+B8 localAnimationOffset: 5 492 (0x00001574)
+BC localSequenceCount ($sequence): 10
+C0 localSequenceOffset: 27 792 (0x00006C90)
+C4 activityListVersion: 0
+C8 eventsIndexed: 0
+CC textureCount: 1
+D0 textureOffset: 30 304 (0x00007660)
+D4 texturePathCount ($cdmaterials): 2
+D8 texturePathOffset: 30 368 (0x000076A0)
+DC skinReferenceCount: 0
+E0 skinFamilyCount ($texturegroup skinfamilies): 1
+E4 skinFamilyOffset: 30 376 (0x000076A8)
+E8 bodyPartCount ($model): 1
+EC bodyPartOffset: 30 024 (0x00007548)
+localAttachmentCount ($attachment): 1
+localAttachmentOffset: 4 552 (0x000011C8)
+localNodeCount: 0
+localNodeOffset: 30 024 (0x00007548)
+localNodeNameOffset: 30 024 (0x00007548)
+flexDescCount: 0
+flexDescOffset: 30 188 (0x000075EC)
+flexControllerCount: 0
+flexControllerOffset: 30 188 (0x000075EC)
+flexRuleCount: 0
+flexRuleOffset: 30 188 (0x000075EC)
+ikChainCount ($ikchain): 0
+ikChainOffset: 30 188 (0x000075EC)
+mouthCount ($model {mouth}): 0
+mouthOffset: 30 188 (0x000075EC)
+localPoseParamaterCount ($poseparameter): 0
+localPoseParameterOffset: 30 188 (0x000075EC)
+surfacePropOffset ($surfaceprop): 32 893 (0x0000807D)
+    surfaceprop name: default
+keyValueOffset: 30 380 (0x000076AC)
+keyValueSize: 0
+localIkAutoPlayLockCount: 0
+localIkAutoPlayLockOffset: 30 188 (0x000075EC)
+mass ($collisionjoints {$mass}): 1.000000
+contents: 1 (0x00000001)
+includeModelCount ($includemodel): 0
+includeModelOffset: 30 304 (0x00007660)
+virtualModelP: 0 (0x00000000)
+animBlockNameOffset: 32 892 (0x0000807C)
+animBlockCount: 0
+animBlockOffset: 30 304 (0x00007660)
+animBlockModelP: 0 (0x00000000)
+boneTableByNameOffset: 5 472 (0x00001560)
+vertexBaseP: 0 (0x00000000)
+indexBaseP: 0 (0x00000000)
+directionalLightDot: 0 (0x00)
+rootLod: 0 (0x00)
+allowedRootLodCount: 0 (0x00)
+unused: 0 (0x00)
+unused4: 0 (0x00000000)
+flexControllerUiCount: 0
+flexControllerUiOffset: 30 188 (0x000075EC)
+unused3(0): 0 (0x00000000)
+unused3(1): 0 (0x00000000)
+studioHeader2Offset: 408 (0x00000198)
+unused2: 0 (0x00000000)
+========================
+[studiohdr2]
+sourceBoneTransformCount: 0 (0x00000000)
+sourceBoneTransformOffset: 0 (0x00000000)
+illumPositionAttachmentIndex: 0 (0x00000000)
+maxEyeDeflection: 0.000000
+linearBoneOffset: 0 (0x00000000)
+reserved(0): 0 (0x00000000)
+reserved(1): 0 (0x00000000)
+reserved(2): 0 (0x00000000)
+reserved(3): 0 (0x00000000)
+reserved(4): 0 (0x00000000)
+reserved(5): 0 (0x00000000)
+reserved(6): 0 (0x00000000)
+reserved(7): 0 (0x00000000)
+reserved(8): 0 (0x00000000)
+reserved(9): 0 (0x00000000)
+reserved(10): 0 (0x00000000)
+reserved(11): 0 (0x00000000)
+reserved(12): 0 (0x00000000)
+reserved(13): 0 (0x00000000)
+reserved(14): 0 (0x00000000)
+reserved(15): 0 (0x00000000)
+reserved(16): 0 (0x00000000)
+reserved(17): 0 (0x00000000)
+reserved(18): 0 (0x00000000)
+reserved(19): 0 (0x00000000)
+reserved(20): 0 (0x00000000)
+reserved(21): 0 (0x00000000)
+reserved(22): 0 (0x00000000)
+reserved(23): 0 (0x00000000)
+reserved(24): 0 (0x00000000)
+reserved(25): 0 (0x00000000)
+reserved(26): 0 (0x00000000)
+reserved(27): 0 (0x00000000)
+reserved(28): 0 (0x00000000)
+reserved(29): 0 (0x00000000)
+reserved(30): 0 (0x00000000)
+reserved(31): 0 (0x00000000)
+reserved(32): 0 (0x00000000)
+reserved(33): 0 (0x00000000)
+reserved(34): 0 (0x00000000)
+reserved(35): 0 (0x00000000)
+reserved(36): 0 (0x00000000)
+reserved(37): 0 (0x00000000)
+reserved(38): 0 (0x00000000)
+reserved(39): 0 (0x00000000)
+reserved(40): 0 (0x00000000)
+reserved(41): 0 (0x00000000)
+reserved(42): 0 (0x00000000)
+reserved(43): 0 (0x00000000)
+reserved(44): 0 (0x00000000)
+reserved(45): 0 (0x00000000)
+reserved(46): 0 (0x00000000)
+reserved(47): 0 (0x00000000)
+reserved(48): 0 (0x00000000)
+reserved(49): 0 (0x00000000)
+reserved(50): 0 (0x00000000)
+reserved(51): 0 (0x00000000)
+reserved(52): 0 (0x00000000)
+reserved(53): 0 (0x00000000)
+reserved(54): 0 (0x00000000)
+reserved(55): 0 (0x00000000)
+reserved(56): 0 (0x00000000)
+reserved(57): 0 (0x00000000)
+reserved(58): 0 (0x00000000)
+========================
+
+
+====== Bones (nodes) ======
+	[Bone (node) index: 0]
+	name: ValveBiped.bip_base
+	parentBoneIndex: -1 ([no parent bone])
+	flags: 1 792 (0x00000700)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.000000, 0.000000, 0.000000)
+	quat[x,y,z,w]: (0.707107, 0.000000, 0.000000, 0.707107)
+	rotation[x,y,z]: (1.570796, 0.000000, 0.000000)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000048)
+	poseToBoneColumn0[x,y,z]: (1.000000, 0.000000, 0.000000)
+	poseToBoneColumn1[x,y,z]: (0.000000, 0.000000, -1.000000)
+	poseToBoneColumn2[x,y,z]: (0.000000, 1.000000, 0.000000)
+	poseToBoneColumn3[x,y,z]: (0.000000, 0.000000, 0.000000)
+	--------------------
+	[Bone (node) index: 1]
+	name: ValveBiped.bip_spine_3
+	parentBoneIndex: 0 (ValveBiped.bip_base)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.000000, 69.352837, -0.571241)
+	quat[x,y,z,w]: (-0.906562, 0.000000, 0.000000, 0.422074)
+	rotation[x,y,z]: (-2.270130, 0.000000, 0.000000)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (1.000000, 0.000000, 0.000000)
+	poseToBoneColumn1[x,y,z]: (0.000000, 0.765271, 0.643708)
+	poseToBoneColumn2[x,y,z]: (0.000000, -0.643708, 0.765271)
+	poseToBoneColumn3[x,y,z]: (0.000000, 44.205811, -53.441448)
+	--------------------
+	[Bone (node) index: 2]
+	name: ValveBiped.bip_collar_R
+	parentBoneIndex: 1 (ValveBiped.bip_spine_3)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (-1.549380, -5.102886, -4.074768)
+	quat[x,y,z,w]: (0.572158, -0.671880, 0.075786, 0.464186)
+	rotation[x,y,z]: (2.485408, -0.790177, -1.448758)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.085668, -0.839201, -0.537032)
+	poseToBoneColumn1[x,y,z]: (-0.077191, 0.531803, -0.843343)
+	poseToBoneColumn2[x,y,z]: (0.993329, 0.113701, -0.019220)
+	poseToBoneColumn3[x,y,z]: (-69.382622, -6.036812, -4.519532)
+	--------------------
+	[Bone (node) index: 3]
+	name: ValveBiped.bip_upperArm_R
+	parentBoneIndex: 2 (ValveBiped.bip_collar_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (-0.000061, 11.987242, 0.000029)
+	quat[x,y,z,w]: (0.505733, -0.853909, -0.116043, 0.040107)
+	rotation[x,y,z]: (2.900223, 0.048897, -2.078111)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000090, 0.000039, 0.000057)
+	poseToBoneColumn0[x,y,z]: (0.717307, -0.588730, 0.372649)
+	poseToBoneColumn1[x,y,z]: (-0.385590, 0.110052, 0.916083)
+	poseToBoneColumn2[x,y,z]: (-0.580337, -0.800803, -0.148067)
+	poseToBoneColumn3[x,y,z]: (49.624031, 49.882030, 14.438513)
+	--------------------
+	[Bone (node) index: 4]
+	name: ValveBiped.bip_lowerArm_R
+	parentBoneIndex: 3 (ValveBiped.bip_upperArm_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.000000, 20.109310, -0.000001)
+	quat[x,y,z,w]: (-0.053494, 0.026982, 0.002777, 0.998200)
+	rotation[x,y,z]: (-0.107006, 0.054190, 0.002661)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000032, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.694503, -0.631141, 0.345438)
+	poseToBoneColumn1[x,y,z]: (-0.434349, 0.014976, 0.900620)
+	poseToBoneColumn2[x,y,z]: (-0.573591, -0.775524, -0.263735)
+	poseToBoneColumn3[x,y,z]: (48.848080, 27.643690, 20.177242)
+	--------------------
+	[Bone (node) index: 5]
+	name: ValveBiped.bip_hand_R
+	parentBoneIndex: 4 (ValveBiped.bip_lowerArm_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.000000, 19.941742, 0.000000)
+	quat[x,y,z,w]: (-0.075600, 0.012377, 0.000938, 0.997061)
+	rotation[x,y,z]: (-0.151357, 0.024826, -0.000001)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000051, 0.000044, 0.000050)
+	poseToBoneColumn0[x,y,z]: (0.685714, -0.678593, 0.263263)
+	poseToBoneColumn1[x,y,z]: (-0.456571, -0.119323, 0.881649)
+	poseToBoneColumn2[x,y,z]: (-0.566867, -0.724757, -0.391648)
+	poseToBoneColumn3[x,y,z]: (48.332161, 4.389715, 22.300419)
+	--------------------
+	[Bone (node) index: 6]
+	name: ValveBiped.bip_thumb_0_R
+	parentBoneIndex: 5 (ValveBiped.bip_hand_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (2.899853, -0.471045, -4.331209)
+	quat[x,y,z,w]: (-0.294372, -0.178217, -0.383093, 0.857219)
+	rotation[x,y,z]: (-0.449452, -0.559881, -0.709305)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000015, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.955191, 0.063595, -0.289076)
+	poseToBoneColumn1[x,y,z]: (0.240525, -0.735962, 0.632856)
+	poseToBoneColumn2[x,y,z]: (-0.172502, -0.674029, -0.718281)
+	poseToBoneColumn3[x,y,z]: (40.672230, 27.393908, 19.806795)
+	--------------------
+	[Bone (node) index: 7]
+	name: ValveBiped.bip_thumb_1_R
+	parentBoneIndex: 6 (ValveBiped.bip_thumb_0_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (-0.000027, 2.543320, 0.000025)
+	quat[x,y,z,w]: (0.110289, 0.000000, 0.000000, 0.993900)
+	rotation[x,y,z]: (0.221028, 0.000000, 0.000000)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.955191, -0.001327, -0.295985)
+	poseToBoneColumn1[x,y,z]: (0.240525, -0.579315, 0.778808)
+	poseToBoneColumn2[x,y,z]: (-0.172502, -0.815103, -0.553038)
+	poseToBoneColumn3[x,y,z]: (40.672260, 28.588339, 13.876854)
+	--------------------
+	[Bone (node) index: 8]
+	name: ValveBiped.bip_index_0_R
+	parentBoneIndex: 5 (ValveBiped.bip_hand_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.551407, 3.956632, -3.900799)
+	quat[x,y,z,w]: (-0.131770, -0.757424, -0.164922, 0.617856)
+	rotation[x,y,z]: (2.695900, -1.367576, -3.120852)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000017, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.122322, -0.318586, -0.939968)
+	poseToBoneColumn1[x,y,z]: (0.956133, -0.216167, 0.197692)
+	poseToBoneColumn2[x,y,z]: (-0.266172, -0.922916, 0.278169)
+	poseToBoneColumn3[x,y,z]: (16.220787, 21.545778, -46.344318)
+	--------------------
+	[Bone (node) index: 9]
+	name: ValveBiped.bip_index_1_R
+	parentBoneIndex: 8 (ValveBiped.bip_index_0_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.000000, 2.741434, -0.000004)
+	quat[x,y,z,w]: (-0.127797, 0.000000, 0.000000, 0.991800)
+	rotation[x,y,z]: (-0.256296, 0.000000, 0.000000)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.122322, -0.069899, -0.990026)
+	poseToBoneColumn1[x,y,z]: (0.956133, -0.259221, 0.136436)
+	poseToBoneColumn2[x,y,z]: (-0.266172, -0.963285, 0.035124)
+	poseToBoneColumn3[x,y,z]: (16.220785, 29.938354, -40.063625)
+	--------------------
+	[Bone (node) index: 10]
+	name: ValveBiped.bip_middle_0_R
+	parentBoneIndex: 5 (ValveBiped.bip_hand_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.401108, 3.639808, -1.202112)
+	quat[x,y,z,w]: (-0.085619, -0.734883, -0.204692, 0.640872)
+	rotation[x,y,z]: (2.031148, -1.355830, -2.447084)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000016, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.237456, -0.295272, -0.925434)
+	poseToBoneColumn1[x,y,z]: (0.952481, -0.116327, 0.281511)
+	poseToBoneColumn2[x,y,z]: (-0.190775, -0.948305, 0.253618)
+	poseToBoneColumn3[x,y,z]: (15.167003, 23.386337, -44.480289)
+	--------------------
+	[Bone (node) index: 11]
+	name: ValveBiped.bip_middle_1_R
+	parentBoneIndex: 10 (ValveBiped.bip_middle_0_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.000003, 2.810953, 0.000008)
+	quat[x,y,z,w]: (-0.127797, 0.000000, 0.000000, 0.991800)
+	rotation[x,y,z]: (-0.256296, 0.000000, 0.000000)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.237456, -0.051030, -0.970057)
+	poseToBoneColumn1[x,y,z]: (0.952481, -0.183890, 0.242827)
+	poseToBoneColumn2[x,y,z]: (-0.190775, -0.981621, 0.004940)
+	poseToBoneColumn3[x,y,z]: (15.166995, 31.179018, -37.811535)
+	--------------------
+	[Bone (node) index: 12]
+	name: ValveBiped.bip_ring_0_R
+	parentBoneIndex: 5 (ValveBiped.bip_hand_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.335663, 3.182098, 1.418085)
+	quat[x,y,z,w]: (-0.046020, -0.640706, -0.255318, 0.722628)
+	rotation[x,y,z]: (0.980184, -1.251585, -1.415250)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000016, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.493685, -0.225160, -0.839987)
+	poseToBoneColumn1[x,y,z]: (0.851907, -0.068852, 0.519147)
+	poseToBoneColumn2[x,y,z]: (-0.174726, -0.971886, 0.157825)
+	poseToBoneColumn3[x,y,z]: (21.737844, 26.601309, -38.288868)
+	--------------------
+	[Bone (node) index: 13]
+	name: ValveBiped.bip_ring_1_R
+	parentBoneIndex: 12 (ValveBiped.bip_ring_0_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (-0.000004, 2.663269, 0.000046)
+	quat[x,y,z,w]: (-0.127797, 0.000000, 0.000000, 0.991800)
+	rotation[x,y,z]: (-0.256296, 0.000000, 0.000000)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.493685, -0.004870, -0.869627)
+	poseToBoneColumn1[x,y,z]: (0.851907, -0.198206, 0.484735)
+	poseToBoneColumn2[x,y,z]: (-0.174726, -0.980148, -0.093703)
+	poseToBoneColumn3[x,y,z]: (21.737843, 32.862324, -30.969967)
+	--------------------
+	[Bone (node) index: 14]
+	name: ValveBiped.bip_pinky_0_R
+	parentBoneIndex: 5 (ValveBiped.bip_hand_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (1.344769, 1.881122, 3.809586)
+	quat[x,y,z,w]: (0.001089, -0.649417, -0.247961, 0.718869)
+	rotation[x,y,z]: (1.120331, -1.203080, -1.477340)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000016, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.511548, -0.266458, -0.816896)
+	poseToBoneColumn1[x,y,z]: (0.850102, 0.018550, 0.526291)
+	poseToBoneColumn2[x,y,z]: (-0.125081, -0.963668, 0.236005)
+	poseToBoneColumn3[x,y,z]: (17.933174, 24.868895, -40.198986)
+	--------------------
+	[Bone (node) index: 15]
+	name: ValveBiped.bip_pinky_1_R
+	parentBoneIndex: 14 (ValveBiped.bip_pinky_0_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.000011, 2.315662, -0.000084)
+	quat[x,y,z,w]: (-0.127797, 0.000000, 0.000000, 0.991800)
+	rotation[x,y,z]: (-0.256296, 0.000000, 0.000000)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.511547, -0.050672, -0.857760)
+	poseToBoneColumn1[x,y,z]: (0.850102, -0.115470, 0.513802)
+	poseToBoneColumn2[x,y,z]: (-0.125081, -0.992018, -0.015993)
+	poseToBoneColumn3[x,y,z]: (17.933155, 32.006927, -33.168613)
+	--------------------
+	[Bone (node) index: 16]
+	name: ValveBiped.bip_ulna_r
+	parentBoneIndex: 4 (ValveBiped.bip_lowerArm_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.000000, 9.722963, 0.000000)
+	quat[x,y,z,w]: (-0.075600, 0.012377, 0.000938, 0.997061)
+	rotation[x,y,z]: (-0.151357, 0.024826, -0.000001)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000029, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.685714, -0.678593, 0.263263)
+	poseToBoneColumn1[x,y,z]: (-0.456571, -0.119323, 0.881649)
+	poseToBoneColumn2[x,y,z]: (-0.566867, -0.724757, -0.391648)
+	poseToBoneColumn3[x,y,z]: (48.332157, 14.491663, 23.841202)
+	--------------------
+	[Bone (node) index: 17]
+	name: ValveBiped.bip_bicep_R
+	parentBoneIndex: 3 (ValveBiped.bip_upperArm_R)
+	flags: 1 280 (0x00000500)
+	proceduralRuleType: 0 (0x00000000)
+	proceduralRuleOffset: 0 (0x00000000)
+	position[x,y,z]: (0.000000, 8.540291, -0.000001)
+	quat[x,y,z,w]: (-0.053265, -0.027195, 0.005674, 0.998194)
+	rotation[x,y,z]: (-0.107004, -0.053713, 0.014246)
+	positionScale[x,y,z]: (0.003906, 0.003906, 0.003906)
+	rotationScale[x,y,z]: (0.000012, 0.000012, 0.000012)
+	poseToBoneColumn0[x,y,z]: (0.727832, -0.631141, 0.268184)
+	poseToBoneColumn1[x,y,z]: (-0.334248, 0.014976, 0.942366)
+	poseToBoneColumn2[x,y,z]: (-0.598782, -0.775524, -0.200058)
+	poseToBoneColumn3[x,y,z]: (50.910683, 39.146320, 15.994457)
+	--------------------
+
+
+====== Animation Descs ======
+	[Animation Desc index: 0]
+	baseHeaderOffset: -5 492 (0xFFFFEA8C)
+	nameOffset: 27 859 (0x00006CD3)
+		name: @idle
+	fps: 30.000000
+	flags: 1 (0x00000001)
+	frameCount: 121
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 1 052 (0x0000041C)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 1 000 (0x000003E8)
+	sectionFrameCount: 30
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 0 (0x00000000)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 18 (0x00000012)
+		    STUDIO_ANIM_RAWPOS: (0.000000, -1.000000, -70.000000)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 3 (0x00000003)
+		flags: 12 (0x0000000C)
+		nextSourceMdlAnimationOffset: 370 (0x00000172)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 4 (0x00000004)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 198 (0x000000C6)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 5 (0x00000005)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 202 (0x000000CA)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 6 (0x00000006)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 8 (0x00000008)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 82 (0x00000052)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 9 (0x00000009)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 12 (0x0000000C)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 10 (0x0000000A)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 12 (0x0000000C)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 9]
+		boneIndex: 14 (0x0000000E)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 10]
+		boneIndex: 16 (0x00000010)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 202 (0x000000CA)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 11]
+		boneIndex: 17 (0x00000011)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+	--------------------
+	[Animation Desc index: 1]
+	baseHeaderOffset: -5 592 (0xFFFFEA28)
+	nameOffset: 27 765 (0x00006C75)
+		name: @idle_layer
+	fps: 30.000000
+	flags: 4 (0x00000004)
+	frameCount: 121
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 6 952 (0x00001B28)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 6 896 (0x00001AF0)
+	sectionFrameCount: 30
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 3 (0x00000003)
+		flags: 28 (0x0000001C)
+		nextSourceMdlAnimationOffset: 370 (0x00000172)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 4 (0x00000004)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 200 (0x000000C8)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 5 (0x00000005)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 202 (0x000000CA)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 6 (0x00000006)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 8 (0x00000008)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 10 (0x0000000A)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 12 (0x0000000C)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 14 (0x0000000E)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 16 (0x00000010)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+	--------------------
+	[Animation Desc index: 2]
+	baseHeaderOffset: -5 692 (0xFFFFE9C4)
+	nameOffset: 27 677 (0x00006C1D)
+		name: @deploy
+	fps: 30.000000
+	flags: 0 (0x00000000)
+	frameCount: 41
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 11 764 (0x00002DF4)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 0 (0x00000000)
+	sectionFrameCount: 0
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 0 (0x00000000)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 18 (0x00000012)
+		    STUDIO_ANIM_RAWPOS: (0.000000, -1.000000, -70.000000)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 3 (0x00000003)
+		flags: 12 (0x0000000C)
+		nextSourceMdlAnimationOffset: 516 (0x00000204)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 4 (0x00000004)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 256 (0x00000100)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 5 (0x00000005)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 6 (0x00000006)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 202 (0x000000CA)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 8 (0x00000008)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 126 (0x0000007E)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 9 (0x00000009)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 12 (0x0000000C)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 10 (0x0000000A)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 12 (0x0000000C)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 9]
+		boneIndex: 14 (0x0000000E)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 10]
+		boneIndex: 16 (0x00000010)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 11]
+		boneIndex: 17 (0x00000011)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+	--------------------
+	[Animation Desc index: 3]
+	baseHeaderOffset: -5 792 (0xFFFFE960)
+	nameOffset: 27 585 (0x00006BC1)
+		name: @deploy_layer
+	fps: 30.000000
+	flags: 4 (0x00000004)
+	frameCount: 41
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 13 568 (0x00003500)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 0 (0x00000000)
+	sectionFrameCount: 0
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 3 (0x00000003)
+		flags: 28 (0x0000001C)
+		nextSourceMdlAnimationOffset: 510 (0x000001FE)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 4 (0x00000004)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 260 (0x00000104)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 5 (0x00000005)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 6 (0x00000006)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 202 (0x000000CA)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 8 (0x00000008)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 86 (0x00000056)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 10 (0x0000000A)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 76 (0x0000004C)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 12 (0x0000000C)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 76 (0x0000004C)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 14 (0x0000000E)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 74 (0x0000004A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 16 (0x00000010)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+	--------------------
+	[Animation Desc index: 4]
+	baseHeaderOffset: -5 892 (0xFFFFE8FC)
+	nameOffset: 27 499 (0x00006B6B)
+		name: @melee
+	fps: 30.000000
+	flags: 0 (0x00000000)
+	frameCount: 41
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 15 116 (0x00003B0C)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 0 (0x00000000)
+	sectionFrameCount: 0
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 0 (0x00000000)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 18 (0x00000012)
+		    STUDIO_ANIM_RAWPOS: (0.000000, -1.000000, -70.000000)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 3 (0x00000003)
+		flags: 12 (0x0000000C)
+		nextSourceMdlAnimationOffset: 520 (0x00000208)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 4 (0x00000004)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 5 (0x00000005)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 6 (0x00000006)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 8 (0x00000008)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 106 (0x0000006A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 9 (0x00000009)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 12 (0x0000000C)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 10 (0x0000000A)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 12 (0x0000000C)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 9]
+		boneIndex: 14 (0x0000000E)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 10]
+		boneIndex: 16 (0x00000010)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 11]
+		boneIndex: 17 (0x00000011)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+	--------------------
+	[Animation Desc index: 5]
+	baseHeaderOffset: -5 992 (0xFFFFE898)
+	nameOffset: 27 406 (0x00006B0E)
+		name: @melee_layer
+	fps: 30.000000
+	flags: 4 (0x00000004)
+	frameCount: 41
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 16 760 (0x00004178)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 0 (0x00000000)
+	sectionFrameCount: 0
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 3 (0x00000003)
+		flags: 28 (0x0000001C)
+		nextSourceMdlAnimationOffset: 518 (0x00000206)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 4 (0x00000004)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 5 (0x00000005)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 6 (0x00000006)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 8 (0x00000008)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 84 (0x00000054)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 10 (0x0000000A)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 12 (0x0000000C)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 14 (0x0000000E)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 16 (0x00000010)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+	--------------------
+	[Animation Desc index: 6]
+	baseHeaderOffset: -6 092 (0xFFFFE834)
+	nameOffset: 27 319 (0x00006AB7)
+		name: @melee02
+	fps: 30.000000
+	flags: 0 (0x00000000)
+	frameCount: 41
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 18 164 (0x000046F4)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 0 (0x00000000)
+	sectionFrameCount: 0
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 0 (0x00000000)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 18 (0x00000012)
+		    STUDIO_ANIM_RAWPOS: (0.000000, -1.000000, -70.000000)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 3 (0x00000003)
+		flags: 12 (0x0000000C)
+		nextSourceMdlAnimationOffset: 442 (0x000001BA)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 4 (0x00000004)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 5 (0x00000005)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 6 (0x00000006)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 84 (0x00000054)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 8 (0x00000008)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 204 (0x000000CC)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 9 (0x00000009)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 12 (0x0000000C)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 10 (0x0000000A)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 204 (0x000000CC)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 12 (0x0000000C)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 84 (0x00000054)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 9]
+		boneIndex: 14 (0x0000000E)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 84 (0x00000054)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 10]
+		boneIndex: 16 (0x00000010)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 166 (0x000000A6)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 11]
+		boneIndex: 17 (0x00000011)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+	--------------------
+	[Animation Desc index: 7]
+	baseHeaderOffset: -6 192 (0xFFFFE7D0)
+	nameOffset: 27 228 (0x00006A5C)
+		name: @melee02_layer
+	fps: 30.000000
+	flags: 4 (0x00000004)
+	frameCount: 41
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 19 904 (0x00004DC0)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 0 (0x00000000)
+	sectionFrameCount: 0
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 3 (0x00000003)
+		flags: 28 (0x0000001C)
+		nextSourceMdlAnimationOffset: 442 (0x000001BA)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 4 (0x00000004)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 5 (0x00000005)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 6 (0x00000006)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 84 (0x00000054)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 8 (0x00000008)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 204 (0x000000CC)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 10 (0x0000000A)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 204 (0x000000CC)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 12 (0x0000000C)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 84 (0x00000054)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 14 (0x0000000E)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 84 (0x00000054)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 16 (0x00000010)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+	--------------------
+	[Animation Desc index: 8]
+	baseHeaderOffset: -6 292 (0xFFFFE76C)
+	nameOffset: 27 143 (0x00006A07)
+		name: @melee03
+	fps: 30.000000
+	flags: 0 (0x00000000)
+	frameCount: 41
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 14 716 (0x0000397C)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 0 (0x00000000)
+	sectionFrameCount: 0
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 0 (0x00000000)
+		flags: 33 (0x00000021)
+		nextSourceMdlAnimationOffset: 18 (0x00000012)
+		    STUDIO_ANIM_RAWPOS: (0.000000, -1.000000, -70.000000)    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 3 (0x00000003)
+		flags: 12 (0x0000000C)
+		nextSourceMdlAnimationOffset: 520 (0x00000208)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 4 (0x00000004)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 5 (0x00000005)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 6 (0x00000006)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 8 (0x00000008)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 106 (0x0000006A)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 9 (0x00000009)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 12 (0x0000000C)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 10 (0x0000000A)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 12 (0x0000000C)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 9]
+		boneIndex: 14 (0x0000000E)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 10]
+		boneIndex: 16 (0x00000010)
+		flags: 8 (0x00000008)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 11]
+		boneIndex: 17 (0x00000011)
+		flags: 32 (0x00000020)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_RAWROT2: (, , )
+		--------------------
+	--------------------
+	[Animation Desc index: 9]
+	baseHeaderOffset: -6 392 (0xFFFFE708)
+	nameOffset: 27 052 (0x000069AC)
+		name: @melee03_layer
+	fps: 30.000000
+	flags: 4 (0x00000004)
+	frameCount: 41
+	movementCount: 0
+	movementOffset: 0 (0x00000000)
+	unused1(0): 0 (0x00000000)
+	unused1(1): 0 (0x00000000)
+	unused1(2): 0 (0x00000000)
+	unused1(3): 0 (0x00000000)
+	unused1(4): 0 (0x00000000)
+	unused1(5): 0 (0x00000000)
+	animBlock: 0 (0x00000000)
+	animOffset: 16 360 (0x00003FE8)
+	ikRuleCount: 0
+	ikRuleOffset: 0 (0x00000000)
+	animblockIkRuleOffset: 0 (0x00000000)
+	localHierarchyCount: 0
+	localHierarchyOffset: 0 (0x00000000)
+	sectionOffset: 0 (0x00000000)
+	sectionFrameCount: 0
+	spanFrameCount: 0
+	spanCount: 0
+	spanOffset: 0 (0x00000000)
+	spanStallTime: 0.000000
+	====== Animation (for Section 1) ======
+		[Animation index: 0]
+		boneIndex: 3 (0x00000003)
+		flags: 28 (0x0000001C)
+		nextSourceMdlAnimationOffset: 518 (0x00000206)
+		    STUDIO_ANIM_ANIMPOS: (, , )    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 1]
+		boneIndex: 4 (0x00000004)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 2]
+		boneIndex: 5 (0x00000005)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 262 (0x00000106)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 3]
+		boneIndex: 6 (0x00000006)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 4]
+		boneIndex: 8 (0x00000008)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 84 (0x00000054)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 5]
+		boneIndex: 10 (0x0000000A)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 6]
+		boneIndex: 12 (0x0000000C)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 7]
+		boneIndex: 14 (0x0000000E)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 70 (0x00000046)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+		[Animation index: 8]
+		boneIndex: 16 (0x00000010)
+		flags: 24 (0x00000018)
+		nextSourceMdlAnimationOffset: 0 (0x00000000)
+		    STUDIO_ANIM_ANIMROT: (, , )
+		--------------------
+	--------------------
+
+
+====== Sequence Descs ======
+	[Sequence Desc index: 0]
+	baseHeaderOffset: -27 792 (0xFFFF9370)
+	labelOffset: 5 667 (0x00001623)
+		label: idle
+	activityNameOffset: 5 672 (0x00001628)
+		activityName: ACT_VM_IDLE
+	flags: 1 (0x00000001)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 2 120 (0x00000848)
+	bbMin.x: -2.719602
+	bbMin.y: -48.007492
+	bbMin.z: -70.000000
+	bbMax.x: 65.908203
+	bbMax.y: 1.933648
+	bbMax.z: 6.037117
+	blendCount: 1
+	animIndexOffset: 2 192 (0x00000890)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 2 120 (0x00000848)
+	weightListOffset: 2 120 (0x00000848)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 2 192 (0x00000890)
+	keyValueOffset: 2 196 (0x00000894)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 0
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+	[Sequence Desc index: 1]
+	baseHeaderOffset: -28 004 (0xFFFF929C)
+	labelOffset: 5 472 (0x00001560)
+		label: idle_layer
+	activityNameOffset: 5 483 (0x0000156B)
+		activityName: ACT_VM_IDLE_LAYER
+	flags: 20 (0x00000014)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 1 984 (0x000007C0)
+	bbMin.x: -2.719602
+	bbMin.y: -48.007500
+	bbMin.z: -70.000000
+	bbMax.x: 65.908203
+	bbMax.y: 1.933633
+	bbMax.z: 6.037116
+	blendCount: 1
+	animIndexOffset: 1 984 (0x000007C0)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 1 984 (0x000007C0)
+	weightListOffset: 1 908 (0x00000774)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 1 984 (0x000007C0)
+	keyValueOffset: 1 988 (0x000007C4)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 1
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+	[Sequence Desc index: 2]
+	baseHeaderOffset: -28 216 (0xFFFF91C8)
+	labelOffset: 5 289 (0x000014A9)
+		label: deploy
+	activityNameOffset: 5 296 (0x000014B0)
+		activityName: ACT_VM_DEPLOY
+	flags: 0 (0x00000000)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 1 776 (0x000006F0)
+	bbMin.x: -2.719602
+	bbMin.y: -63.685795
+	bbMin.z: -70.000000
+	bbMax.x: 66.397888
+	bbMax.y: 0.985055
+	bbMax.z: 11.997847
+	blendCount: 1
+	animIndexOffset: 1 776 (0x000006F0)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 1 776 (0x000006F0)
+	weightListOffset: 1 696 (0x000006A0)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 1 776 (0x000006F0)
+	keyValueOffset: 1 780 (0x000006F4)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 2
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+	[Sequence Desc index: 3]
+	baseHeaderOffset: -28 428 (0xFFFF90F4)
+	labelOffset: 5 098 (0x000013EA)
+		label: deploy_layer
+	activityNameOffset: 5 111 (0x000013F7)
+		activityName: ACT_VM_DEPLOY_LAYER
+	flags: 20 (0x00000014)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 1 568 (0x00000620)
+	bbMin.x: -2.719602
+	bbMin.y: -63.685795
+	bbMin.z: -70.000000
+	bbMax.x: 66.397881
+	bbMax.y: 0.985050
+	bbMax.z: 11.997841
+	blendCount: 1
+	animIndexOffset: 1 568 (0x00000620)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 1 568 (0x00000620)
+	weightListOffset: 1 484 (0x000005CC)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 1 568 (0x00000620)
+	keyValueOffset: 1 572 (0x00000624)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 3
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+	[Sequence Desc index: 4]
+	baseHeaderOffset: -28 640 (0xFFFF9020)
+	labelOffset: 4 919 (0x00001337)
+		label: melee
+	activityNameOffset: 4 925 (0x0000133D)
+		activityName: ACT_VM_PRIMARYATTACK
+	flags: 0 (0x00000000)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 1 360 (0x00000550)
+	bbMin.x: -2.719602
+	bbMin.y: -57.562355
+	bbMin.z: -70.000000
+	bbMax.x: 70.782623
+	bbMax.y: 12.310555
+	bbMax.z: 23.746628
+	blendCount: 1
+	animIndexOffset: 1 360 (0x00000550)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 1 360 (0x00000550)
+	weightListOffset: 1 272 (0x000004F8)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 1 360 (0x00000550)
+	keyValueOffset: 1 364 (0x00000554)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 4
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+	[Sequence Desc index: 5]
+	baseHeaderOffset: -28 852 (0xFFFF8F4C)
+	labelOffset: 4 734 (0x0000127E)
+		label: melee_layer
+	activityNameOffset: 4 746 (0x0000128A)
+		activityName: ACT_VM_PRIMARYATTACK_LAYER
+	flags: 20 (0x00000014)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 1 152 (0x00000480)
+	bbMin.x: -2.719602
+	bbMin.y: -57.562363
+	bbMin.z: -70.000000
+	bbMax.x: 70.782631
+	bbMax.y: 12.310551
+	bbMax.z: 23.746607
+	blendCount: 1
+	animIndexOffset: 1 152 (0x00000480)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 1 152 (0x00000480)
+	weightListOffset: 1 060 (0x00000424)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 1 152 (0x00000480)
+	keyValueOffset: 1 156 (0x00000484)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 5
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+	[Sequence Desc index: 6]
+	baseHeaderOffset: -29 064 (0xFFFF8E78)
+	labelOffset: 4 561 (0x000011D1)
+		label: melee02
+	activityNameOffset: 4 569 (0x000011D9)
+		activityName: ACT_VM_SHOOT
+	flags: 0 (0x00000000)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 944 (0x000003B0)
+	bbMin.x: -2.719602
+	bbMin.y: -56.457821
+	bbMin.z: -70.000000
+	bbMax.x: 71.341148
+	bbMax.y: 12.268475
+	bbMax.z: 35.670395
+	blendCount: 1
+	animIndexOffset: 944 (0x000003B0)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 944 (0x000003B0)
+	weightListOffset: 848 (0x00000350)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 944 (0x000003B0)
+	keyValueOffset: 948 (0x000003B4)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 6
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+	[Sequence Desc index: 7]
+	baseHeaderOffset: -29 276 (0xFFFF8DA4)
+	labelOffset: 4 370 (0x00001112)
+		label: melee02_layer
+	activityNameOffset: 4 384 (0x00001120)
+		activityName: ACT_VM_SHOOT_LAYER
+	flags: 20 (0x00000014)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 736 (0x000002E0)
+	bbMin.x: -2.719602
+	bbMin.y: -56.457825
+	bbMin.z: -70.000000
+	bbMax.x: 71.341156
+	bbMax.y: 12.268471
+	bbMax.z: 35.670395
+	blendCount: 1
+	animIndexOffset: 736 (0x000002E0)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 736 (0x000002E0)
+	weightListOffset: 636 (0x0000027C)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 736 (0x000002E0)
+	keyValueOffset: 740 (0x000002E4)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 7
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+	[Sequence Desc index: 8]
+	baseHeaderOffset: -29 488 (0xFFFF8CD0)
+	labelOffset: 4 191 (0x0000105F)
+		label: melee03
+	activityNameOffset: 4 145 (0x00001031)
+		activityName: ACT_VM_SHOOT
+	flags: 0 (0x00000000)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 528 (0x00000210)
+	bbMin.x: -2.719602
+	bbMin.y: -57.562355
+	bbMin.z: -70.000000
+	bbMax.x: 70.782623
+	bbMax.y: 12.310555
+	bbMax.z: 23.746628
+	blendCount: 1
+	animIndexOffset: 528 (0x00000210)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 528 (0x00000210)
+	weightListOffset: 424 (0x000001A8)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 528 (0x00000210)
+	keyValueOffset: 532 (0x00000214)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 8
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+	[Sequence Desc index: 9]
+	baseHeaderOffset: -29 700 (0xFFFF8BFC)
+	labelOffset: 3 987 (0x00000F93)
+		label: melee03_layer
+	activityNameOffset: 3 960 (0x00000F78)
+		activityName: ACT_VM_SHOOT_LAYER
+	flags: 20 (0x00000014)
+	activity: -1 (0xFFFFFFFF)
+	activityWeight: 1 (0x00000001)
+	eventCount: 0
+	eventOffset: 320 (0x00000140)
+	bbMin.x: -2.719602
+	bbMin.y: -57.562363
+	bbMin.z: -70.000000
+	bbMax.x: 70.782631
+	bbMax.y: 12.310551
+	bbMax.z: 23.746607
+	blendCount: 1
+	animIndexOffset: 320 (0x00000140)
+	movementIndex: 0 (0x00000000)
+	groupSize(0): 1 (0x00000001)
+	groupSize(1): 1 (0x00000001)
+	paramIndex(0): -1 (0xFFFFFFFF)
+	paramIndex(1): -1 (0xFFFFFFFF)
+	paramStart(0): 0.000000
+	paramStart(1): 0.000000
+	paramEnd(0): 0.000000
+	paramEnd(1): 0.000000
+	paramParent: 0 (0x00000000)
+	fadeInTime: 0.200000
+	fadeOutTime: 0.200000
+	localEntryNode: 0 (0x00000000)
+	localExitNode: 0 (0x00000000)
+	nodeFlags: 0 (0x00000000)
+	entryPhase: 0.000000
+	exitPhase: 0.000000
+	lastFrame: 0.000000
+	nextSeq: 0 (0x00000000)
+	pose: 0 (0x00000000)
+	ikRuleCount: 0
+	autoLayerCount: 0
+	autoLayerOffset: 320 (0x00000140)
+	weightListOffset: 212 (0x000000D4)
+	poseKeyOffset: 0 (0x00000000)
+	ikLockCount: 0
+	ikLockOffset: 320 (0x00000140)
+	keyValueOffset: 324 (0x00000144)
+	keyValueSize: 0
+	cyclePoseIndex: 0 (0x00000000)
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	====== Animation Indexes ======
+		[Animation Index index: 0]
+		animIndex: 9
+		--------------------
+	====== Animation Bone Weights ======
+		[Animation Bone Weight index: 0]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 1]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 2]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 3]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 4]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 5]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 6]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 7]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 8]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 9]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 10]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 11]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 12]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 13]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 14]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 15]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 16]
+		boneWeight: 1.000000
+		--------------------
+		[Animation Bone Weight index: 17]
+		boneWeight: 1.000000
+		--------------------
+	--------------------
+
+
+====== Textures ======
+	[Texture index: 0]
+	00 nameOffset: 3 402 (models\infected\charger\charger_diffuse)
+	--------------------
+
+
+====== Texture Paths ($cdmaterials) ======
+	[Texture Path index: 0]
+	weapons\arms\
+	--------------------
+	[Texture Path index: 1]
+	
+	--------------------
+
+
+====== Body Parts ======
+	[Body Part index: 0]
+	00 nameOffset: 3 677 (0x00000E5D)
+	name: arms
+	04 modelCount: 1
+	08 base: 1 (0x00000001)
+	0C modelOffset: 16 (0x00000010)
+	====== Models ======
+		[Model index: 0]
+		name: dmx\v_charger_arms.dmx
+		type: 0 (0x00000000)
+		boundingRadius: 0.000000
+		meshCount: 1
+		meshOffset: 148 (0x00000094)
+		vertexCount: 479
+		vertexOffset: 0 (0x00000000)
+		tangentOffset: 0 (0x00000000)
+		attachmentCount: 0
+		attachmentOffset: 0 (0x00000000)
+		eyeballCount: 0
+		eyeballOffset: 264 (0x00000108)
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		====== Meshes ======
+			Total vertexCount: 479
+			--------------------
+			[Mesh index: 0]
+			materialIndex: 0 (0x00000000)
+			modelOffset: -148 (0xFFFFFF6C)
+			vertexCount: 479
+			vertexIndexStart: 0 (0x00000000)
+			flexCount: 0
+			flexOffset: 0 (0x00000000)
+			materialType: 0 (0x00000000)
+			materialParam: 0 (0x00000000)
+			id: 0 (0x00000000)
+			centerX: 0.000000
+			centerY: 0.000000
+			centerZ: 0.000000
+			vertexData.modelVertexDataP: 2 101 376 964 (0x7D4077C4)
+			vertexData.lodVertexCount(0): 479 (0x000001DF)
+			vertexData.lodVertexCount(1): 479 (0x000001DF)
+			vertexData.lodVertexCount(2): 479 (0x000001DF)
+			vertexData.lodVertexCount(3): 479 (0x000001DF)
+			vertexData.lodVertexCount(4): 479 (0x000001DF)
+			vertexData.lodVertexCount(5): 479 (0x000001DF)
+			vertexData.lodVertexCount(6): 479 (0x000001DF)
+			vertexData.lodVertexCount(7): 479 (0x000001DF)
+			unused(0): 0 (0x00000000)
+			unused(1): 0 (0x00000000)
+			unused(2): 0 (0x00000000)
+			unused(3): 0 (0x00000000)
+			unused(4): 0 (0x00000000)
+			unused(5): 0 (0x00000000)
+			unused(6): 0 (0x00000000)
+			unused(7): 0 (0x00000000)
+			--------------------
+		--------------------
+	------------------------
+
+
+====== Attachments ======
+	[Attachment index: 0]
+	00 nameOffset: 28 785 (0x00007071)
+		name: attach_camera
+	04 flags: 0
+	08 localBone: 0
+	0C localM11: 0.000000
+	10 localM12: 1.000000
+	14 localM13: 0.000000
+	18 localM14: 0.000000
+	1C localM21: 0.000000
+	20 localM22: 0.000000
+	24 localM23: 1.000000
+	28 localM24: 74.895540
+	2C localM31: 1.000000
+	30 localM32: 0.000000
+	34 localM33: 0.000000
+	38 localM34: -0.571241
+	unused(0): 0 (0x00000000)
+	unused(1): 0 (0x00000000)
+	unused(2): 0 (0x00000000)
+	unused(3): 0 (0x00000000)
+	unused(4): 0 (0x00000000)
+	unused(5): 0 (0x00000000)
+	unused(6): 0 (0x00000000)
+	unused(7): 0 (0x00000000)
+	------------------------
+
+
+====== Hitbox Sets ======
+	[Hitbox Set index: 0]
+	nameOffset: 28 249 (0x00006E59)
+		name: default
+	hitboxCount: 12
+	hitboxOffset: 12 (0x0000000C)
+	====== Hitboxes ======
+		[Hitbox index: 0]
+		boneIndex: 1
+		groupIndex: 0
+		boundingBoxMinX: -1.549380
+		boundingBoxMinY: -5.102886
+		boundingBoxMinZ: -4.074768
+		boundingBoxMaxX: 0.000000
+		boundingBoxMaxY: 0.000000
+		boundingBoxMaxZ: 0.000000
+		nameOffset: 28 236 (0x00006E4C)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 1]
+		boneIndex: 2
+		groupIndex: 0
+		boundingBoxMinX: -14.536150
+		boundingBoxMinY: 0.000000
+		boundingBoxMinZ: 0.000000
+		boundingBoxMaxX: 0.000000
+		boundingBoxMaxY: 14.205188
+		boundingBoxMaxZ: 1.665646
+		nameOffset: 28 168 (0x00006E08)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 2]
+		boneIndex: 3
+		groupIndex: 0
+		boundingBoxMinX: -7.006961
+		boundingBoxMinY: -0.937320
+		boundingBoxMinZ: -8.441210
+		boundingBoxMaxX: 7.204134
+		boundingBoxMaxY: 24.808748
+		boundingBoxMaxZ: 10.842306
+		nameOffset: 28 100 (0x00006DC4)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 3]
+		boneIndex: 4
+		groupIndex: 0
+		boundingBoxMinX: -6.821221
+		boundingBoxMinY: -14.387232
+		boundingBoxMinZ: -8.881102
+		boundingBoxMaxX: 7.513758
+		boundingBoxMaxY: 19.941742
+		boundingBoxMaxZ: 9.124662
+		nameOffset: 28 032 (0x00006D80)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 4]
+		boneIndex: 5
+		groupIndex: 0
+		boundingBoxMinX: -6.785752
+		boundingBoxMinY: -12.126613
+		boundingBoxMinZ: -8.552611
+		boundingBoxMaxX: 8.589525
+		boundingBoxMaxY: 9.806702
+		boundingBoxMaxZ: 7.290882
+		nameOffset: 27 964 (0x00006D3C)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 5]
+		boneIndex: 7
+		groupIndex: 0
+		boundingBoxMinX: -2.211843
+		boundingBoxMinY: 0.000000
+		boundingBoxMinZ: -2.190898
+		boundingBoxMaxX: 1.994334
+		boundingBoxMaxY: 4.820634
+		boundingBoxMaxZ: 2.457019
+		nameOffset: 27 896 (0x00006CF8)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 6]
+		boneIndex: 9
+		groupIndex: 0
+		boundingBoxMinX: -1.672235
+		boundingBoxMinY: -0.277059
+		boundingBoxMinZ: -2.715347
+		boundingBoxMaxX: 2.124893
+		boundingBoxMaxY: 5.584386
+		boundingBoxMaxZ: 1.632915
+		nameOffset: 27 828 (0x00006CB4)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 7]
+		boneIndex: 11
+		groupIndex: 0
+		boundingBoxMinX: -0.920174
+		boundingBoxMinY: 0.000000
+		boundingBoxMinZ: -2.264005
+		boundingBoxMaxX: 1.996063
+		boundingBoxMaxY: 5.746594
+		boundingBoxMaxZ: 1.888159
+		nameOffset: 27 760 (0x00006C70)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 8]
+		boneIndex: 13
+		groupIndex: 0
+		boundingBoxMinX: -1.309334
+		boundingBoxMinY: -0.111414
+		boundingBoxMinZ: -1.424311
+		boundingBoxMaxX: 1.725755
+		boundingBoxMaxY: 5.194787
+		boundingBoxMaxZ: 2.742114
+		nameOffset: 27 692 (0x00006C2C)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 9]
+		boneIndex: 15
+		groupIndex: 0
+		boundingBoxMinX: -1.180509
+		boundingBoxMinY: -0.190627
+		boundingBoxMinZ: -1.501490
+		boundingBoxMaxX: 2.242725
+		boundingBoxMaxY: 4.777935
+		boundingBoxMaxZ: 1.998207
+		nameOffset: 27 624 (0x00006BE8)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 10]
+		boneIndex: 16
+		groupIndex: 0
+		boundingBoxMinX: -6.848053
+		boundingBoxMinY: -7.094582
+		boundingBoxMinZ: -7.231843
+		boundingBoxMaxX: 6.730008
+		boundingBoxMaxY: 6.689084
+		boundingBoxMaxZ: 8.640387
+		nameOffset: 27 556 (0x00006BA4)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+		[Hitbox index: 11]
+		boneIndex: 17
+		groupIndex: 0
+		boundingBoxMinX: -6.087352
+		boundingBoxMinY: -2.884604
+		boundingBoxMinZ: -8.148812
+		boundingBoxMaxX: 6.799708
+		boundingBoxMaxY: 19.805426
+		boundingBoxMaxZ: 10.403458
+		nameOffset: 27 488 (0x00006B60)
+			name: 
+		unused(0): 0 (0x00000000)
+		unused(1): 0 (0x00000000)
+		unused(2): 0 (0x00000000)
+		unused(3): 0 (0x00000000)
+		unused(4): 0 (0x00000000)
+		unused(5): 0 (0x00000000)
+		unused(6): 0 (0x00000000)
+		unused(7): 0 (0x00000000)
+		--------------------
+	--------------------

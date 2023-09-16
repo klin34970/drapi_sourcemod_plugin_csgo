@@ -1,0 +1,59 @@
+GetCircuitPos(Float:center[3], Float:radius, Float:angle, Float:output[3], bool:rotate = false, bool:horizontal = false)
+{
+new Float:sin=Sine(DegToRad(angle))*radius;
+new Float:cos=Cosine(DegToRad(angle))*radius;
+
+if(horizontal){
+output[0] = center[0]+sin;
+output[1] = center[1]+cos;
+output[2] = center[2];
+}
+else{
+if(rotate){
+output[0] = center[0]+sin;
+output[1] = center[1];
+output[2] = center[2]+cos;
+}
+else{
+output[0] = center[0];
+output[1] = center[1]+sin;
+output[2] = center[2]+cos;
+}
+}
+}
+
+for(new i=1;i<=5;i++)
+{
+switch(i)
+{
+case 1:
+{
+GetCircuitPos(pos, range, 0.0, fVecStart, false, true);
+GetCircuitPos(pos, range, float(2*72), fVecEnd, false, true);
+}
+case 2:
+{
+GetCircuitPos(pos, range, float(2*72), fVecStart, false, true);
+GetCircuitPos(pos, range, float(4*72), fVecEnd, false, true);
+}
+case 3:
+{
+GetCircuitPos(pos, range, float(4*72), fVecStart, false, true);
+GetCircuitPos(pos, range, float(1*72), fVecEnd, false, true);
+}
+case 4:
+{
+GetCircuitPos(pos, range, float(1*72), fVecStart, false, true);
+GetCircuitPos(pos, range, float(3*72), fVecEnd, false, true);
+}
+case 5:
+{
+GetCircuitPos(pos, range, float(3*72), fVecStart, false, true);
+GetCircuitPos(pos, range, 0.0, fVecEnd, false, true);
+}
+}
+
+TE_SetupBeamPoints(fVecStart, fVecEnd, gLaser1, 0, 0, 66, ttl, width, 1.0, 0, 0.0, color, 0);
+(client == 0) ? TE_SendToAll() : TE_SendToClient(client);
+}
+

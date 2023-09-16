@@ -1,0 +1,22 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/player/halo4/cortana/eyes_glow"
+	"$surfaceprop" "Default"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "20"
+		}
+	}
+	"$phong" "1"
+	"$phongboost" ".1"
+	"$phongexponent" "5"
+	"$phongtint" "[.85 .85 1]"
+	"$halflambert" "0"
+	"$phongfresnelranges" "[.3 .65 30]"
+	"$ambientocclusion" "1"
+	"$diffuseexp" "1.5"
+}

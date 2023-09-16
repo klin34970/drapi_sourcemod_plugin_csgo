@@ -1,0 +1,92 @@
+// Created by Crowbar 0.24.0.0
+
+Compiling...
+
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/knife_butterfly/knife_butterfly.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/knife_bayonet/knife_bayonet.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/knife_ct/knife_ct.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/knife_flip/knife_flip.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/knife_gut/knife_gut.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/knife_karam/karam.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/knife_m9_bay/knife_m9_bay.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/knife_t/knife_t.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/knife_tactical/knife_tactical.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/mach_m249para/m249.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/mach_negev/mach_negev.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/pist_223/pist_223.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/pist_cz_75/pist_cz_75.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/pist_deagle/pist_deagle.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/pist_elite/m9a1.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/pist_fiveseven/fiveseven.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/pist_glock18/pist_glock18.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/pist_hkp2000/pist_hkp2000.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/pist_p250/p250.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/pist_tec9/pist_tec9.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/rif_ak47/ak47.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/rif_aug/rif_aug.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/rif_famas/rif_famas.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/rif_galilar/rif_galilar.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/rif_m4a1/rif_m4a1.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/rif_m4a1_s/rif_m4a1_s.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/rif_sg556/rif_sg556.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/shot_mag7/shot_mag7.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/shot_nova/shot_nova.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/shot_sawedoff/shot_sawedoff_01.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/shot_xm1014/shot_xm1014.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/smg_bizon/bizon.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/smg_mac10/smg_mac10_1.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/smg_mp7/smg_mp7.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/smg_mp9/smg_mp9.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/smg_p90/smg_p90.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/smg_ump45/smg_ump45.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/snip_awp/awp.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/snip_g3sg1/snip_g3sg1.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/snip_scar20/snip_scar20.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/snip_ssg08/snip_ssg08.vmt.
+CustomMaterialManager: Cached KeyValues materials/models/weapons/v_models/snip_ssg08/snip_ssg08_scope.vmt.
+qdir:    "d:\programs\games\steam\steamapps\common\mapping do not remove\model 3d\z4e hulk\download\models\v_models\weapons\decompiled 0.24\"
+gamedir: "D:\Programs\Games\Steam\SteamApps\common\Counter-Strike Global Offensive\csgo\"
+g_path:  "v_claw_hulk.qc"
+Building binary model files...
+Working on "v_claw_hulk.qc"
+SMD MODEL v_claw_hulk_reference.smd
+Processing LOD for material: v_Hulk
+---------------------
+writing D:\Programs\Games\Steam\SteamApps\common\Counter-Strike Global Offensive\csgo\models/v_models\weapons\v_claw_Hulk.mdl:
+bones        12076 bytes (40)
+   animation       x       y       ips    angle
+animations       0 bytes (0 anims) (0 frames) [0:00]
+sequences        0 bytes (0 seq) 
+ik/pose        164 bytes
+eyeballs         0 bytes (0 eyeballs)
+flexes           0 bytes (0 flexes)
+textures        72 bytes
+keyvalues        0 bytes
+bone transforms     5504 bytes
+bone flex driver       0 bytes
+collision        0 bytes
+total        19160
+---------------------
+writing D:\Programs\Games\Steam\SteamApps\common\Counter-Strike Global Offensive\csgo\models/v_models\weapons\v_claw_Hulk.vvd:
+vertices     66768 bytes (1391 vertices)
+tangents     22256 bytes (1391 vertices)
+total        89088 bytes
+---------------------
+Generating optimized mesh "D:\Programs\Games\Steam\SteamApps\common\Counter-Strike Global Offensive\csgo\models/v_models\weapons\v_claw_Hulk.dx90.vtx":
+body parts:         8 bytes
+models:            20 bytes
+model LODs:        12 bytes
+meshes:             9 bytes
+strip groups:      33 bytes
+strips:            35 bytes
+verts:          12519 bytes
+indices:        13590 bytes
+bone changes:     328 bytes
+everything:     26578 bytes
+
+Completed "v_claw_hulk.qc"
+CDynamicFunction: Loading library 'Kernel32.dll' (74FD0000)
+CDynamicFunction: Lookup of 'TryEnterCriticalSection' in 'Kernel32.dll': 77585FF2
+CDynamicFunction: Closing library 'Kernel32.dll' (74FD0000)
+
+Compiling...

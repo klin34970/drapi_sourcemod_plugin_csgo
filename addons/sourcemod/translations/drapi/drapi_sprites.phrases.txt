@@ -1,0 +1,90 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+	"MenuSprites_TITLE"
+	{
+
+		"en"			"Menu: Sprites"
+	}
+
+	"MenuSprites_UNEQUIPED_MENU_TITLE"
+	{
+		"fr"			"Déséquiper"
+		"en"			"Unequip"
+	}
+
+	"MenuSprites_HIDESPRITES_MENU_TITLE"
+	{
+
+    		"fr"			"Cacher tous les sprites"
+		"en"			"Hide all sprites"
+	}
+
+	"MenuSprites_SHOWSPRITES_MENU_TITLE"
+	{
+
+    		"fr"			"Montrer tous les sprites"
+		"en"			"Show all sprites"
+	}
+
+	"MenuSprites_THIRDPERSON_MENU_TITLE"
+	{
+
+    		"fr"			"Vue: 3ème personne"
+		"en"			"Thirdperson view"
+	}
+
+	"MenuSprites_BUYSPRITES_MENU_TITLE"
+	{
+
+    		"fr"			"Acheter des sprites"
+		"en"			"Buy sprites"
+	}
+
+	"MenuSprites_SEPARATEPRITES_MENU_TITLE"
+	{
+
+    		"fr"			"--Choississez votre sprite--"
+		"en"			"--Choose your sprite--"
+	}
+
+	"Replace Sprite"
+	{
+
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}SPRITES{NORMAL}] Vous avez {GREEN}équipé{NORMAL}: {BLUE}{1}{NORMAL}."
+		"en"			"[{GREEN}SPRITES{NORMAL}] You have {GREEN}equipped{NORMAL}: {BLUE}{1}{NORMAL}."
+	}
+
+	"New Sprite"
+	{
+
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}SPRITES{NORMAL}] Vous avez {GREEN}équipé{NORMAL}: {BLUE}{1}{NORMAL}."
+		"en"			"[{GREEN}SPRITES{NORMAL}] You have {GREEN}equipped{NORMAL}: {BLUE}{1}{NORMAL}."
+	}
+
+	"Alive Sprite"
+	{
+
+		"#format"		"{1:s}"
+    		"fr"			"[{GREEN}SPRITES{NORMAL}] Vous avez {GREEN}équipé{NORMAL}: {BLUE}{1}{NORMAL} pour le prochain round."
+		"en"			"[{GREEN}SPRITES{NORMAL}] You have {GREEN}equipped{NORMAL}: {BLUE}{1}{NORMAL} for the next round."
+	}
+
+	"Delete Sprite"
+	{
+
+    		"fr"			"[{GREEN}SPRITES{NORMAL}] Vous avez {RED}déséquipé{NORMAL} votre sprite"
+		"en"			"[{GREEN}SPRITES{NORMAL}] You have {RED}unequipped{NORMAL} your sprite"
+	}
+}
+

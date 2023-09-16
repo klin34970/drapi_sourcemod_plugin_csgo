@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/deadpool/body_blue"
+	"$bumpmap" "models/player/deadpool/body_n"
+}

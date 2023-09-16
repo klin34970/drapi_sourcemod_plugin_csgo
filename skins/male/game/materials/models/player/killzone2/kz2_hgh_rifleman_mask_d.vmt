@@ -1,0 +1,18 @@
+vertexlitgeneric
+{
+	$basetexture "models/player/killzone2/kz2_hgh_rifleman_mask_d"
+	$bumpmap "models/player/killzone2/kz2_hgh_rifleman_mask_n"
+
+	"$phong" "1"
+	"$phongBoost" ".5"
+	"$phongExponent" "50"  
+	"$phongFresnelRanges" "[.5 .5 1]"
+	"$phongdisablehalflambert" "1"
+	"$PhongAlbedoTint" "1"
+
+	"$lightwarptexture" 	"models/player/killzone2/kz2warp"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "50"
+	"$rimlightboost" ".1"
+}

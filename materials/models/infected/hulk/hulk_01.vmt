@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\infected\hulk\tank_color"
+$bumpmap "models\infected\hulk\tank_Normal"
+$lightwarptexture "models\infected\hulk\coach_head_wrp"
+}

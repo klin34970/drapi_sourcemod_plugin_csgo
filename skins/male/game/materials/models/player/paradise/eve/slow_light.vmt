@@ -1,0 +1,23 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "models/player/paradise/eve/slow_light"
+	"$texture2"	"models/player/paradise/eve/slow_light_2"
+
+	"$model" 1
+
+       "Proxies"
+        {
+            "TextureScroll"
+            {
+                "textureScrollVar" 		"$basetexturetransform"
+                "textureScrollRate" 	"1"
+                "textureScrollAngle" 	"90"
+            }
+            "TextureScroll"
+            {
+                "textureScrollVar" 		"$texture2transform"
+                "textureScrollRate" 	"2"
+                "textureScrollAngle" 	"-45"
+            }
+        }
+    }

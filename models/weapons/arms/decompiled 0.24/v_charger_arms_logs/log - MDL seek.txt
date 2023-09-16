@@ -1,0 +1,630 @@
+// Created by Crowbar 0.24.0.0
+====== MDL File Seek Log ======
+--- Summary ---
+	0 - 79
+	1 - 3
+	80 - 407
+	664 - 6 539
+	6 544 - 7 935
+	7 940 - 9 331
+	9 336 - 10 743
+	10 748 - 12 163
+	12 168 - 12 323
+	12 328 - 12 483
+	12 488 - 12 535
+	12 544 - 12 847
+	12 852 - 13 759
+	13 764 - 14 059
+	14 064 - 14 973
+	14 980 - 16 195
+	16 200 - 17 435
+	17 440 - 17 451
+	17 444 - 17 451
+	17 448 - 17 451
+	17 456 - 19 343
+	19 360 - 20 999
+	21 008 - 22 741
+	22 752 - 24 251
+	24 256 - 26 089
+	26 096 - 27 783
+	27 792 - 30 379
+	32 892 - 33 759
+------------------------
+--- Each Section or Loop ---
+	0 - 79 MDL File Header 00
+
+	1 - 3 anAnimationDesc.theAnimations alignment
+
+	80 - 407 MDL File Header 01
+
+	664 - 4 551 theMdlFileData.theBones
+	4 552 - 4 643 theMdlFileData.theAttachments
+	4 644 - 4 655 theMdlFileData.theHitboxSets
+	4 656 - 5 471 aHitboxSet.theHitboxes
+	5 472 - 5 489 theMdlFileData.theBoneTableByName
+	5 490 - 5 491 theMdlFileData.theBoneTableByName alignment
+	5 492 - 6 491 theMdlFileData.theAnimationDescs
+	6 492 - 6 499 anAnimationDesc.theSections
+	6 500 - 6 507 anAnimationDesc.theSections
+	6 508 - 6 515 anAnimationDesc.theSections
+	6 516 - 6 523 anAnimationDesc.theSections
+	6 524 - 6 531 anAnimationDesc.theSections
+	6 532 - 6 539 anAnimationDesc.theSections
+
+	6 544 - 6 561 anAnimationDesc.anAnimation
+	6 562 - 6 577 anAnimationDesc.anAnimation
+	6 578 - 6 641 anAnimation.theRotV.theAnimXValues
+	6 642 - 6 705 anAnimation.theRotV.theAnimYValues
+	6 706 - 6 769 anAnimation.theRotV.theAnimZValues
+	6 770 - 6 833 anAnimation.thePosV.theAnimXValues
+	6 834 - 6 869 anAnimation.thePosV.theAnimYValues
+	6 870 - 6 931 anAnimation.thePosV.theAnimZValues
+	6 932 - 6 941 anAnimationDesc.anAnimation
+	6 942 - 7 005 anAnimation.theRotV.theAnimXValues
+	7 006 - 7 065 anAnimation.theRotV.theAnimYValues
+	7 066 - 7 129 anAnimation.theRotV.theAnimZValues
+	7 130 - 7 139 anAnimationDesc.anAnimation
+	7 140 - 7 203 anAnimation.theRotV.theAnimXValues
+	7 204 - 7 267 anAnimation.theRotV.theAnimYValues
+	7 268 - 7 331 anAnimation.theRotV.theAnimZValues
+	7 332 - 7 341 anAnimationDesc.anAnimation
+	7 342 - 7 405 anAnimation.theRotV.theAnimXValues
+	7 406 - 7 415 anAnimationDesc.anAnimation
+	7 416 - 7 479 anAnimation.theRotV.theAnimXValues
+	7 480 - 7 483 anAnimation.theRotV.theAnimYValues
+	7 484 - 7 487 anAnimation.theRotV.theAnimZValues
+	7 488 - 7 499 anAnimationDesc.anAnimation
+	7 500 - 7 509 anAnimationDesc.anAnimation
+	7 510 - 7 573 anAnimation.theRotV.theAnimXValues
+	7 574 - 7 583 anAnimationDesc.anAnimation
+	7 584 - 7 647 anAnimation.theRotV.theAnimXValues
+	7 648 - 7 657 anAnimationDesc.anAnimation
+	7 658 - 7 721 anAnimation.theRotV.theAnimXValues
+	7 722 - 7 731 anAnimationDesc.anAnimation
+	7 732 - 7 795 anAnimation.theRotV.theAnimXValues
+	7 796 - 7 859 anAnimation.theRotV.theAnimYValues
+	7 860 - 7 923 anAnimation.theRotV.theAnimZValues
+	7 924 - 7 935 anAnimationDesc.anAnimation
+
+	7 940 - 7 957 anAnimationDesc.anAnimation
+	7 958 - 7 973 anAnimationDesc.anAnimation
+	7 974 - 8 037 anAnimation.theRotV.theAnimXValues
+	8 038 - 8 101 anAnimation.theRotV.theAnimYValues
+	8 102 - 8 165 anAnimation.theRotV.theAnimZValues
+	8 166 - 8 225 anAnimation.thePosV.theAnimXValues
+	8 226 - 8 257 anAnimation.thePosV.theAnimYValues
+	8 258 - 8 319 anAnimation.thePosV.theAnimZValues
+	8 320 - 8 329 anAnimationDesc.anAnimation
+	8 330 - 8 393 anAnimation.theRotV.theAnimXValues
+	8 394 - 8 455 anAnimation.theRotV.theAnimYValues
+	8 456 - 8 519 anAnimation.theRotV.theAnimZValues
+	8 520 - 8 529 anAnimationDesc.anAnimation
+	8 530 - 8 593 anAnimation.theRotV.theAnimXValues
+	8 594 - 8 657 anAnimation.theRotV.theAnimYValues
+	8 658 - 8 721 anAnimation.theRotV.theAnimZValues
+	8 722 - 8 731 anAnimationDesc.anAnimation
+	8 732 - 8 795 anAnimation.theRotV.theAnimXValues
+	8 796 - 8 805 anAnimationDesc.anAnimation
+	8 806 - 8 869 anAnimation.theRotV.theAnimXValues
+	8 870 - 8 873 anAnimation.theRotV.theAnimYValues
+	8 874 - 8 883 anAnimation.theRotV.theAnimZValues
+	8 884 - 8 895 anAnimationDesc.anAnimation
+	8 896 - 8 905 anAnimationDesc.anAnimation
+	8 906 - 8 969 anAnimation.theRotV.theAnimXValues
+	8 970 - 8 979 anAnimationDesc.anAnimation
+	8 980 - 9 043 anAnimation.theRotV.theAnimXValues
+	9 044 - 9 053 anAnimationDesc.anAnimation
+	9 054 - 9 117 anAnimation.theRotV.theAnimXValues
+	9 118 - 9 127 anAnimationDesc.anAnimation
+	9 128 - 9 191 anAnimation.theRotV.theAnimXValues
+	9 192 - 9 255 anAnimation.theRotV.theAnimYValues
+	9 256 - 9 319 anAnimation.theRotV.theAnimZValues
+	9 320 - 9 331 anAnimationDesc.anAnimation
+
+	9 336 - 9 353 anAnimationDesc.anAnimation
+	9 354 - 9 369 anAnimationDesc.anAnimation
+	9 370 - 9 433 anAnimation.theRotV.theAnimXValues
+	9 434 - 9 497 anAnimation.theRotV.theAnimYValues
+	9 498 - 9 561 anAnimation.theRotV.theAnimZValues
+	9 562 - 9 625 anAnimation.thePosV.theAnimXValues
+	9 626 - 9 661 anAnimation.thePosV.theAnimYValues
+	9 662 - 9 725 anAnimation.thePosV.theAnimZValues
+	9 726 - 9 735 anAnimationDesc.anAnimation
+	9 736 - 9 799 anAnimation.theRotV.theAnimXValues
+	9 800 - 9 855 anAnimation.theRotV.theAnimYValues
+	9 856 - 9 919 anAnimation.theRotV.theAnimZValues
+	9 920 - 9 929 anAnimationDesc.anAnimation
+	9 930 - 9 993 anAnimation.theRotV.theAnimXValues
+	9 994 - 10 057 anAnimation.theRotV.theAnimYValues
+	10 058 - 10 121 anAnimation.theRotV.theAnimZValues
+	10 122 - 10 131 anAnimationDesc.anAnimation
+	10 132 - 10 195 anAnimation.theRotV.theAnimXValues
+	10 196 - 10 205 anAnimationDesc.anAnimation
+	10 206 - 10 269 anAnimation.theRotV.theAnimXValues
+	10 270 - 10 273 anAnimation.theRotV.theAnimYValues
+	10 274 - 10 295 anAnimation.theRotV.theAnimZValues
+	10 296 - 10 307 anAnimationDesc.anAnimation
+	10 308 - 10 317 anAnimationDesc.anAnimation
+	10 318 - 10 381 anAnimation.theRotV.theAnimXValues
+	10 382 - 10 391 anAnimationDesc.anAnimation
+	10 392 - 10 455 anAnimation.theRotV.theAnimXValues
+	10 456 - 10 465 anAnimationDesc.anAnimation
+	10 466 - 10 529 anAnimation.theRotV.theAnimXValues
+	10 530 - 10 539 anAnimationDesc.anAnimation
+	10 540 - 10 603 anAnimation.theRotV.theAnimXValues
+	10 604 - 10 667 anAnimation.theRotV.theAnimYValues
+	10 668 - 10 731 anAnimation.theRotV.theAnimZValues
+	10 732 - 10 743 anAnimationDesc.anAnimation
+
+	10 748 - 10 765 anAnimationDesc.anAnimation
+	10 766 - 10 781 anAnimationDesc.anAnimation
+	10 782 - 10 845 anAnimation.theRotV.theAnimXValues
+	10 846 - 10 907 anAnimation.theRotV.theAnimYValues
+	10 908 - 10 967 anAnimation.theRotV.theAnimZValues
+	10 968 - 11 029 anAnimation.thePosV.theAnimXValues
+	11 030 - 11 093 anAnimation.thePosV.theAnimYValues
+	11 094 - 11 157 anAnimation.thePosV.theAnimZValues
+	11 158 - 11 167 anAnimationDesc.anAnimation
+	11 168 - 11 231 anAnimation.theRotV.theAnimXValues
+	11 232 - 11 293 anAnimation.theRotV.theAnimYValues
+	11 294 - 11 357 anAnimation.theRotV.theAnimZValues
+	11 358 - 11 367 anAnimationDesc.anAnimation
+	11 368 - 11 431 anAnimation.theRotV.theAnimXValues
+	11 432 - 11 495 anAnimation.theRotV.theAnimYValues
+	11 496 - 11 559 anAnimation.theRotV.theAnimZValues
+	11 560 - 11 569 anAnimationDesc.anAnimation
+	11 570 - 11 633 anAnimation.theRotV.theAnimXValues
+	11 634 - 11 643 anAnimationDesc.anAnimation
+	11 644 - 11 707 anAnimation.theRotV.theAnimXValues
+	11 708 - 11 711 anAnimation.theRotV.theAnimYValues
+	11 712 - 11 715 anAnimation.theRotV.theAnimZValues
+	11 716 - 11 727 anAnimationDesc.anAnimation
+	11 728 - 11 737 anAnimationDesc.anAnimation
+	11 738 - 11 801 anAnimation.theRotV.theAnimXValues
+	11 802 - 11 811 anAnimationDesc.anAnimation
+	11 812 - 11 875 anAnimation.theRotV.theAnimXValues
+	11 876 - 11 885 anAnimationDesc.anAnimation
+	11 886 - 11 949 anAnimation.theRotV.theAnimXValues
+	11 950 - 11 959 anAnimationDesc.anAnimation
+	11 960 - 12 023 anAnimation.theRotV.theAnimXValues
+	12 024 - 12 087 anAnimation.theRotV.theAnimYValues
+	12 088 - 12 151 anAnimation.theRotV.theAnimZValues
+	12 152 - 12 163 anAnimationDesc.anAnimation
+
+	12 168 - 12 185 anAnimationDesc.anAnimation
+	12 186 - 12 203 anAnimationDesc.anAnimation
+	12 204 - 12 215 anAnimationDesc.anAnimation
+	12 216 - 12 227 anAnimationDesc.anAnimation
+	12 228 - 12 239 anAnimationDesc.anAnimation
+	12 240 - 12 251 anAnimationDesc.anAnimation
+	12 252 - 12 263 anAnimationDesc.anAnimation
+	12 264 - 12 275 anAnimationDesc.anAnimation
+	12 276 - 12 287 anAnimationDesc.anAnimation
+	12 288 - 12 299 anAnimationDesc.anAnimation
+	12 300 - 12 311 anAnimationDesc.anAnimation
+	12 312 - 12 323 anAnimationDesc.anAnimation
+
+	12 328 - 12 345 anAnimationDesc.anAnimation
+	12 346 - 12 363 anAnimationDesc.anAnimation
+	12 364 - 12 375 anAnimationDesc.anAnimation
+	12 376 - 12 387 anAnimationDesc.anAnimation
+	12 388 - 12 399 anAnimationDesc.anAnimation
+	12 400 - 12 411 anAnimationDesc.anAnimation
+	12 412 - 12 423 anAnimationDesc.anAnimation
+	12 424 - 12 435 anAnimationDesc.anAnimation
+	12 436 - 12 447 anAnimationDesc.anAnimation
+	12 448 - 12 459 anAnimationDesc.anAnimation
+	12 460 - 12 471 anAnimationDesc.anAnimation
+	12 472 - 12 483 anAnimationDesc.anAnimation
+
+	12 488 - 12 495 anAnimationDesc.theSections
+	12 496 - 12 503 anAnimationDesc.theSections
+	12 504 - 12 511 anAnimationDesc.theSections
+	12 512 - 12 519 anAnimationDesc.theSections
+	12 520 - 12 527 anAnimationDesc.theSections
+	12 528 - 12 535 anAnimationDesc.theSections
+
+	12 544 - 12 559 anAnimationDesc.anAnimation
+	12 560 - 12 623 anAnimation.theRotV.theAnimXValues
+	12 624 - 12 687 anAnimation.theRotV.theAnimYValues
+	12 688 - 12 751 anAnimation.theRotV.theAnimZValues
+	12 752 - 12 815 anAnimation.thePosV.theAnimXValues
+	12 816 - 12 847 anAnimation.thePosV.theAnimYValues
+
+	12 852 - 12 913 anAnimation.thePosV.theAnimZValues
+	12 914 - 12 923 anAnimationDesc.anAnimation
+	12 924 - 12 987 anAnimation.theRotV.theAnimXValues
+	12 988 - 13 049 anAnimation.theRotV.theAnimYValues
+	13 050 - 13 113 anAnimation.theRotV.theAnimZValues
+	13 114 - 13 123 anAnimationDesc.anAnimation
+	13 124 - 13 187 anAnimation.theRotV.theAnimXValues
+	13 188 - 13 251 anAnimation.theRotV.theAnimYValues
+	13 252 - 13 315 anAnimation.theRotV.theAnimZValues
+	13 316 - 13 325 anAnimationDesc.anAnimation
+	13 326 - 13 389 anAnimation.theRotV.theAnimXValues
+	13 390 - 13 399 anAnimationDesc.anAnimation
+	13 400 - 13 463 anAnimation.theRotV.theAnimXValues
+	13 464 - 13 473 anAnimationDesc.anAnimation
+	13 474 - 13 537 anAnimation.theRotV.theAnimXValues
+	13 538 - 13 547 anAnimationDesc.anAnimation
+	13 548 - 13 611 anAnimation.theRotV.theAnimXValues
+	13 612 - 13 621 anAnimationDesc.anAnimation
+	13 622 - 13 685 anAnimation.theRotV.theAnimXValues
+	13 686 - 13 695 anAnimationDesc.anAnimation
+	13 696 - 13 759 anAnimation.theRotV.theAnimYValues
+
+	13 764 - 13 779 anAnimationDesc.anAnimation
+	13 780 - 13 843 anAnimation.theRotV.theAnimXValues
+	13 844 - 13 907 anAnimation.theRotV.theAnimYValues
+	13 908 - 13 971 anAnimation.theRotV.theAnimZValues
+	13 972 - 14 031 anAnimation.thePosV.theAnimXValues
+	14 032 - 14 059 anAnimation.thePosV.theAnimYValues
+
+	14 064 - 14 125 anAnimation.thePosV.theAnimZValues
+	14 126 - 14 135 anAnimationDesc.anAnimation
+	14 136 - 14 199 anAnimation.theRotV.theAnimXValues
+	14 200 - 14 263 anAnimation.theRotV.theAnimYValues
+	14 264 - 14 327 anAnimation.theRotV.theAnimZValues
+	14 328 - 14 337 anAnimationDesc.anAnimation
+	14 338 - 14 401 anAnimation.theRotV.theAnimXValues
+	14 402 - 14 465 anAnimation.theRotV.theAnimYValues
+	14 466 - 14 529 anAnimation.theRotV.theAnimZValues
+	14 530 - 14 539 anAnimationDesc.anAnimation
+	14 540 - 14 603 anAnimation.theRotV.theAnimXValues
+	14 604 - 14 613 anAnimationDesc.anAnimation
+	14 614 - 14 677 anAnimation.theRotV.theAnimXValues
+	14 678 - 14 687 anAnimationDesc.anAnimation
+	14 688 - 14 751 anAnimation.theRotV.theAnimXValues
+	14 752 - 14 761 anAnimationDesc.anAnimation
+	14 762 - 14 825 anAnimation.theRotV.theAnimXValues
+	14 826 - 14 835 anAnimationDesc.anAnimation
+	14 836 - 14 899 anAnimation.theRotV.theAnimXValues
+	14 900 - 14 909 anAnimationDesc.anAnimation
+	14 910 - 14 973 anAnimation.theRotV.theAnimYValues
+
+	14 980 - 14 995 anAnimationDesc.anAnimation
+	14 996 - 15 059 anAnimation.theRotV.theAnimXValues
+	15 060 - 15 123 anAnimation.theRotV.theAnimYValues
+	15 124 - 15 187 anAnimation.theRotV.theAnimZValues
+	15 188 - 15 251 anAnimation.thePosV.theAnimXValues
+	15 252 - 15 283 anAnimation.thePosV.theAnimYValues
+	15 284 - 15 347 anAnimation.thePosV.theAnimZValues
+	15 348 - 15 357 anAnimationDesc.anAnimation
+	15 358 - 15 421 anAnimation.theRotV.theAnimXValues
+	15 422 - 15 485 anAnimation.theRotV.theAnimYValues
+	15 486 - 15 549 anAnimation.theRotV.theAnimZValues
+	15 550 - 15 559 anAnimationDesc.anAnimation
+	15 560 - 15 623 anAnimation.theRotV.theAnimXValues
+	15 624 - 15 687 anAnimation.theRotV.theAnimYValues
+	15 688 - 15 751 anAnimation.theRotV.theAnimZValues
+	15 752 - 15 761 anAnimationDesc.anAnimation
+	15 762 - 15 825 anAnimation.theRotV.theAnimXValues
+	15 826 - 15 835 anAnimationDesc.anAnimation
+	15 836 - 15 899 anAnimation.theRotV.theAnimXValues
+	15 900 - 15 909 anAnimationDesc.anAnimation
+	15 910 - 15 973 anAnimation.theRotV.theAnimXValues
+	15 974 - 15 983 anAnimationDesc.anAnimation
+	15 984 - 16 047 anAnimation.theRotV.theAnimXValues
+	16 048 - 16 057 anAnimationDesc.anAnimation
+	16 058 - 16 121 anAnimation.theRotV.theAnimXValues
+	16 122 - 16 131 anAnimationDesc.anAnimation
+	16 132 - 16 195 anAnimation.theRotV.theAnimYValues
+
+	16 200 - 16 215 anAnimationDesc.anAnimation
+	16 216 - 16 279 anAnimation.theRotV.theAnimXValues
+	16 280 - 16 337 anAnimation.theRotV.theAnimYValues
+	16 338 - 16 401 anAnimation.theRotV.theAnimZValues
+	16 402 - 16 461 anAnimation.thePosV.theAnimXValues
+	16 462 - 16 523 anAnimation.thePosV.theAnimYValues
+	16 524 - 16 587 anAnimation.thePosV.theAnimZValues
+	16 588 - 16 597 anAnimationDesc.anAnimation
+	16 598 - 16 661 anAnimation.theRotV.theAnimXValues
+	16 662 - 16 725 anAnimation.theRotV.theAnimYValues
+	16 726 - 16 789 anAnimation.theRotV.theAnimZValues
+	16 790 - 16 799 anAnimationDesc.anAnimation
+	16 800 - 16 863 anAnimation.theRotV.theAnimXValues
+	16 864 - 16 927 anAnimation.theRotV.theAnimYValues
+	16 928 - 16 991 anAnimation.theRotV.theAnimZValues
+	16 992 - 17 001 anAnimationDesc.anAnimation
+	17 002 - 17 065 anAnimation.theRotV.theAnimXValues
+	17 066 - 17 075 anAnimationDesc.anAnimation
+	17 076 - 17 139 anAnimation.theRotV.theAnimXValues
+	17 140 - 17 149 anAnimationDesc.anAnimation
+	17 150 - 17 213 anAnimation.theRotV.theAnimXValues
+	17 214 - 17 223 anAnimationDesc.anAnimation
+	17 224 - 17 287 anAnimation.theRotV.theAnimXValues
+	17 288 - 17 297 anAnimationDesc.anAnimation
+	17 298 - 17 361 anAnimation.theRotV.theAnimXValues
+	17 362 - 17 371 anAnimationDesc.anAnimation
+	17 372 - 17 435 anAnimation.theRotV.theAnimYValues
+
+	17 440 - 17 451 anAnimationDesc.theAnimations [this includes other logged data offsets]
+
+	17 444 - 17 451 anAnimationDesc.theAnimations [this includes other logged data offsets]
+
+	17 448 - 17 451 anAnimationDesc.anAnimation
+
+	17 456 - 17 473 anAnimationDesc.anAnimation
+	17 474 - 17 489 anAnimationDesc.anAnimation
+	17 490 - 17 573 anAnimation.theRotV.theAnimXValues
+	17 574 - 17 657 anAnimation.theRotV.theAnimYValues
+	17 658 - 17 741 anAnimation.theRotV.theAnimZValues
+	17 742 - 17 825 anAnimation.thePosV.theAnimXValues
+	17 826 - 17 905 anAnimation.thePosV.theAnimYValues
+	17 906 - 17 989 anAnimation.thePosV.theAnimZValues
+	17 990 - 17 999 anAnimationDesc.anAnimation
+	18 000 - 18 083 anAnimation.theRotV.theAnimXValues
+	18 084 - 18 161 anAnimation.theRotV.theAnimYValues
+	18 162 - 18 245 anAnimation.theRotV.theAnimZValues
+	18 246 - 18 255 anAnimationDesc.anAnimation
+	18 256 - 18 339 anAnimation.theRotV.theAnimXValues
+	18 340 - 18 423 anAnimation.theRotV.theAnimYValues
+	18 424 - 18 507 anAnimation.theRotV.theAnimZValues
+	18 508 - 18 517 anAnimationDesc.anAnimation
+	18 518 - 18 581 anAnimation.theRotV.theAnimXValues
+	18 582 - 18 645 anAnimation.theRotV.theAnimYValues
+	18 646 - 18 709 anAnimation.theRotV.theAnimZValues
+	18 710 - 18 719 anAnimationDesc.anAnimation
+	18 720 - 18 783 anAnimation.theRotV.theAnimXValues
+	18 784 - 18 797 anAnimation.theRotV.theAnimYValues
+	18 798 - 18 835 anAnimation.theRotV.theAnimZValues
+	18 836 - 18 847 anAnimationDesc.anAnimation
+	18 848 - 18 857 anAnimationDesc.anAnimation
+	18 858 - 18 921 anAnimation.theRotV.theAnimXValues
+	18 922 - 18 931 anAnimationDesc.anAnimation
+	18 932 - 18 995 anAnimation.theRotV.theAnimXValues
+	18 996 - 19 005 anAnimationDesc.anAnimation
+	19 006 - 19 069 anAnimation.theRotV.theAnimXValues
+	19 070 - 19 079 anAnimationDesc.anAnimation
+	19 080 - 19 163 anAnimation.theRotV.theAnimXValues
+	19 164 - 19 247 anAnimation.theRotV.theAnimYValues
+	19 248 - 19 331 anAnimation.theRotV.theAnimZValues
+	19 332 - 19 343 anAnimationDesc.anAnimation
+
+	19 360 - 19 375 anAnimationDesc.anAnimation
+	19 376 - 19 459 anAnimation.theRotV.theAnimXValues
+	19 460 - 19 543 anAnimation.theRotV.theAnimYValues
+	19 544 - 19 625 anAnimation.theRotV.theAnimZValues
+	19 626 - 19 705 anAnimation.thePosV.theAnimXValues
+	19 706 - 19 785 anAnimation.thePosV.theAnimYValues
+	19 786 - 19 869 anAnimation.thePosV.theAnimZValues
+	19 870 - 19 879 anAnimationDesc.anAnimation
+	19 880 - 19 963 anAnimation.theRotV.theAnimXValues
+	19 964 - 20 045 anAnimation.theRotV.theAnimYValues
+	20 046 - 20 129 anAnimation.theRotV.theAnimZValues
+	20 130 - 20 139 anAnimationDesc.anAnimation
+	20 140 - 20 223 anAnimation.theRotV.theAnimXValues
+	20 224 - 20 307 anAnimation.theRotV.theAnimYValues
+	20 308 - 20 391 anAnimation.theRotV.theAnimZValues
+	20 392 - 20 401 anAnimationDesc.anAnimation
+	20 402 - 20 465 anAnimation.theRotV.theAnimXValues
+	20 466 - 20 529 anAnimation.theRotV.theAnimYValues
+	20 530 - 20 593 anAnimation.theRotV.theAnimZValues
+	20 594 - 20 603 anAnimationDesc.anAnimation
+	20 604 - 20 667 anAnimation.theRotV.theAnimXValues
+	20 668 - 20 679 anAnimation.theRotV.theAnimZValues
+	20 680 - 20 689 anAnimationDesc.anAnimation
+	20 690 - 20 755 anAnimation.theRotV.theAnimXValues
+	20 756 - 20 765 anAnimationDesc.anAnimation
+	20 766 - 20 831 anAnimation.theRotV.theAnimXValues
+	20 832 - 20 841 anAnimationDesc.anAnimation
+	20 842 - 20 905 anAnimation.theRotV.theAnimXValues
+	20 906 - 20 915 anAnimationDesc.anAnimation
+	20 916 - 20 999 anAnimation.theRotV.theAnimYValues
+
+	21 008 - 21 025 anAnimationDesc.anAnimation
+	21 026 - 21 041 anAnimationDesc.anAnimation
+	21 042 - 21 125 anAnimation.theRotV.theAnimXValues
+	21 126 - 21 209 anAnimation.theRotV.theAnimYValues
+	21 210 - 21 293 anAnimation.theRotV.theAnimZValues
+	21 294 - 21 377 anAnimation.thePosV.theAnimXValues
+	21 378 - 21 461 anAnimation.thePosV.theAnimYValues
+	21 462 - 21 545 anAnimation.thePosV.theAnimZValues
+	21 546 - 21 555 anAnimationDesc.anAnimation
+	21 556 - 21 639 anAnimation.theRotV.theAnimXValues
+	21 640 - 21 723 anAnimation.theRotV.theAnimYValues
+	21 724 - 21 807 anAnimation.theRotV.theAnimZValues
+	21 808 - 21 817 anAnimationDesc.anAnimation
+	21 818 - 21 901 anAnimation.theRotV.theAnimXValues
+	21 902 - 21 985 anAnimation.theRotV.theAnimYValues
+	21 986 - 22 069 anAnimation.theRotV.theAnimZValues
+	22 070 - 22 079 anAnimationDesc.anAnimation
+	22 080 - 22 139 anAnimation.theRotV.theAnimXValues
+	22 140 - 22 149 anAnimationDesc.anAnimation
+	22 150 - 22 209 anAnimation.theRotV.theAnimXValues
+	22 210 - 22 221 anAnimation.theRotV.theAnimYValues
+	22 222 - 22 245 anAnimation.theRotV.theAnimZValues
+	22 246 - 22 257 anAnimationDesc.anAnimation
+	22 258 - 22 267 anAnimationDesc.anAnimation
+	22 268 - 22 327 anAnimation.theRotV.theAnimXValues
+	22 328 - 22 337 anAnimationDesc.anAnimation
+	22 338 - 22 397 anAnimation.theRotV.theAnimXValues
+	22 398 - 22 407 anAnimationDesc.anAnimation
+	22 408 - 22 467 anAnimation.theRotV.theAnimXValues
+	22 468 - 22 477 anAnimationDesc.anAnimation
+	22 478 - 22 561 anAnimation.theRotV.theAnimXValues
+	22 562 - 22 645 anAnimation.theRotV.theAnimYValues
+	22 646 - 22 729 anAnimation.theRotV.theAnimZValues
+	22 730 - 22 741 anAnimationDesc.anAnimation
+
+	22 752 - 22 767 anAnimationDesc.anAnimation
+	22 768 - 22 851 anAnimation.theRotV.theAnimXValues
+	22 852 - 22 935 anAnimation.theRotV.theAnimYValues
+	22 936 - 23 019 anAnimation.theRotV.theAnimZValues
+	23 020 - 23 103 anAnimation.thePosV.theAnimXValues
+	23 104 - 23 187 anAnimation.thePosV.theAnimYValues
+	23 188 - 23 269 anAnimation.thePosV.theAnimZValues
+	23 270 - 23 279 anAnimationDesc.anAnimation
+	23 280 - 23 363 anAnimation.theRotV.theAnimXValues
+	23 364 - 23 447 anAnimation.theRotV.theAnimYValues
+	23 448 - 23 531 anAnimation.theRotV.theAnimZValues
+	23 532 - 23 541 anAnimationDesc.anAnimation
+	23 542 - 23 625 anAnimation.theRotV.theAnimXValues
+	23 626 - 23 709 anAnimation.theRotV.theAnimYValues
+	23 710 - 23 793 anAnimation.theRotV.theAnimZValues
+	23 794 - 23 803 anAnimationDesc.anAnimation
+	23 804 - 23 863 anAnimation.theRotV.theAnimXValues
+	23 864 - 23 873 anAnimationDesc.anAnimation
+	23 874 - 23 933 anAnimation.theRotV.theAnimXValues
+	23 934 - 23 947 anAnimation.theRotV.theAnimZValues
+	23 948 - 23 957 anAnimationDesc.anAnimation
+	23 958 - 24 017 anAnimation.theRotV.theAnimXValues
+	24 018 - 24 027 anAnimationDesc.anAnimation
+	24 028 - 24 087 anAnimation.theRotV.theAnimXValues
+	24 088 - 24 097 anAnimationDesc.anAnimation
+	24 098 - 24 157 anAnimation.theRotV.theAnimXValues
+	24 158 - 24 167 anAnimationDesc.anAnimation
+	24 168 - 24 251 anAnimation.theRotV.theAnimYValues
+
+	24 256 - 24 273 anAnimationDesc.anAnimation
+	24 274 - 24 289 anAnimationDesc.anAnimation
+	24 290 - 24 373 anAnimation.theRotV.theAnimXValues
+	24 374 - 24 457 anAnimation.theRotV.theAnimYValues
+	24 458 - 24 541 anAnimation.theRotV.theAnimZValues
+	24 542 - 24 599 anAnimation.thePosV.theAnimXValues
+	24 600 - 24 657 anAnimation.thePosV.theAnimYValues
+	24 658 - 24 715 anAnimation.thePosV.theAnimZValues
+	24 716 - 24 725 anAnimationDesc.anAnimation
+	24 726 - 24 809 anAnimation.theRotV.theAnimXValues
+	24 810 - 24 893 anAnimation.theRotV.theAnimYValues
+	24 894 - 24 977 anAnimation.theRotV.theAnimZValues
+	24 978 - 24 987 anAnimationDesc.anAnimation
+	24 988 - 25 071 anAnimation.theRotV.theAnimXValues
+	25 072 - 25 155 anAnimation.theRotV.theAnimYValues
+	25 156 - 25 239 anAnimation.theRotV.theAnimZValues
+	25 240 - 25 249 anAnimationDesc.anAnimation
+	25 250 - 25 323 anAnimation.theRotV.theAnimXValues
+	25 324 - 25 333 anAnimationDesc.anAnimation
+	25 334 - 25 407 anAnimation.theRotV.theAnimXValues
+	25 408 - 25 467 anAnimation.theRotV.theAnimYValues
+	25 468 - 25 527 anAnimation.theRotV.theAnimZValues
+	25 528 - 25 539 anAnimationDesc.anAnimation
+	25 540 - 25 549 anAnimationDesc.anAnimation
+	25 550 - 25 623 anAnimation.theRotV.theAnimXValues
+	25 624 - 25 683 anAnimation.theRotV.theAnimYValues
+	25 684 - 25 743 anAnimation.theRotV.theAnimZValues
+	25 744 - 25 753 anAnimationDesc.anAnimation
+	25 754 - 25 827 anAnimation.theRotV.theAnimXValues
+	25 828 - 25 837 anAnimationDesc.anAnimation
+	25 838 - 25 911 anAnimation.theRotV.theAnimXValues
+	25 912 - 25 921 anAnimationDesc.anAnimation
+	25 922 - 25 973 anAnimation.theRotV.theAnimXValues
+	25 974 - 26 025 anAnimation.theRotV.theAnimYValues
+	26 026 - 26 077 anAnimation.theRotV.theAnimZValues
+	26 078 - 26 089 anAnimationDesc.anAnimation
+
+	26 096 - 26 111 anAnimationDesc.anAnimation
+	26 112 - 26 195 anAnimation.theRotV.theAnimXValues
+	26 196 - 26 279 anAnimation.theRotV.theAnimYValues
+	26 280 - 26 363 anAnimation.theRotV.theAnimZValues
+	26 364 - 26 421 anAnimation.thePosV.theAnimXValues
+	26 422 - 26 479 anAnimation.thePosV.theAnimYValues
+	26 480 - 26 537 anAnimation.thePosV.theAnimZValues
+	26 538 - 26 547 anAnimationDesc.anAnimation
+	26 548 - 26 631 anAnimation.theRotV.theAnimXValues
+	26 632 - 26 715 anAnimation.theRotV.theAnimYValues
+	26 716 - 26 799 anAnimation.theRotV.theAnimZValues
+	26 800 - 26 809 anAnimationDesc.anAnimation
+	26 810 - 26 893 anAnimation.theRotV.theAnimXValues
+	26 894 - 26 977 anAnimation.theRotV.theAnimYValues
+	26 978 - 27 061 anAnimation.theRotV.theAnimZValues
+	27 062 - 27 071 anAnimationDesc.anAnimation
+	27 072 - 27 145 anAnimation.theRotV.theAnimXValues
+	27 146 - 27 155 anAnimationDesc.anAnimation
+	27 156 - 27 229 anAnimation.theRotV.theAnimXValues
+	27 230 - 27 289 anAnimation.theRotV.theAnimYValues
+	27 290 - 27 349 anAnimation.theRotV.theAnimZValues
+	27 350 - 27 359 anAnimationDesc.anAnimation
+	27 360 - 27 433 anAnimation.theRotV.theAnimXValues
+	27 434 - 27 493 anAnimation.theRotV.theAnimYValues
+	27 494 - 27 553 anAnimation.theRotV.theAnimZValues
+	27 554 - 27 563 anAnimationDesc.anAnimation
+	27 564 - 27 637 anAnimation.theRotV.theAnimXValues
+	27 638 - 27 647 anAnimationDesc.anAnimation
+	27 648 - 27 721 anAnimation.theRotV.theAnimXValues
+	27 722 - 27 731 anAnimationDesc.anAnimation
+	27 732 - 27 783 anAnimation.theRotV.theAnimYValues
+
+	27 792 - 29 911 theMdlFileData.theSequenceDescs
+	29 912 - 29 983 aSeqDesc.theBoneWeights
+	29 984 - 29 985 aSeqDesc.theAnimDescIndexes
+	29 986 - 29 987 aSeqDesc.theAnimDescIndexes alignment
+	29 988 - 29 989 aSeqDesc.theAnimDescIndexes
+	29 990 - 29 991 aSeqDesc.theAnimDescIndexes alignment
+	29 992 - 29 993 aSeqDesc.theAnimDescIndexes
+	29 994 - 29 995 aSeqDesc.theAnimDescIndexes alignment
+	29 996 - 29 997 aSeqDesc.theAnimDescIndexes
+	29 998 - 29 999 aSeqDesc.theAnimDescIndexes alignment
+	30 000 - 30 001 aSeqDesc.theAnimDescIndexes
+	30 002 - 30 003 aSeqDesc.theAnimDescIndexes alignment
+	30 004 - 30 005 aSeqDesc.theAnimDescIndexes
+	30 006 - 30 007 aSeqDesc.theAnimDescIndexes alignment
+	30 008 - 30 009 aSeqDesc.theAnimDescIndexes
+	30 010 - 30 011 aSeqDesc.theAnimDescIndexes alignment
+	30 012 - 30 013 aSeqDesc.theAnimDescIndexes
+	30 014 - 30 015 aSeqDesc.theAnimDescIndexes alignment
+	30 016 - 30 017 aSeqDesc.theAnimDescIndexes
+	30 018 - 30 019 aSeqDesc.theAnimDescIndexes alignment
+	30 020 - 30 021 aSeqDesc.theAnimDescIndexes
+	30 022 - 30 023 aSeqDesc.theAnimDescIndexes alignment
+	30 024 - 30 039 theMdlFileData.theBodyParts
+	30 040 - 30 187 aBodyPart.theModels
+	30 188 - 30 303 aModel.theMeshes
+	30 304 - 30 367 theMdlFileData.theTextures
+	30 368 - 30 375 theMdlFileData.theTexturePaths
+	30 376 - 30 377 theMdlFileData.theSkinFamilies
+	30 378 - 30 379 theMdlFileData.theSkinFamilies alignment
+
+	32 892 - 32 892 aHitbox.theName
+	32 893 - 32 900 theSurfacePropName
+	32 901 - 32 920 aBone.theName
+	32 921 - 32 943 aBone.theName
+	32 944 - 32 967 aBone.theName
+	32 968 - 32 993 aBone.theName
+	32 994 - 33 019 aBone.theName
+	33 020 - 33 041 aBone.theName
+	33 042 - 33 066 aBone.theName
+	33 067 - 33 091 aBone.theName
+	33 092 - 33 116 aBone.theName
+	33 117 - 33 141 aBone.theName
+	33 142 - 33 167 aBone.theName
+	33 168 - 33 193 aBone.theName
+	33 194 - 33 217 aBone.theName
+	33 218 - 33 241 aBone.theName
+	33 242 - 33 266 aBone.theName
+	33 267 - 33 291 aBone.theName
+	33 292 - 33 313 aBone.theName
+	33 314 - 33 336 aBone.theName
+	33 337 - 33 350 anAttachment.theName
+	33 351 - 33 356 anAnimationDesc.theName
+	33 357 - 33 368 anAnimationDesc.theName
+	33 369 - 33 376 anAnimationDesc.theName
+	33 377 - 33 390 anAnimationDesc.theName
+	33 391 - 33 397 anAnimationDesc.theName
+	33 398 - 33 410 anAnimationDesc.theName
+	33 411 - 33 419 anAnimationDesc.theName
+	33 420 - 33 434 anAnimationDesc.theName
+	33 435 - 33 443 anAnimationDesc.theName
+	33 444 - 33 458 anAnimationDesc.theName
+	33 459 - 33 463 aSeqDesc.theLabel
+	33 464 - 33 475 aSeqDesc.theActivityName
+	33 476 - 33 486 aSeqDesc.theLabel
+	33 487 - 33 504 aSeqDesc.theActivityName
+	33 505 - 33 511 aSeqDesc.theLabel
+	33 512 - 33 525 aSeqDesc.theActivityName
+	33 526 - 33 538 aSeqDesc.theLabel
+	33 539 - 33 558 aSeqDesc.theActivityName
+	33 559 - 33 564 aSeqDesc.theLabel
+	33 565 - 33 585 aSeqDesc.theActivityName
+	33 586 - 33 597 aSeqDesc.theLabel
+	33 598 - 33 624 aSeqDesc.theActivityName
+	33 625 - 33 632 aSeqDesc.theLabel
+	33 633 - 33 645 aSeqDesc.theActivityName
+	33 646 - 33 659 aSeqDesc.theLabel
+	33 660 - 33 678 aSeqDesc.theActivityName
+	33 679 - 33 686 aSeqDesc.theLabel
+	33 687 - 33 700 aSeqDesc.theLabel
+	33 701 - 33 705 aBodyPart.theName
+	33 706 - 33 745 aTexture.theName
+	33 746 - 33 759 aTexturePath
+========================

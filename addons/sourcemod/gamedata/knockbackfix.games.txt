@@ -1,0 +1,15 @@
+"Games"
+{
+	"csgo"
+	{
+		"Offsets"
+		{
+			"GetPlayerMaxSpeed"
+			{
+				"windows"		"493"
+				"linux"			"494"
+				"mac"			"494"
+			}
+		}
+	}
+}
